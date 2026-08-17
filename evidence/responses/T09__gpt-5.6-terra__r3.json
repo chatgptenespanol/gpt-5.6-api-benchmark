@@ -1,0 +1,112 @@
+{
+  "id": "resp_01a1ad2b45baf228016a82ebe35244819f9fe67b741a836895",
+  "object": "response",
+  "created_at": 1786964963,
+  "status": "completed",
+  "incomplete_details": null,
+  "max_output_tokens": 800,
+  "model": "gpt-5.6-terra",
+  "output": [
+    {
+      "id": "rs_01a1ad2b45baf228016a82ebe3d790819f8173e0c56ddb0ee0",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqguvl2L_ClKi3xMP6vvM0EemUF6X-TQsGetrLwOr9RExktKX7fYDA7HGbORISq6jRHyfZu0yxYshsJw0VsRzuMgxEgz03gnAplxvFJrQQ1WRRClM8LzFxJNCrsBH2fG85EfUratkH7RsolAm4Oy7nd_jT1qrQ-mTaJHKNalZNkpIrJhDJuzu0izrMRmXDs55-DHzrJcHVa-s4K-dP2CJf00DREHzHJWum5fno28cNjte61m6EL5oV-SgApeHxqPWzy6wCkLPDPq9zL3OxVrg6IvvRDH74MnSTa9zWrjrJatd2WRC5JZoOwOjfAqA9xsMEvdO0eC9a8wirWpeBf3zzUovREporhFfAL7zM9PgvZOAtukn2bxxxDgTGfutBeWWia0H4P1olPU0wh2OrB5YYUXLZ4dgCos1oZZCvKLXQxoJIJZMYHlEP5frPjb9oQE-xcY_j6lHm9XBciqLfjLGQ38Q234pH-ZDddefMMzV73IN1_uR0E3p2q-CdOJCQaaJO1_9Cq-ie9UbO_qX7w9_bnkoV5RLtlv1a6ceeI88L1coyGMQPiax4hozHYVwQG9nc9EkySmLeuBwM68cJH3nxsJbQecny2mfKdKVzhWljObTYaNdSGFRpRSi0MorChCwjxfmaws9OJEw40nH46gSlUNonuBhZU-WijAX_abxM156wMgBPNZUpQO1n8cQWrMkMJHZY6en_d5588uho9mVjpd2IJpWJOJ6OrJh3IQL3x5sykS1C2sXuInZc1bfpE5ngbgZq1-GWIIzIZqnFC6yzx9TQnYDlzlfM0-eIlqGsIclnfNfkjnnfIxAADH0zPkVoqfqzbNO44GvWEB91SmMMgwxbdX6MEV1sSxVpoUArtRldxCn2aNIH_oroFegU3ML3iFpkAw9DV--aW6SW4KaZCAQw-cAVeYaeWF_d2K-VgFJaCzhkIboqEZ-vNCOnsAmG7GekVV4qV-KOPYe5ws-KHvXGrfsv383BMWqx81QxA1xRwgizwvXF9OkCnMf4OUedpbEHiaJ6gmPa9amMEk5JeWUCI1H_OXt3smYQWXN6bhVNg-K3h0XqO1mUxq7Pjww4UfoUmfg01MyvdPFRPNGlyGc7N5Df8Jo0INfbFMBW0E54f1nhJUwd5iIs11Sie30dic9Md9b5XA6D_7F26bpLZdSc9ltsk9cjotmv9EK-36N08qD9FWaagjNV3bXeF_hDOWUFAJVT6neWrlEq2LKjYDgW0Dw4NtWrl3hXXpU2iN2fcdkipFHm4sU8KaVj6S8vsBeRLK5Mz-VOsP0h0EyfWFPKRCTkgGmRR7e-UZTdMXqzumns5zTTvnxFodE323akqLW1iTc41Su0Q3ceheSVddVBNw==",
+      "summary": []
+    },
+    {
+      "id": "msg_01a1ad2b45baf228016a82ebe47268819fa086e4787159cc67",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"cases\":[{\"id\":\"A\",\"valid\":true,\"merged\":[[1,5],[8,12]]},{\"id\":\"B\",\"valid\":true,\"merged\":[[-3,2],[5,6]]},{\"id\":\"C\",\"valid\":true,\"merged\":[]},{\"id\":\"D\",\"valid\":true,\"merged\":[[1,5],[9,9]]},{\"id\":\"E\",\"valid\":false,\"merged\":[]}]}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "service_tier": "default",
+  "store": false,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "t09_response",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "cases": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "enum": [
+                    "A",
+                    "B",
+                    "C",
+                    "D",
+                    "E"
+                  ]
+                },
+                "valid": {
+                  "type": "boolean"
+                },
+                "merged": {
+                  "type": "array",
+                  "items": {
+                    "type": "array",
+                    "items": {
+                      "type": "integer"
+                    },
+                    "minItems": 2,
+                    "maxItems": 2
+                  }
+                }
+              },
+              "required": [
+                "id",
+                "valid",
+                "merged"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 5,
+            "maxItems": 5
+          }
+        },
+        "required": [
+          "cases"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tools": [],
+  "usage": {
+    "input_tokens": 273,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 168,
+    "output_tokens_details": {
+      "reasoning_tokens": 70
+    },
+    "total_tokens": 441
+  }
+}

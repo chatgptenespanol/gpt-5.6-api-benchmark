@@ -1,0 +1,3 @@
+Responde en español neutro y trabaja únicamente con los datos de la tarea. No uses fuentes externas, herramientas ni supuestos no indicados. Devuelve solo el objeto definido por el esquema JSON proporcionado.
+
+Calcula la factura sin usar coma flotante. Artículos: 3 unidades a 12,40; 2 unidades a 7,25; 1 unidad a 19,90. Aplica un descuento del 10 % al subtotal. Después suma un envío de 5,50. La base imponible es el importe posterior al descuento más el envío. Aplica un impuesto del 25 % y redondea el impuesto al centésimo más cercano, con 0,5 hacia arriba. Devuelve todos los importes como centésimos enteros de unidad monetaria.

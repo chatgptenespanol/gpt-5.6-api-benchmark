@@ -1,0 +1,49 @@
+{
+  "type": "object",
+  "properties": {
+    "cases": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "enum": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E"
+            ]
+          },
+          "valid": {
+            "type": "boolean"
+          },
+          "merged": {
+            "type": "array",
+            "items": {
+              "type": "array",
+              "items": {
+                "type": "integer"
+              },
+              "minItems": 2,
+              "maxItems": 2
+            }
+          }
+        },
+        "required": [
+          "id",
+          "valid",
+          "merged"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 5,
+      "maxItems": 5
+    }
+  },
+  "required": [
+    "cases"
+  ],
+  "additionalProperties": false
+}

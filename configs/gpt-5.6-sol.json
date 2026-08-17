@@ -1,0 +1,13 @@
+{
+  "model": "gpt-5.6-sol",
+  "endpoint": "https://api.openai.com/v1/responses",
+  "reasoning": {
+    "effort": "low"
+  },
+  "max_output_tokens": 800,
+  "store": false,
+  "stream": false,
+  "tools": [],
+  "instructions": "Responde en español neutro y trabaja únicamente con los datos de la tarea. No uses fuentes externas, herramientas ni supuestos no indicados. Devuelve solo el objeto definido por el esquema JSON proporcionado.",
+  "response_format": "task-specific strict JSON Schema"
+}

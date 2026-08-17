@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.0.0",
+  "request_sha256": "b753121d74bce40069051e43644ec6b1d4f6b617af92c6374b6a6176be3db037",
+  "frozen_manifest_sha256": "130d86eb9b563b8df3dd718b6ce8e1327f5a900e81742e58b3d35cf564c23c76",
+  "metadata": {
+    "run_id": "T06__gpt-5.6-terra__r3",
+    "sequence": 54,
+    "task_id": "T06",
+    "model_requested": "gpt-5.6-terra",
+    "repetition": 3,
+    "started_at_utc": "2026-08-17T11:08:13.295Z",
+    "ended_at_utc": "2026-08-17T11:08:16.855Z",
+    "latency_ms": 3549,
+    "http_status": 200,
+    "attempts": 1,
+    "response_headers": {
+      "x-request-id": "req_0f79f768ad9f428f96e90f3b2725ce80",
+      "openai-processing-ms": "3303",
+      "openai-version": "2020-10-01",
+      "content-type": "application/json"
+    },
+    "response_status": "completed",
+    "output_text_chars": 275,
+    "estimated_cost_usd": 0.003774,
+    "reserved_max_cost_usd": 0.014185,
+    "request_sha256": "b753121d74bce40069051e43644ec6b1d4f6b617af92c6374b6a6176be3db037",
+    "frozen_manifest_sha256": "130d86eb9b563b8df3dd718b6ce8e1327f5a900e81742e58b3d35cf564c23c76"
+  },
+  "response": {
+    "id": "resp_03b04665fdcb2bcd016a82eb9d90bc819cbd07c6d0e5d0370f",
+    "object": "response",
+    "created_at": 1786964893,
+    "status": "completed",
+    "incomplete_details": null,
+    "max_output_tokens": 800,
+    "model": "gpt-5.6-terra",
+    "output": [
+      {
+        "id": "rs_03b04665fdcb2bcd016a82eb9e01a0819c81f1cb8b6665ac38",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqguugh9eXRAV5wFq7WidDqQTcgjDIHDWZ_9EZ4LFf_ue0cbIIk-Dfnfkyq3Vbe5iKGMMGHztlV-T-dRfYk1NyoFt-BnmPVLaRut19aXaSrUwDs1zMevDqRrT9EItgrNh45vm7SF54m5iJsOw3-6LnvBdx7W0cXCAXBXrKMd8_l_yP1E_wUH615ykY1x7_zohWEb6-S0grNulgtAko-PLZEojD0GuRHnxqtSsjTRoGMh6_VPgu2kWp5TsRKWPRtxlov9MqbOir43xOzbIDLiF8bXL0GbOE1WJekTF0DIYo2Fzm3oUrPHKrAkeTQsf0Zea_Xzu0O3nO6utpwnkRZ12BI8p0e2ODzN11gldspfs5SrUCgEJnesrV-4EswbANU3Ui_FCAWxNqSKByLFMbGbpyazf2vommS1xqUGoMi3MzcQoGhrMeMCyfiinggv9PqipW_vB5TVNY1OZim31erhN0uZ669a4UoCufiwRpaJB7seFM0zctLaPwHk9vp5h6yB6G7bBBOHJUZ23SvpL56edCsdSnoGvgc_jGQtOX9yjug32lHJHziu6XiGfs9IpaQ2g82zcdBaQvZrRO81xLMt8uuOCYw6ih_hy4QQWtc3DV_hcz_uBKISrJuok3bA5YBgVjZZVpl8WXscoebD0gDF_8lbKv4gUTbbqyS3Aa9L-vTcjDqBngZ4DpJun1PPf4LW4YQOttJWNfbeLatDdgyTEO8w6ho7qql0HsPMemeZwIgDGWS3z_b-ITeK46ZwnXpwfqu8d1csc00wQ_HC2zA6JXHTfcAq7_NyJGHpSWyWe0VgQPkktNVTWh4AA6gAphmFur6GQOE8Uo8VmwuuLiByO8Kvzomed2zBIkDpE3PiahTG1y68brzTBwKmoQZ_HeU9T8ZfI5avbQeNh1aIFGMvNe5Id7sKZlElH6Cdxn-3Jy-Cn_ufGV7k42lu06T0zmq5cwJUTMA7I0570EJ4cScsdJfkMgCfZCHR2LTxEp9KBR096HBMt0wjR61T4b3kn9RaW2hKbKP9C0R_ORASlmo2IGWWjJnF0yRsKG9l11-f5WTAxRwR8zs2InUYOgboCwMvnsXd0TK-wOGvCMMnvQ-yoni6aO4clSDRlwaglCHn-qdtBP9PwCovRbU3uGUYnuoCB-QLsEpuSXoSi83AB3YG6s6elbrJ5QaU9K8yy7DMsscCcIhXlboFre5J4LPYIQ4dl_K3vN0x9ma5nXYKRgMTkrh1b6OoMqekKc_ky9tvSAw083aEdrCRNKgrD5wZ8JDlIc8DYgNkXseqroQPjnDNVNBCoxBsjfDqX_H-SW2kzXTdMLOV77MV1C5j0FPWy68m88CM4euMpT1KSfKn20FE3Aei9C5lv5LASdWtSBpleB6dZMJ5OFvVnymiIjOkp4LS222qwv2kdFsRM7V3E9ni2-PX_Y1UsE8TlwnyKlUv4tFLFEFyg6UHCgV-rVxH919fNvmH7dhDSUnqT7JzdFkx7c-hH9tw-k_G6ZPb2TUzYj4KMsEgctJNUc6Jyw0JDo2-YyYBD2AxeKKKlShZceFUlk4SWOHTLDVdiT8FGRHa8nIpWhEDlMTVugiDB2NzlpOrUvO2PtZWaES5YgU6ZWBVXBcLNmM7SuIbz-6_qJ8JCnSAvIZI_-b5Y1MiXpLrSDiYnNt_Hx4IF_L_INMPW-5jLVubYRTe0-8MKx05HazjOr5m0iXpJ1QDdbZ7yX7HPDhnW9SsZx90IdxeuqjmWjGiY3Fky9FX7wMW37ZQKsnWXa_l0Bk_g2Pnd9p-NxmBZ0JviiWqN_HTiGw3NgSpIEkCF-RAW1_BWQ0-rwW90kve3MemBdoSlWY4QwhdHrgIx8-iVefNrJoumVfO5HgdFKnqUi0vLUtb7ahTyLWQNLhWk39Ql5fEdeSSK8cihCDC3cRYKow2-SAkv5pSy5Df2NZj5fLaNqk1HkO_ASFwQDqxABkqE4Lyq1t73DFYHdiwqXCy2kVxZ26CcNsAOBitRWFVPzV2BSUByEVjAkkR2acMyqfnm8LMz_W9GeZ8zRN3m-IJlw86X7s4DItBGVEt4_uTpZPt8uIFkrmQZVOR5c8RjkezTEWPwsh21mKJa2WxlrmxXtnRWqE6X1V6kytE3NMQbS1xOjKPl4Y5TRRPNT376sL84-iqENV2p669VEZ96Wyzx1sea_W1W10vkLIwUTYp3-zSqp3Q==",
+        "summary": []
+      },
+      {
+        "id": "msg_03b04665fdcb2bcd016a82eb9ff768819cb4d09921673c5f14",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\"variants\":[\"Descubre cómo Lumen simplifica tus tareas diarias con una prueba gratuita hoy.\",\"Empieza a organizar tus proyectos con Lumen mediante una prueba gratuita sencilla y práctica.\",\"¿Quieres conocer Lumen y aprovechar una prueba gratuita para planificar cada día?\"]}"
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "low",
+      "mode": "standard",
+      "summary": null
+    },
+    "service_tier": "default",
+    "store": false,
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "description": null,
+        "name": "t06_response",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "variants": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 180
+              },
+              "minItems": 3,
+              "maxItems": 3
+            }
+          },
+          "required": [
+            "variants"
+          ],
+          "additionalProperties": false
+        },
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "tools": [],
+    "usage": {
+      "input_tokens": 357,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 255,
+      "output_tokens_details": {
+        "reasoning_tokens": 189
+      },
+      "total_tokens": 612
+    }
+  }
+}

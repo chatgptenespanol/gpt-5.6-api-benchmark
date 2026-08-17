@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "id": "M1",
+      "category": "facturacion",
+      "route": "pagos",
+      "escalate": true
+    },
+    {
+      "id": "M2",
+      "category": "acceso",
+      "route": "acceso",
+      "escalate": false
+    },
+    {
+      "id": "M3",
+      "category": "tecnico",
+      "route": "soporte_tecnico",
+      "escalate": false
+    },
+    {
+      "id": "M4",
+      "category": "privacidad",
+      "route": "privacidad",
+      "escalate": true
+    },
+    {
+      "id": "M5",
+      "category": "comentarios",
+      "route": "producto",
+      "escalate": false
+    },
+    {
+      "id": "M6",
+      "category": "seguridad",
+      "route": "confianza_seguridad",
+      "escalate": true
+    },
+    {
+      "id": "M7",
+      "category": "cuenta",
+      "route": "cuentas",
+      "escalate": false
+    },
+    {
+      "id": "M8",
+      "category": "facturacion",
+      "route": "pagos",
+      "escalate": false
+    }
+  ]
+}

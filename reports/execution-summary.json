@@ -1,0 +1,15 @@
+{
+  "benchmark_id": "chatgpt-gratis-gpt56-neutral-es-2026-08-17",
+  "version": "1.0.0",
+  "started_at_utc": "2026-08-17T11:04:00.007Z",
+  "ended_at_utc": "2026-08-17T11:10:36.439Z",
+  "canonical_runs": 108,
+  "attempts": 108,
+  "technical_retries": 0,
+  "input_tokens": 32616,
+  "output_tokens": 18855,
+  "reasoning_tokens": 8127,
+  "estimated_cost_usd": 0.3144348,
+  "frozen_manifest_sha256": "130d86eb9b563b8df3dd718b6ce8e1327f5a900e81742e58b3d35cf564c23c76",
+  "archive_doi": "10.5281/zenodo.21978662"
+}

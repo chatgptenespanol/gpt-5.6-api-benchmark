@@ -1,0 +1,11 @@
+{
+  "task_id": "T06",
+  "rules": [
+    "R1: esquema y tres variantes distintas",
+    "R2: 12–16 palabras por variante",
+    "R3: Lumen y prueba gratuita en cada variante",
+    "R4: sin las formas prohibidas de afirmaciones, moneda, porcentaje ni símbolos publicados",
+    "R5: una oración y sin los regionalismos incluidos en la lista publicada"
+  ],
+  "critical_failure": "Omitir Lumen o prueba gratuita en cualquier variante, o incluir una forma prohibida de afirmación de la lista publicada."
+}

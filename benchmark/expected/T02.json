@@ -1,0 +1,9 @@
+{
+  "subtotal_cents": 7160,
+  "discount_cents": 716,
+  "after_discount_cents": 6444,
+  "shipping_cents": 550,
+  "tax_base_cents": 6994,
+  "tax_cents": 1749,
+  "total_cents": 8743
+}

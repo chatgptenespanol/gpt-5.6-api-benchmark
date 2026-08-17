@@ -1,0 +1,3 @@
+Responde en español neutro y trabaja únicamente con los datos de la tarea. No uses fuentes externas, herramientas ni supuestos no indicados. Devuelve solo el objeto definido por el esquema JSON proporcionado.
+
+Calcula inicios y finales más tempranos en horas desde cero, sin restricciones de recursos. Tareas: A dura 2 y no tiene dependencias; B dura 3 y depende de A; C dura 4 y depende de A; D dura 2 y depende de B; E dura 1 y depende de B y C; F dura 2 y depende de D y E. Devuelve las seis tareas en orden A–F, la duración del proyecto y todos los caminos críticos, ordenados lexicográficamente.

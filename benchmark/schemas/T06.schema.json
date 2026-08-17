@@ -1,0 +1,19 @@
+{
+  "type": "object",
+  "properties": {
+    "variants": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 180
+      },
+      "minItems": 3,
+      "maxItems": 3
+    }
+  },
+  "required": [
+    "variants"
+  ],
+  "additionalProperties": false
+}

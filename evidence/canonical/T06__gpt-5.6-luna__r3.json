@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.0.0",
+  "request_sha256": "c9945e913e4ed91cb9e4310391e782fba59f5ade469a04f92bc7b8ece78f23aa",
+  "frozen_manifest_sha256": "130d86eb9b563b8df3dd718b6ce8e1327f5a900e81742e58b3d35cf564c23c76",
+  "metadata": {
+    "run_id": "T06__gpt-5.6-luna__r3",
+    "sequence": 52,
+    "task_id": "T06",
+    "model_requested": "gpt-5.6-luna",
+    "repetition": 3,
+    "started_at_utc": "2026-08-17T11:08:02.676Z",
+    "ended_at_utc": "2026-08-17T11:08:06.550Z",
+    "latency_ms": 3864,
+    "http_status": 200,
+    "attempts": 1,
+    "response_headers": {
+      "x-request-id": "req_132efd61de3145d59f9beb863aaf3302",
+      "openai-processing-ms": "3441",
+      "openai-version": "2020-10-01",
+      "content-type": "application/json"
+    },
+    "response_status": "completed",
+    "output_text_chars": 299,
+    "estimated_cost_usd": 0.0004602,
+    "reserved_max_cost_usd": 0.00141825,
+    "request_sha256": "c9945e913e4ed91cb9e4310391e782fba59f5ade469a04f92bc7b8ece78f23aa",
+    "frozen_manifest_sha256": "130d86eb9b563b8df3dd718b6ce8e1327f5a900e81742e58b3d35cf564c23c76"
+  },
+  "response": {
+    "id": "resp_0dea3b8f6004a9d1016a82eb93206087d2a48d8c7343f28b63",
+    "object": "response",
+    "created_at": 1786964883,
+    "status": "completed",
+    "incomplete_details": null,
+    "max_output_tokens": 800,
+    "model": "gpt-5.6-luna",
+    "output": [
+      {
+        "id": "rs_0dea3b8f6004a9d1016a82eb9408a887d29b7a23a5300645fe",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqguuWYWvV_hv2qV9Ad5b5TvxSAHlXeuRPYM6eGHY_cvjlylnM72oSzBSVwDmGFJ-1Xm8KmdSmiMAw9NmQqqfKlmWNGhwJEbDrCoXBZR4aagOCJotxbCOmJQ-3Ouq1Y_1z2gw6NVNupiK5yvDrVKVlseUZYahUyMKzDP61cD8JwOb8u-UR0IXJVKjPjw-4MgqHnt2mzd_Gf2I7URqDCQcELpcmt-Nyn-K6YFo3pinpk6KYVVtI45KbZWlkYp0dB7GeKPlCjhMfZu90lHS7CTqMfoNi0wZHwt4YuWtwdl0v-M-_S6KdcltjIc6dE0arBGh8IVLQOYmTPfHetrdd-lQjOxW3j5XnZDnA3WGxmNXzDUaoBMgBchIqpryWAVk03NJMrc8cfsJeEZXicR87QL31pBkoqQOVFYu0N8UqUXVRFNBn-RfiG2Nq30qhHnA45JNGlqRYVLn3aYHbcJwAWC955BZDGX1RVEbEDJEjiJqfsyXsXlb400SuVnhoj-IgiR85b_-A6cs8fmhrDTLfUYRI_H4qm6xSTUaD5nOzLb9AjnxOW6l9VE1DxxHPd6K2BdWXxbLLsTYC2aqWM_8UU7CnWNMkD3wFiEVyAR-_hOxcM95A3KKREiQ6OA652q3pUjrHo4k7BuaEUAz4obr_fud6z7iYIKRPDz1SGe1VFKMBRpZqzbxoiK6IGSzcjfBpDBMtw1BUw5zUWoIw7GfuejjnBuTx4Jk1VkYMz1YLzBXgz1ZcIOtBt4wXSACNExY5OnTkeROx6vZs0nD_3VGIqcsTrAXxS6QKcuSyfweWtUu9m7hYqPHTQRL7DXZZtHS5lOLccx-QLDx4bncJKF8RNhYSHbnLR6PXOxSLz_dZmoabIT0MxtFEzefAlCZAI0DcXJFpJNdJdNrUmEw3N5EUB42FgEdnw_-YcJoIqmiBTqbaJVkLXjWIgUvDKLz0tqukJ5K1r5vaHsn4hVzZjL1u8XU0wnsPdPHoW25AGRVhHJoIj7YuSpQ9gz9enDdzhXzHe6MFrHAqp2fGtWW4alBDMqVHQSbBQZPyhwAKzOYSmdRV_hDeUaGmJsukADjubmnlh3u7smXNg7_0gG5FGWiwOyMQJqukhN3ohTGgr-VpC9BNV6aM-YGX7fIq9yjHwVokCgTpnIInNYRprNCXZPUYY5LiG6txmmIUcmhK7kxENXWR7PGelY1YBIDnJDOpriTXU9BLd9Bs7EICO70_7P1IweM7trUnrMp7UFfn6_n62sf-Zq9YQiLFQIMXZ5N6dJmaRXL-jlY1zDJRqZU5RCCqd6k3wyFJ-t9ducCGamsGW_hGKybosDn9GOWz1B01O4TdrakaC5ZFf6mECH9xAWmgbzVen6YiS5JWsiNJOoxViNKJsD0fKRqUBUkuVaOuBouq4RkmrkDIek_YwnPJTXehjpDYk4lzCqY6eJA8Qc8J6sdD1LOrhSEdtWdSigqHfTyT7K1JjbQMvjSnKzpSVDVEp4mf94N8CUFbC0P8rHTzBwSHtPI4i9udpMpRUOPqxf2HNbU9g9yvTAkPNtG4WX9a-mgJ4l4AuU-CMgkIJDVyLF13zB6hWCZZMY4xIPq2btV5TBo1M_BtA4vwcOqRWkQhClUZpSxkiV7MPYrOMfC0XCx4V_RuQdiE_teyF7aw5j98Sdu0Wj7mTbHpDVnDCHc2VrydEPvR15nzp0F6Iqtc6TmumzBQZBtv-gKpQAgGU-ifF-5NwaYlYdGLMw_X_gDOpCnFPg8OA1vH_it_azTOZsw4MTh1OsaY71CGEHZdITA5j5vKHhYwBw-w6Fhr4sOfyAW9bfMbTZD-X7ehooM8J-NuRUAY8wMlYPWFoYHv9hmAwcYyM5rQpDOo3BTsr5fi44RZ0RYESZaLPGsrqyLnbO2pNj73jHTC3Ii8ToN7V_reK6swO_YLXD4HAflCaVUghllPODu-dO1NzCeLRPmNeCRshznz9CNhhvLCEfHpXkhRer652j5jLmJZONJ35lvDs4cDyDYx-S0BfyUj9pnyEGyL3cOe8EVpveTmJ2F9mmLqh156x5jdE9wEo_ge72KsdtNOXlwLlaM0iXLO7X6QJMF4eC9efDMLYlT5TiQYZZcmINSZ30vXtWpV1Bly3t7qleVcdKlG8Xy8KmXySgEML6VAdbgg-5AsDQXxyeNHKSqhDd9xaTPWX22DEJRdzFRRKndnxvlBd4qoi78hjeRBx1OxYdIsS9VIH2g84VpbO3DSt2R1ROY5QUbF0EBYOfB1fuFbfzrNB2s0A-eBFYYnPjIVJHRqfdd39NEYI4cxb0zd6DrQCdWEIT8wff-xZLLg-oWxywYxZbh7HxD5uiD90A0JWPAvURNCO361cYg5OMU0Qecr9cqdPpldDq-yEhFeh3dbjuqg6TTpX5gIJYp4_N7CtO-XQFiZnW3zZ71YAxBsE3t9EISs6klvYd4S1uyiUjVAvd8RZkEUyvGgoZZJ5jFPFHSOsOHHCiw11cE5A5rPggxxwyrRRsiEpF5VYRG6uWIrveexgk2g2oQyP8VcW8zl-SVIoaaYN2W3u-rw_T3dEFiBbCFV",
+        "summary": []
+      },
+      {
+        "id": "msg_0dea3b8f6004a9d1016a82eb95f5f487d2bebb3f6715b58c56",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\"variants\":[\"Descubre Lumen y disfruta de una prueba gratuita para transformar tus ideas en proyectos claros.\",\"Conoce Lumen, activa tu prueba gratuita y organiza cada tarea con mayor claridad desde hoy.\",\"Empieza con Lumen y aprovecha tu prueba gratuita para dar forma a tus próximos proyectos.\"]}"
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "low",
+      "mode": "standard",
+      "summary": null
+    },
+    "service_tier": "default",
+    "store": false,
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "description": null,
+        "name": "t06_response",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "variants": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 180
+              },
+              "minItems": 3,
+              "maxItems": 3
+            }
+          },
+          "required": [
+            "variants"
+          ],
+          "additionalProperties": false
+        },
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "tools": [],
+    "usage": {
+      "input_tokens": 357,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 324,
+      "output_tokens_details": {
+        "reasoning_tokens": 252
+      },
+      "total_tokens": 681
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "type": "object",
+  "properties": {
+    "program": {
+      "type": "string"
+    },
+    "start_date": {
+      "type": "string"
+    },
+    "end_date": {
+      "type": "string"
+    },
+    "minimum_age": {
+      "type": "integer"
+    },
+    "file_types": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "PNG",
+          "JPEG"
+        ]
+      },
+      "minItems": 2,
+      "maxItems": 2
+    },
+    "max_file_mb": {
+      "type": "integer"
+    },
+    "retention_days": {
+      "type": "integer"
+    },
+    "human_review_triggers": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "reporte_del_usuario",
+          "obligacion_legal"
+        ]
+      },
+      "minItems": 2,
+      "maxItems": 2
+    },
+    "support": {
+      "type": "object",
+      "properties": {
+        "days": {
+          "type": "string"
+        },
+        "start_utc": {
+          "type": "string"
+        },
+        "end_utc": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "days",
+        "start_utc",
+        "end_utc"
+      ],
+      "additionalProperties": false
+    },
+    "excluded_services": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 2,
+      "maxItems": 2
+    }
+  },
+  "required": [
+    "program",
+    "start_date",
+    "end_date",
+    "minimum_age",
+    "file_types",
+    "max_file_mb",
+    "retention_days",
+    "human_review_triggers",
+    "support",
+    "excluded_services"
+  ],
+  "additionalProperties": false
+}

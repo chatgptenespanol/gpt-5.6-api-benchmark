@@ -1,0 +1,11 @@
+Responde en español neutro y trabaja únicamente con los datos de la tarea. No uses fuentes externas, herramientas ni supuestos no indicados. Devuelve solo el objeto definido por el esquema JSON proporcionado.
+
+Clasifica y enruta cada mensaje, conservando el orden. Usa escalate=true únicamente para fraude o cargo no reconocido, borrado de datos y amenaza; usa false en los demás casos.
+M1 No reconozco este cargo en mi tarjeta.
+M2 No recibo el código para iniciar sesión.
+M3 La aplicación se cierra al exportar un PDF.
+M4 Quiero borrar definitivamente todos mis datos.
+M5 Sugiero añadir un modo oscuro.
+M6 Un usuario me amenaza en los mensajes.
+M7 ¿Cómo cambio la zona horaria de mi perfil?
+M8 Necesito una factura con los datos de mi empresa.

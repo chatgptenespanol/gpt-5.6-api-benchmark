@@ -1,0 +1,25 @@
+{
+  "program": "Faro Piloto",
+  "start_date": "2026-10-01",
+  "end_date": "2026-12-31",
+  "minimum_age": 18,
+  "file_types": [
+    "PNG",
+    "JPEG"
+  ],
+  "max_file_mb": 10,
+  "retention_days": 14,
+  "human_review_triggers": [
+    "reporte_del_usuario",
+    "obligacion_legal"
+  ],
+  "support": {
+    "days": "lunes_a_viernes",
+    "start_utc": "14:00",
+    "end_utc": "20:00"
+  },
+  "excluded_services": [
+    "API",
+    "cuentas_de_equipo"
+  ]
+}

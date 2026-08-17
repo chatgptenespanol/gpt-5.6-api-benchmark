@@ -1,0 +1,12 @@
+{
+  "rows": [
+    {
+      "pais": "MX",
+      "total_cents": 155000
+    },
+    {
+      "pais": "CO",
+      "total_cents": 110000
+    }
+  ]
+}

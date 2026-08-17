@@ -1,0 +1,119 @@
+{
+  "run_id": "T05__gpt-5.6-sol__r3",
+  "sequence": 44,
+  "request": {
+    "model": "gpt-5.6-sol",
+    "input": [
+      {
+        "role": "system",
+        "content": "Responde en español neutro y trabaja únicamente con los datos de la tarea. No uses fuentes externas, herramientas ni supuestos no indicados. Devuelve solo el objeto definido por el esquema JSON proporcionado."
+      },
+      {
+        "role": "user",
+        "content": "Extrae una ficha sin añadir datos: «El programa ficticio Faro Piloto funciona del 1 de octubre al 31 de diciembre de 2026 y admite personas de 18 años o más. Acepta archivos PNG y JPEG de hasta 10 MB. Conserva cada archivo durante 14 días desde su último acceso y después lo elimina. Una persona puede revisar contenido únicamente tras un reporte explícito del usuario o por obligación legal. El soporte funciona de lunes a viernes, de 14:00 a 20:00 UTC. El programa no incluye la API ni las cuentas de equipo». Usa fechas ISO AAAA-MM-DD. Usa lunes_a_viernes y cuentas_de_equipo exactamente, representa las horas como HH:MM y conserva el orden de aparición en todas las listas."
+      }
+    ],
+    "reasoning": {
+      "effort": "low"
+    },
+    "max_output_tokens": 800,
+    "store": false,
+    "stream": false,
+    "tools": [],
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "name": "t05_response",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "program": {
+              "type": "string"
+            },
+            "start_date": {
+              "type": "string"
+            },
+            "end_date": {
+              "type": "string"
+            },
+            "minimum_age": {
+              "type": "integer"
+            },
+            "file_types": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "PNG",
+                  "JPEG"
+                ]
+              },
+              "minItems": 2,
+              "maxItems": 2
+            },
+            "max_file_mb": {
+              "type": "integer"
+            },
+            "retention_days": {
+              "type": "integer"
+            },
+            "human_review_triggers": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "reporte_del_usuario",
+                  "obligacion_legal"
+                ]
+              },
+              "minItems": 2,
+              "maxItems": 2
+            },
+            "support": {
+              "type": "object",
+              "properties": {
+                "days": {
+                  "type": "string"
+                },
+                "start_utc": {
+                  "type": "string"
+                },
+                "end_utc": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "days",
+                "start_utc",
+                "end_utc"
+              ],
+              "additionalProperties": false
+            },
+            "excluded_services": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "minItems": 2,
+              "maxItems": 2
+            }
+          },
+          "required": [
+            "program",
+            "start_date",
+            "end_date",
+            "minimum_age",
+            "file_types",
+            "max_file_mb",
+            "retention_days",
+            "human_review_triggers",
+            "support",
+            "excluded_services"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  }
+}

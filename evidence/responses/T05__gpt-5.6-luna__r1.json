@@ -1,0 +1,151 @@
+{
+  "id": "resp_0a66449ad02dbb63016a82eb57691c87d28afa0a0567d17f7c",
+  "object": "response",
+  "created_at": 1786964823,
+  "status": "completed",
+  "incomplete_details": null,
+  "max_output_tokens": 800,
+  "model": "gpt-5.6-luna",
+  "output": [
+    {
+      "id": "rs_0a66449ad02dbb63016a82eb57d4b087d283da3b104bf9e5e8",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqgutZFMltJ5r7XpH0eRyfk4XsrhodBsTy-jn2iAPzyTSxHi0plk66MRR0Yi5C7rBqlfGaHizNPG6kaAWXyCY6ckjrq11ng0aIkN8nSPAZPnEYk1Thrg2xT99YJBOz8UjecDhyuC-aoT6SLCS7FJixI7l5iAeVQlvt4bMbDjDfgxTnbQk6GaWvMUwbLtAauQIgfisSA5esymHbrBv78kPVw0lLHc2bchf6Iqjce1Dpor2Q5akFp5ChqVBkb1yZdQQeFoPZIuCVODb13LjOvtLAslHXf6v3MdLGqjUgfRJ-QMOyFJqla9Nll8Yk-Q_G2wnrU5aoM__OgA9Aj880sX4z8G27g_ooHW2JEP5DVdfnElSseYcu6TZ7M-xr0l2EY_M8w5tktOz73keEGYAxvjpbFXdj2-rVKuXJhf5DCMY9vp_RyHMD4s-pCVaDdMwO17mQDCdGp_QCVN02Siit1JCsO0LVTl7y6dt8NVfyiT1q2bh-09TMq9A8LiSD-P9BVX0jCpKrMmvzXamOrjabk0Zz0K4iE8upCzxnVfG7jw9B55TnVcNTlnj7Xbyr3ZEiXxa2w0Ke77V2gWf_FOw_JUtTW2SVWbHFIEkT1sxc18GC_wAgCMnscx2NOJoO-7zpCEy9TnCa3Fqt6xAumfea9ciFsiYquOXQPnf1O4Zb275pNVCg3qK7Vsyq3qnEAH0MNGEYORDU_TKz4n0da4swrtq_Zq7pkQULOXqqZ-oQDUiRKot899n8JZAhfOgeAa8IFwGzn-giIqq9cPkPu_9wps9mk4bAb9BAs0Qp6cHGKRrE4wRKPHis8gEJ3YND6srfRF9GJZAf9jyzWuwY6JQKe4hmF8aLmMEwF48z2xqXGPKreDvDeEtC9M7pLlobCbtviE4f7v-lByYwckTvgJqorsAaAGsL5O0ljbizysXTSQl2Z8gYFgYG8JNI_Ny56_RDn1FZvyMmHnQdG6L9hDU8-sauDpnA1lwI2nrH1T3JUKGV4NZZRl0qLvAj1SNrrZKhw7pur6uamnZSUlmWC4ue48SMGJgHwECHC7MIS5ZV6J507snCvotRMSHPtDMvfNLHiQq8zZqAsYHXA8svwu0M0gXRqIHdIPQCdmRDFmuvUJq4f_LVFFDEhme3g_06-yiyZ7OZfLFB_a_rUrdAjy6xSnut0mDBj8bD8OpkANMe7yyjS2h4i0FL6KSdWwzqQ0_5xSwZweF0g0YrBB6Uh64NHDHPqX9gfIEgiPT0rtRyHcBVr7zNi3nMFSj3NCTRw5e_NS-fvQwApylUPeLXm-oUgNG5KbP31WY89s3feGCRai2NC6xbi2_sufwrtXZtya8GOYCxBoy8ReOzfoWbBuLcu3Si1C7G8OM1_5RU3s3Wqh9AbtcDpjoo_Rg4xlT1MctwiM26hFvXaItgVJ6_3StAtxKe-JWDrqE4yxD4MRaHYpRGy4-G6CD75YL3pZn-UK8e52qvOdkcxQhbPd9gLUtrdo5Wx0wpGA0D9MwIndGkiwmbOaRp-HzHRWivK--xKxQKCb9XXvOi0LjgbEq6AFUxLKfCMP2WvQ==",
+      "summary": []
+    },
+    {
+      "id": "msg_0a66449ad02dbb63016a82eb58a0c487d28463f151948d232a",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"program\":\"Faro Piloto\",\"start_date\":\"2026-10-01\",\"end_date\":\"2026-12-31\",\"minimum_age\":18,\"file_types\":[\"PNG\",\"JPEG\"],\"max_file_mb\":10,\"retention_days\":14,\"human_review_triggers\":[\"reporte_del_usuario\",\"obligacion_legal\"],\"support\":{\"days\":\"lunes_a_viernes\",\"start_utc\":\"14:00\",\"end_utc\":\"20:00\"},\"excluded_services\":[\"API\",\"cuentas_de_equipo\"]}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "service_tier": "default",
+  "store": false,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "t05_response",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "program": {
+            "type": "string"
+          },
+          "start_date": {
+            "type": "string"
+          },
+          "end_date": {
+            "type": "string"
+          },
+          "minimum_age": {
+            "type": "integer"
+          },
+          "file_types": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "PNG",
+                "JPEG"
+              ]
+            },
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "max_file_mb": {
+            "type": "integer"
+          },
+          "retention_days": {
+            "type": "integer"
+          },
+          "human_review_triggers": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "reporte_del_usuario",
+                "obligacion_legal"
+              ]
+            },
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "support": {
+            "type": "object",
+            "properties": {
+              "days": {
+                "type": "string"
+              },
+              "start_utc": {
+                "type": "string"
+              },
+              "end_utc": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "days",
+              "start_utc",
+              "end_utc"
+            ],
+            "additionalProperties": false
+          },
+          "excluded_services": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 2,
+            "maxItems": 2
+          }
+        },
+        "required": [
+          "program",
+          "start_date",
+          "end_date",
+          "minimum_age",
+          "file_types",
+          "max_file_mb",
+          "retention_days",
+          "human_review_triggers",
+          "support",
+          "excluded_services"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tools": [],
+  "usage": {
+    "input_tokens": 375,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 191,
+    "output_tokens_details": {
+      "reasoning_tokens": 71
+    },
+    "total_tokens": 566
+  }
+}

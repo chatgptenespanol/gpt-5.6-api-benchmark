@@ -1,0 +1,112 @@
+{
+  "id": "resp_0f54e43ca0cb8d75016a82ebcce53c87d2ae0f0a2051178ed7",
+  "object": "response",
+  "created_at": 1786964941,
+  "status": "completed",
+  "incomplete_details": null,
+  "max_output_tokens": 800,
+  "model": "gpt-5.6-luna",
+  "output": [
+    {
+      "id": "rs_0f54e43ca0cb8d75016a82ebcddc1c87d2b58345ce6fd5d664",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqguvPE07_quJmJj31pd0QrouACghb69x73qE_lPsUzTNiqN9LehhbZUGrGGRCA1DX93-C4TdpSESVtzhUS9QlxKGPHSJOUCOl1CS05Bk6KRCwKDZl3cfZcOHuA5MIRURkeVHGhH6f2zQ5ZRY3LXLoFrohoIGMrv9lYZW__2EFWVg6SIz_4v2uoSxlA-E6C1waEf0a6PU-JVmqPMOxV6Tr1zYcP-nWsgmc5YZ_-mw7vbGLEzndzmNA21ljG4QDm55pw5to8yaUAXykTU7XTWDXKimIIvx9_-hVo4FZ8owXiKYqEqDnb1L7ANEvnp2z-zOuk8jMT6dmF4RRhGjnu6ku5K7fLX7nt3PWctRvZ8RX2y8mAtNhUZgY9I4bLaG3587_o2Cj1pUWxW6CogS9O4KsAdcp-WNxjT_6G1Fzn_wYt9YRYv7aCWxLfqH_xh87IS23gzjbHy9Vbjcovq6AXZfY3f66fnclk1fwuE6re3v4QPhStOfpL499W0jLvXI1AVkGgI8WCM6DiGOnScN_OJFxs14E1KhNs87XEevYADKeqeh3iYM14KNrhTrQeo9aqGtd3z0MSWu8M9rWmjqHxnIKLypNtBM4pJ93g9s2yjZJmih-fTbxvFRJ_dGu87T92CUZqv20XPRY8gRJaUxGydCKGVMPEDMbfrB5g16NlC-v4_iKOrmCnbfaAC0SbBaQqeJdidFjc0vJsy0pOf0A8RNmLDcZg8Dr_d6uGBarIP7GPcPFg3ypB4QccYfMZeinhjYT6laDiBCb1qDg7B4mqiKFKAJhqt9jdsyNTeRO4zTMEdwLFCpPpKbIsPUG1Nb3mnV3dm65csooF-bFV0mB8tECVVU-Q7E49COOk47ZP5L4YW_BGh-x2go4Y1I3jmEul8NMhEesz56soWqgnGiLiEMttZ4BHywc_yk-8gynG9jQ9YrQGPNHULPC7D--sB-QEchmSLqN3r8x1uZfamvzv0MDl6BHMiH699zmisDsd3uiyCvdIgOG2EYrLnyk1uVLh5kST8kdmqUqs4gE6lvPxuFcAETIKYMU64Uagur93tvpxy1E9fiKVOhPhOyYUve16_N5SKZYeTWcT8gavLdfXoeGovgxzT3LYjOifLRokDEriAruRvA6FkGIeUH4TlR-0zUVljWozrKWelOrEPFgo6q7K3PxrMNIV-6Aq4Xs_sc6142egYMdL8V18HAXZOKBPqn2_-Q7E-6JknRF0dopdLarIhhhgxImU4xZ6L344IJ1NtlnTNldY250zuGO3NyAcld-Oks8sPiCTU4YV1tsOfQ3PdIuFNbpuUlMtr3hzrCn_uai1eez-md9uWuHq54BH6RPOvLz2s3CsVaUkdAfF24Pty8WWzJfkULiR9nlwjVszyVwTHpKvOBC6DWN2j353UrVz6cOo7EU1UVynyGRY4LPvHYaXwaH1M1Yz46ndXLjxY8_NdtIYWUxfF0mQwpzUWEIMpPpvV8tU4V2pMQ7YItf9818SagzJOFyWmqUuDJfShykS_M=",
+      "summary": []
+    },
+    {
+      "id": "msg_0f54e43ca0cb8d75016a82ebcefd0087d285c6c9e11cd6cecd",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"cases\":[{\"id\":\"A\",\"valid\":true,\"merged\":[[1,5],[8,12]]},{\"id\":\"B\",\"valid\":true,\"merged\":[[-3,2],[5,6]]},{\"id\":\"C\",\"valid\":true,\"merged\":[]},{\"id\":\"D\",\"valid\":true,\"merged\":[[1,5],[9,9]]},{\"id\":\"E\",\"valid\":false,\"merged\":[]}]}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "service_tier": "default",
+  "store": false,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "t09_response",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "cases": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "enum": [
+                    "A",
+                    "B",
+                    "C",
+                    "D",
+                    "E"
+                  ]
+                },
+                "valid": {
+                  "type": "boolean"
+                },
+                "merged": {
+                  "type": "array",
+                  "items": {
+                    "type": "array",
+                    "items": {
+                      "type": "integer"
+                    },
+                    "minItems": 2,
+                    "maxItems": 2
+                  }
+                }
+              },
+              "required": [
+                "id",
+                "valid",
+                "merged"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 5,
+            "maxItems": 5
+          }
+        },
+        "required": [
+          "cases"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tools": [],
+  "usage": {
+    "input_tokens": 273,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 209,
+    "output_tokens_details": {
+      "reasoning_tokens": 111
+    },
+    "total_tokens": 482
+  }
+}

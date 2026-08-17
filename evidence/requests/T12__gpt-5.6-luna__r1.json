@@ -1,0 +1,99 @@
+{
+  "run_id": "T12__gpt-5.6-luna__r1",
+  "sequence": 102,
+  "request": {
+    "model": "gpt-5.6-luna",
+    "input": [
+      {
+        "role": "system",
+        "content": "Responde en español neutro y trabaja únicamente con los datos de la tarea. No uses fuentes externas, herramientas ni supuestos no indicados. Devuelve solo el objeto definido por el esquema JSON proporcionado."
+      },
+      {
+        "role": "user",
+        "content": "Calcula inicios y finales más tempranos en horas desde cero, sin restricciones de recursos. Tareas: A dura 2 y no tiene dependencias; B dura 3 y depende de A; C dura 4 y depende de A; D dura 2 y depende de B; E dura 1 y depende de B y C; F dura 2 y depende de D y E. Devuelve las seis tareas en orden A–F, la duración del proyecto y todos los caminos críticos, ordenados lexicográficamente."
+      }
+    ],
+    "reasoning": {
+      "effort": "low"
+    },
+    "max_output_tokens": 800,
+    "store": false,
+    "stream": false,
+    "tools": [],
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "name": "t12_response",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "schedule": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string",
+                    "enum": [
+                      "A",
+                      "B",
+                      "C",
+                      "D",
+                      "E",
+                      "F"
+                    ]
+                  },
+                  "start": {
+                    "type": "integer"
+                  },
+                  "end": {
+                    "type": "integer"
+                  }
+                },
+                "required": [
+                  "id",
+                  "start",
+                  "end"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 6,
+              "maxItems": 6
+            },
+            "project_duration": {
+              "type": "integer"
+            },
+            "critical_paths": {
+              "type": "array",
+              "items": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "enum": [
+                    "A",
+                    "B",
+                    "C",
+                    "D",
+                    "E",
+                    "F"
+                  ]
+                },
+                "minItems": 4,
+                "maxItems": 4
+              },
+              "minItems": 2,
+              "maxItems": 2
+            }
+          },
+          "required": [
+            "schedule",
+            "project_duration",
+            "critical_paths"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "status": "needs_information",
+  "can_create_plan": false,
+  "missing_fields": [
+    "audience",
+    "market",
+    "deadline",
+    "budget",
+    "channels",
+    "success_metric"
+  ]
+}

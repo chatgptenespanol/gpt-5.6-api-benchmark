@@ -1,0 +1,64 @@
+{
+  "type": "object",
+  "properties": {
+    "tickets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "fecha": {
+            "type": "string"
+          },
+          "pais": {
+            "type": "string",
+            "enum": [
+              "MX",
+              "AR",
+              "CO",
+              "ES",
+              "PE",
+              "CL"
+            ]
+          },
+          "prioridad": {
+            "type": "string",
+            "enum": [
+              "baja",
+              "media",
+              "alta",
+              "urgente"
+            ]
+          },
+          "categoria": {
+            "type": "string",
+            "enum": [
+              "acceso",
+              "facturacion",
+              "cuenta",
+              "tecnico",
+              "comentario",
+              "seguridad"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "fecha",
+          "pais",
+          "prioridad",
+          "categoria"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 6,
+      "maxItems": 6
+    }
+  },
+  "required": [
+    "tickets"
+  ],
+  "additionalProperties": false
+}

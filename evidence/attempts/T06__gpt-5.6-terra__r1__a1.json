@@ -1,0 +1,97 @@
+{
+  "run_id": "T06__gpt-5.6-terra__r1",
+  "attempt": 1,
+  "started_at_utc": "2026-08-17T11:07:32.489Z",
+  "ended_at_utc": "2026-08-17T11:07:37.017Z",
+  "latency_ms": 4514,
+  "http_status": 200,
+  "response_headers": {
+    "x-request-id": "req_79a0d550c8b943548fce4f428384cb41",
+    "openai-processing-ms": "4276",
+    "openai-version": "2020-10-01",
+    "content-type": "application/json"
+  },
+  "network_error": null,
+  "response": {
+    "id": "resp_0bf099535cdca891016a82eb74c30881a386fd3f32e6355278",
+    "object": "response",
+    "created_at": 1786964852,
+    "status": "completed",
+    "incomplete_details": null,
+    "max_output_tokens": 800,
+    "model": "gpt-5.6-terra",
+    "output": [
+      {
+        "id": "rs_0bf099535cdca891016a82eb752dcc81a39b2fb902442eb3ef",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqgut5rb7hvaPRPE38tk95LkbAfFQxGCj1zBRGnKSbjI9YG5P0omCyyfy55shjthr-Sz_Ei2elfwGjm3OeT9u5NKcVH9D2wJNB5cdfifAc5UJ2f8I4NmeNItC_eK9NEZfbfj6XXyVUpDKwwo1L7gxc-vG81ciGjzplC_UArrwpMr5brRzhZEOoQ4gdv4nfIrLFGQgvGaP8wAbZ63Myrn9RIsxsoubcUDGrDXoT11KJNdm_fqHKNKvVx35KUlfWP0dHxSXcD6VivdH-eaC_jYt_gs3Dt606PFudrxz68yPXwAJcGB4Tikw73qYWxUkgLMG1OX6X-cLyzTx57PpWgmfpRQbNUCUnUHxNjiDS0lPj_7xdx4P6-UueVtgtQ_GQnxuZCPNllqz7s55Msrf2jTcKxH3ugmjclNgcKjuJyAT-2j6j0qbKece6rdMBDYwEaU7Y9KPAfnPS9aTT1odFakT6GnRUPGvEzmAJS-K1PbJausFgX4R2vys5czJY-QQmveJM-artDFe5H4nlYLEghKtSmxtwoixHIysW6994dmZr8t9phKnFDfCojLbFGfyj9PFeD63_YT9OkyX5WU1aKGnVIAdm6JgAhUSJLiNWRhhyBUfeaHJXCGvfq7cKzMFX2qVB9VtDrR8wE3fDU3_Yx1WrhXaoFsUr2cw6JDRfQSmdfnv3JEVDuHAjk2rQSoR7Nuv6dHcEKZSVjJyb635hFY0doWwccg9Tj8dL0ejD9UCS_9iJ86nIBvAKlL9fZsCPkCHJkP3gc0ovhuKYBeuyWt4Pe8ZJvlFtk8d0AJpQ9iCwEYobfoFdDAdyVcj-XnqPI73qsy4aImBYXiW603Ef_JAmgL3ncJHvUBdvi_51dQr62D9mfJBVb46n1PIgbt-TgfzTqGGD3Ieo4VWkGcLRH8YLulrBBVH1eTlM642_cbtOXs-8tl2puqm7muHFDokEXpxV-CLRVrDL_a1OZFF8z7dWe-q18_ZuLdt0MI95uKPJNM0b6ewv1-D4_GnBIDJodgO0N9JFoP2459nE8TtWWg_F8ngojnUIsuc_AOM6fVErfOxzyTaqurj0p98VQMIGaxBKQ1o1QEFsaNytIqBb2oaibWfgYN8DvL0QGhT0tEg-TvmID4X-Mh6YmwxtaBqXUMLLxJ0wV0XpTmpJh8ecp5YfLyEu2OUbbSEyj_yOg_4zDbx6cUno1IUq_nM3mGhkYoHhS-a4GTE-4Sqlqm4Nd9uCLk28bZ8QcIsk3i0Rc7BRLEDAaL35T8DBw4GJZLjdPqdF20TCiHhJ0vQcT91GpRTNRSzjCZGbD_A1ZtdSdqqjl3BvH1iByMBRppEpOE5OYR9DqSULkPopjZrV9na_OZSFcrDEjFI96hbfiIq3N-Z-pe3TV-qnzK-p1JLFn6U4O1MVj5DGzuVlZSOJLshkPDqUJpxddh1yyGecFw27g1Fbs4KudZl9IZlI-92cLO6t2GKSC41hiJ8ZWO5irce04XNEYvvoZsP5gRPxKWXbD8QGTEp5PTOCl3cbKEJAvK266rd14fwBkosaVgSrHGC0gZCSQ4ZOzXNlTVGp_gE4Xr3Niepd11ONaOo6BCdCPNy4gSMLe9KziXED10CpZeEHx49KL5Q6ay0vDGU23e0fTq-TIiF8ntR8pxlooYyw8PUtyuUhlzps4_U6c2EXQU_jTeEjrScVDe_5dW3Lia2OuIuVfBKPZDvl1GyvGJ1MxI6UAh_ibvs35hBovmdqPVEEoPiWy9JX8PXEmyjfeDX8DOpiOwNnVpF7BKGm_sY2Y-Q8X3nWcWHHkd8LqfIX4ZXBTlqbZLNQsU_qEcK5oJ6VWXNIKk2pNkbtDMXa15hyMnoOawKGhgFqnpiTOwJCuT5nBYWi37vsvyDIVzVczj1Ug-7vqHoogv3EbkpDzMXxYdRSWc0nRKKiuiVZk_3MC_9Dbsdv8JlLxGm43roiUuMzrSJarEhbLOp-UBP0cAfG1_P-bts3_3uNwZTZnp8i86_Ffq2UwudEPAGyqFPXi5cd5C-Q2l4IvSwc1rDNA2txuQiZQ6NpP0cgUbvfZlCFiHNVCeANOgBSNACH7E4TgJmA8ALUwHyaW3smqAjQBDEWrwE9YLd3uC8RK78U1Mc_g4MXK0xGJ9RUzVvfIm1bSgiU9oh_Xl6eULm6hA3bJZSUAGR31x10qtiSWZGtg6DBCPAvNKSOV4KKDfZ_TOevJPOqgfVeyRQ03Rc3j-00x0OUhZEIgtMc6HyCmnL9jwtccy2dU5gz_1uDWnMvm5OuBKm08WYUsQrKaovThwiYttBAQOn0J1PoBM5v83YsmpKmxWZctL8ipFQVeBmo3Zc1mgWAyvFpQ8SfhfBv_LNrucLtll002HVX-GdfOh_D3lI-hp5SSUCHCAshTIinlpUhBhM_sYMJYPqD_Ih2gUj8aIAV3synz6qR6jMiUoZGCnUPVLM3jXqqU43Bo8mtBw81fvzibQ5Xtp6_PMYs04owDpUqUcI34J5WALk2eHeXATNKVm9Gm5F1wzKmvaBbzoCDadIDeCgWM0BRAIwFv9Zcj51k2L9q25UFSwczVcqShxyOGtyeM9fnAf2wJVBogo2xiBcpT4fpcE23UcRlwFDtnbP760WwuYijojqPS2SMmpmQykGrKzHJ2kgpLwXbqxtaYX9A9ijJyz4nfNp5_UD7P4bSvlVZnTQ_veOZ",
+        "summary": []
+      },
+      {
+        "id": "msg_0bf099535cdca891016a82eb7858d081a3bd488ab3529bd4da",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\"variants\":[\"Descubre cómo Lumen simplifica tus tareas diarias con una prueba gratuita hoy mismo.\",\"Activa tu prueba gratuita de Lumen y organiza proyectos con claridad desde ahora.\",\"¿Quieres explorar Lumen mediante una prueba gratuita para transformar tu rutina digital diaria?\"]}"
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "low",
+      "mode": "standard",
+      "summary": null
+    },
+    "service_tier": "default",
+    "store": false,
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "description": null,
+        "name": "t06_response",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "variants": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 180
+              },
+              "minItems": 3,
+              "maxItems": 3
+            }
+          },
+          "required": [
+            "variants"
+          ],
+          "additionalProperties": false
+        },
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "tools": [],
+    "usage": {
+      "input_tokens": 357,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 329,
+      "output_tokens_details": {
+        "reasoning_tokens": 263
+      },
+      "total_tokens": 686
+    }
+  }
+}

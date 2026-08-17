@@ -1,0 +1,46 @@
+{
+  "tickets": [
+    {
+      "id": "S-104",
+      "fecha": "2026-08-17",
+      "pais": "MX",
+      "prioridad": "alta",
+      "categoria": "acceso"
+    },
+    {
+      "id": "S-105",
+      "fecha": "2026-08-18",
+      "pais": "AR",
+      "prioridad": "urgente",
+      "categoria": "facturacion"
+    },
+    {
+      "id": "S-106",
+      "fecha": "2026-08-18",
+      "pais": "CO",
+      "prioridad": "media",
+      "categoria": "cuenta"
+    },
+    {
+      "id": "S-107",
+      "fecha": "2026-08-19",
+      "pais": "ES",
+      "prioridad": "alta",
+      "categoria": "tecnico"
+    },
+    {
+      "id": "S-108",
+      "fecha": "2026-08-19",
+      "pais": "PE",
+      "prioridad": "baja",
+      "categoria": "comentario"
+    },
+    {
+      "id": "S-109",
+      "fecha": "2026-08-20",
+      "pais": "CL",
+      "prioridad": "urgente",
+      "categoria": "seguridad"
+    }
+  ]
+}

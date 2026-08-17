@@ -1,0 +1,82 @@
+{
+  "id": "resp_0e1de9d0ebf5cd58016a82eb79555481a09f8651bbd104851e",
+  "object": "response",
+  "created_at": 1786964857,
+  "status": "completed",
+  "incomplete_details": null,
+  "max_output_tokens": 800,
+  "model": "gpt-5.6-luna",
+  "output": [
+    {
+      "id": "rs_0e1de9d0ebf5cd58016a82eb79e4ec81a0883eb788caef9a35",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqgut83DNYgcoej8ckGopnb5t08tgDU9NCIBBirYHtL9iv-Ro0B9iVgAE7JYV2vI0_wgPb-7WwLCy6aqGdkoQ0SThOqNpCCYHZIH_9PlS3rljUvggMfZyH539cZ-SDDQ1K4-iKzDYPFa2Yf4ijp30lc-TvKW1v98wgP4ZTraNxAAtHcer2PnQ_mvsn1f21xQLMoxVMBHkbujIfCODQaJBWJBeKl0X7-EBWdh9blKEY0lrurm0QEA7eyuIZajzWRWve0RTw_Z6YIymBuCb0JXQMqoN4CLeKgtVe3GgElh6gPCvRMM2F_6IhmGqKPujVNpIGnpOBOlRj5m7lRoCVRPEPjeLLORoQ9xNfMhMVqmkXwHroPMMN4J4UWs5PiPg1qzrBWFVSxq-TqNiogz1nSbhVbcWdfE6eIbwvV5IAS2gElcGeI1feXhFsb-d0pzupgljmpIpAwz1BYZiTvTlTD69yFAX0ZahulvJSW-AoN4tEFiHnQ43UrHj2OPtiK6smF6bFwpQ3dDM8_rQ5e--Qf9FD4847BEbgRkr_TAY4fwWMmCk_RFmpoq-RXh8jPBd9FDn_OcWloZbsU-yOW1nzaxQRdHxl0jauxa3nypupGxUJ0a7FuO7VsTtlRDvZMvpJ4McvllDcSjSTciTV-0Dt1j-9ndhkKprcgvbkfngYNLESX4EHxjc9LkWZbG-CvGge0Dp0GJfj7xBUVsL5NvHhFCaoiNOdCnSCUKQOl8AwbLBudsINGDQbCNZVQRg4_0F52Ap-Yf2kbr8ilBVQhj85tlkdae1o4BJT69Rr9OinVrAnOWmCYoGpUWNT8SwnkKSvUnGldu6hPo6BCMHPZlyuGXqysQpmGARtSuzzCRwGx35sck1NBhBccqwjGoXmDhD-yjTbOVHELxHWMKfYRA_NQyNEuLdLbLjwHCbKhHEX6GfTD_5M568RrYgTAcWAfOl91EcDejSv2Ui-Ujqz13GFB_BaWrSSif1f165d-GICoI53WkvAhnlYqmA5yWdwAZxrkOENKS2HvI-RXvPiz-eV8iaozhtOLtlO9dinjUnnDq7foprqKsUjs54O5FyXyhUjRIyW7qbH_gm6ZvCFJ_QMxWX69oADzriZQcMcduvk8teBWWmWHLC7ufTgHaYWIixisHVbNzcBxEmCuIHZzD_3-WrRlA0QZ7jqbM4BmNhoQ3bSjsjftY4aBwk7Iz3mCrQ7AFMYU6nsUXKeNbTchs9yiB-tsZJevTenUPotwrQjMd2xFg1S06BeC8x2W9Smy6-hnCKqHzhhZ25StAHeH6FZzZnK5WJarx67ejdOYp-CwbaKWL07Hipu0m8f-3rxu7YpIccrnXKG5DoIfRwFRUzEHmjDnEtDLg0ioL_uxGaccauimQ5d2qOHCMC6qwyQ5mvjm8UunQC7YZdRFtvg13qAmYRHo8zTX333VuVUJczpKTq-iCx47GpahHy1CIFDHXNyzVvT3qKroGJiHXRNgTuFWxKCbeP1r-DLUfbNOlBr2pPtxatXIV43_M8nk3d6VbhSnXYnFSoMeuSlvmyKIVXG04BGsjRL01pmuUtn3rNHmPREbO7g3Ia-xIbhwWJIAWAs9IX2dgWHSUluvcDGmX6WBOvkXML1125Y6ka4yT0fXssl8OzQ0cU89SCf7C3IOoaYSx-c0FNouNzNEfhweKMbbrckjO2T11YxSVIj91ylMSTku4H2blJap8uPDjr8huqJlQ8e_l53ur59qCSFjrzOVDNXeq6YNhHQTTi2Y7QiP1NnYyPyrkXbXj4RjIxv6s2kG77s_WpSW5gpEmLd6f8NTn0snoc4IptcFxbfqQaAW4KWjr6L-kF6oZWvoDcaY-UBCSus5WtiMCqt_HtPHM7KKBYzsg-r0nBBgfXZ3LSjpqqG83d3bs0Cl6Yb22uONitMj7AYUGOvZdwmAabULO0vxGMV3kSgkwiNpxbcB29lX-5VcqtLKF-zMwwGIKzuBgdWzYKKDKDyqG9crV0STPgpRRY7LSppX9tAoMoegH5GMq75_bNuw86inRMNxSY3Ga3L1KTT0K034jwbt4uuJA0_B1wzCo91Kn87UaDrn_Lxn6TpEoIJ4L_nqDvi_soP5UT7MBWSuVFBcYKvSkv0D0dflk29WppGjjW2ANmaP5FZTE3OqjePvc_nCPedQlqlAHOkVRXzJo8tsF6Q-JIjQ5T7DShjcA1E9xrr33DMslpV4qSeKw_p7ARpkOUY76dDAcKMP9Tr_cMsSxorde_I7rvy5ul8_6tLBOeN19xAzAbleq-EBVOCqOEvuNwiaH_rpIKcbu12GnK0qTO2a4gkpLRZPEH0drTila9_09i_NgE8x7fMbswFdiYGjPKZEDfCFf1tG792wNJSyJ3LaKM00z9Wz63KiZbz-LNfcmaXQB7Atxt0qzlp1HhrY-T_TP7yxzFogLOIzKq6RtNK3SO5RzKspvKms_j5QGUWSZEtiqfJBXF8kDP3YtTfy9yebByqlvTnWMARPJOTejIXWFpdBaWUjw2iSuDTpKN_ZkWg7FJOiMexUSUMxud-p4wBysNlM9RiozIALoGFLjO8AIGgzXEknGlIDsqMVhlwgKIUI2dn3ih51eHFpYr-IKd3FUEXvuoO3wMWekdpzWZSkWW6PFMNZf14w66Odg==",
+      "summary": []
+    },
+    {
+      "id": "msg_0e1de9d0ebf5cd58016a82eb7c843881a08df706600d50783f",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"variants\":[\"Descubre nuevas posibilidades con Lumen y disfruta tu prueba gratuita desde hoy mismo.\",\"Conoce Lumen, activa tu prueba gratuita y transforma tus tareas cotidianas con facilidad.\",\"Empieza con Lumen y aprovecha la prueba gratuita para organizar tus proyectos diarios.\"]}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "service_tier": "default",
+  "store": false,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "t06_response",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "variants": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 180
+            },
+            "minItems": 3,
+            "maxItems": 3
+          }
+        },
+        "required": [
+          "variants"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tools": [],
+  "usage": {
+    "input_tokens": 357,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 324,
+    "output_tokens_details": {
+      "reasoning_tokens": 256
+    },
+    "total_tokens": 681
+  }
+}

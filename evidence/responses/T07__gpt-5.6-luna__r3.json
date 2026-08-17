@@ -1,0 +1,92 @@
+{
+  "id": "resp_0acf501aea32ab5a016a82ebaa00e087d2a90cf4810a19511b",
+  "object": "response",
+  "created_at": 1786964906,
+  "status": "completed",
+  "incomplete_details": null,
+  "max_output_tokens": 800,
+  "model": "gpt-5.6-luna",
+  "output": [
+    {
+      "id": "msg_0acf501aea32ab5a016a82ebaa6cf487d2bba7c59f47831dc2",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"status\":\"needs_information\",\"can_create_plan\":false,\"missing_fields\":[\"audience\",\"market\",\"deadline\",\"budget\",\"channels\",\"success_metric\"]}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "service_tier": "default",
+  "store": false,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "t07_response",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "status": {
+            "type": "string",
+            "enum": [
+              "needs_information"
+            ]
+          },
+          "can_create_plan": {
+            "type": "boolean"
+          },
+          "missing_fields": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "audience",
+                "market",
+                "deadline",
+                "budget",
+                "channels",
+                "success_metric"
+              ]
+            },
+            "minItems": 6,
+            "maxItems": 6
+          }
+        },
+        "required": [
+          "status",
+          "can_create_plan",
+          "missing_fields"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tools": [],
+  "usage": {
+    "input_tokens": 178,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 39,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 217
+  }
+}

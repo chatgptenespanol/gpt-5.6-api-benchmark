@@ -1,0 +1,24 @@
+{
+  "run_id": "T06__gpt-5.6-luna__r2",
+  "sequence": 50,
+  "task_id": "T06",
+  "model_requested": "gpt-5.6-luna",
+  "repetition": 2,
+  "started_at_utc": "2026-08-17T11:07:45.395Z",
+  "ended_at_utc": "2026-08-17T11:07:49.088Z",
+  "latency_ms": 3671,
+  "http_status": 200,
+  "attempts": 1,
+  "response_headers": {
+    "x-request-id": "req_285114e0b66a44a29704ed38d0b3e8a4",
+    "openai-processing-ms": "3428",
+    "openai-version": "2020-10-01",
+    "content-type": "application/json"
+  },
+  "response_status": "completed",
+  "output_text_chars": 286,
+  "estimated_cost_usd": 0.00043979999999999996,
+  "reserved_max_cost_usd": 0.00141825,
+  "request_sha256": "d9fd127b981ff763768a5e504248601fb36be6aeb3e7ae35dc0c9669a953f153",
+  "frozen_manifest_sha256": "130d86eb9b563b8df3dd718b6ce8e1327f5a900e81742e58b3d35cf564c23c76"
+}

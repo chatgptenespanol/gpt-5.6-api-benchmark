@@ -1,0 +1,120 @@
+{
+  "id": "resp_01b2c870992fcee9016a82ead719e4819196f14e94a999a207",
+  "object": "response",
+  "created_at": 1786964695,
+  "status": "completed",
+  "incomplete_details": null,
+  "max_output_tokens": 800,
+  "model": "gpt-5.6-terra",
+  "output": [
+    {
+      "id": "msg_01b2c870992fcee9016a82ead7cf6c81918650cd689bffb945",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"tickets\":[{\"id\":\"S-104\",\"fecha\":\"2026-08-17\",\"pais\":\"MX\",\"prioridad\":\"alta\",\"categoria\":\"acceso\"},{\"id\":\"S-105\",\"fecha\":\"2026-08-18\",\"pais\":\"AR\",\"prioridad\":\"urgente\",\"categoria\":\"facturacion\"},{\"id\":\"S-106\",\"fecha\":\"2026-08-18\",\"pais\":\"CO\",\"prioridad\":\"media\",\"categoria\":\"cuenta\"},{\"id\":\"S-107\",\"fecha\":\"2026-08-19\",\"pais\":\"ES\",\"prioridad\":\"alta\",\"categoria\":\"tecnico\"},{\"id\":\"S-108\",\"fecha\":\"2026-08-19\",\"pais\":\"PE\",\"prioridad\":\"baja\",\"categoria\":\"comentario\"},{\"id\":\"S-109\",\"fecha\":\"2026-08-20\",\"pais\":\"CL\",\"prioridad\":\"urgente\",\"categoria\":\"seguridad\"}]}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "service_tier": "default",
+  "store": false,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "t01_response",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "tickets": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "fecha": {
+                  "type": "string"
+                },
+                "pais": {
+                  "type": "string",
+                  "enum": [
+                    "MX",
+                    "AR",
+                    "CO",
+                    "ES",
+                    "PE",
+                    "CL"
+                  ]
+                },
+                "prioridad": {
+                  "type": "string",
+                  "enum": [
+                    "baja",
+                    "media",
+                    "alta",
+                    "urgente"
+                  ]
+                },
+                "categoria": {
+                  "type": "string",
+                  "enum": [
+                    "acceso",
+                    "facturacion",
+                    "cuenta",
+                    "tecnico",
+                    "comentario",
+                    "seguridad"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "fecha",
+                "pais",
+                "prioridad",
+                "categoria"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 6,
+            "maxItems": 6
+          }
+        },
+        "required": [
+          "tickets"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tools": [],
+  "usage": {
+    "input_tokens": 364,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 191,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 555
+  }
+}

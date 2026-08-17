@@ -1,0 +1,7 @@
+Responde en español neutro y trabaja únicamente con los datos de la tarea. No uses fuentes externas, herramientas ni supuestos no indicados. Devuelve solo el objeto definido por el esquema JSON proporcionado.
+
+Normaliza los registros. Recorta y convierte sku a mayúsculas, y sustituye _ por -. Convierte stock a entero y limita negativos a cero. Convierte sí, si o SI en true, y no en false. Divide etiquetas por coma, recorta, convierte a minúsculas, elimina duplicados y ordena alfabéticamente; si tags queda vacío tras recortarlo, devuelve []. Estado: inactive si active=false; si está activo, out_of_stock para cero, low para 1–5 y available para más de 5. Conserva el orden.
+{"sku":" a-01 ","stock":"7","active":"sí","tags":"Oficina, Azul,oficina"}
+{"sku":"B-02","stock":"0","active":"no","tags":""}
+{"sku":" c_03 ","stock":"12","active":"SI","tags":"hogar,Oferta"}
+{"sku":"D-04","stock":"-2","active":"sí","tags":"liquidación"}

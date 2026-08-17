@@ -1,0 +1,148 @@
+{
+  "schema_version": "1.0.0",
+  "request_sha256": "2790ec26ce3bd7d586b0e98605dee580df20cb9d59051307f739a8a75fc3a1d4",
+  "frozen_manifest_sha256": "130d86eb9b563b8df3dd718b6ce8e1327f5a900e81742e58b3d35cf564c23c76",
+  "metadata": {
+    "run_id": "T04__gpt-5.6-luna__r2",
+    "sequence": 32,
+    "task_id": "T04",
+    "model_requested": "gpt-5.6-luna",
+    "repetition": 2,
+    "started_at_utc": "2026-08-17T11:06:45.366Z",
+    "ended_at_utc": "2026-08-17T11:06:47.918Z",
+    "latency_ms": 2542,
+    "http_status": 200,
+    "attempts": 1,
+    "response_headers": {
+      "x-request-id": "req_ff9add457ff44619a2d08aeb1db7be71",
+      "openai-processing-ms": "2299",
+      "openai-version": "2020-10-01",
+      "content-type": "application/json"
+    },
+    "response_status": "completed",
+    "output_text_chars": 586,
+    "estimated_cost_usd": 0.0003714,
+    "reserved_max_cost_usd": 0.00135575,
+    "request_sha256": "2790ec26ce3bd7d586b0e98605dee580df20cb9d59051307f739a8a75fc3a1d4",
+    "frozen_manifest_sha256": "130d86eb9b563b8df3dd718b6ce8e1327f5a900e81742e58b3d35cf564c23c76"
+  },
+  "response": {
+    "id": "resp_07d4628bfddf2011016a82eb45a4b0819e9df3dc6ec81d1881",
+    "object": "response",
+    "created_at": 1786964805,
+    "status": "completed",
+    "incomplete_details": null,
+    "max_output_tokens": 800,
+    "model": "gpt-5.6-luna",
+    "output": [
+      {
+        "id": "rs_07d4628bfddf2011016a82eb4605b4819e97f2bb26f7d7f7ec",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqgutHLf4H8rK6rYWg_AwUYYuMmo0PevFdAp5aWuA1dbpsdZMfkD7VrKYrRfqwUiR3m3XCsGvQiKBcbn2SkCiTWWdfDxM4-R72RaSA95LJAX7cYncC6y_RDjBJzNzgHdk0kvgOGkpHcdywq8q5u2mZlRaS-3ss3i2ZX9_I2WEype0G2HVBQgt10bhUfHLn4ZxWcX9dZ2SjSCtDkwp-eSTquFa1Co5tssmrmLf6PK2c2FqPGJZp900XzYpU4eWiDU3qTvI9PDiqdkz_BRuzaXGMzzRDxP8auogJGfeXavY51kgt-hZg-yMDrpMV2Me68Wp_uO8K8FPO3BonKZl0Kzmko1Uk9Q92BzPy4cItmaajl57gOdcSn-rM3HpJnlwRyw3ETZsTx4dWvW8GG-2TZIn-pTBL7zFvSXluWuc-AC9u4-GxtgU4oGPmLWQljIek0vkEV3tk0LOql6vyg8wS__fvro8-6nTV8xD8Wy5nZcZM0clbohAb7PlICN8baCaRuo-PzEWJlUvdhy8oPi-LSH1u4NCv3ZcYJyRHk-V63FTFgXXhinrm_9pl8fgKRjG6-4sI2RCzXGw3F-CWalQ9UlKUirsUk6aVZDkh5w7acNmwvZi9p6Gal1vV-la3AK2Wkjnp8PnFqZR14eLCwU0RaCmossjtuRWXlB1ZXr6M1C9eMFrkst81-GsBM9VDkMcjGzbmR2cpJchLcKNMl3KxkyX7382NPhbvNItVAwkZLX9CR3wIBZs2GgEqvntsxyWt6eNXbBnZ_2BfieEeMqI1qBL9zGTBqpVKk7C52lQgJSq02EI-x0WyKVAYUYgMQQJfsCTNxaY_02JDv-yFPgmG4p3V-uYGX12yVF3iCXq6TbWbSVbyjGAwkHaPuN_G7nNFkCgWJJefOAYFFfCHv0zqwaWoKmeA0bbqeN3EJVl5P4IhS7mbXzgyCpBTCUlZiTJZxWrnWsTG5iPqC0BT_UZz_LHqA_dLv8EoLtih_gXcp6y2CTWwaXvGmQO_8mdjFP8vQEiU1OVag1SFBhlH7ouVFFP5_e0BKogj3xopqwyjvOllaBlhnKY8IDNeTVIc1fxNJ97k5wd3l5d9R8zpu3F6PfHj0_xlSzUN37r2ZwKUwuQ0na3ThCDsB7NAMRwFzAh5oZoW5U5Rezbsa1YJsqBthbUp2AboAL2H6RbAY9cqcYr5OQe93ocw2YdcEsMPxbtiV8kU-JNfdxzqY2D5jerPQH1MP4QVqWcM-WZ94p_ZWGe35llqv64JX6IqTZoJD6UHLPEaeROcNjJ3cfjbr8AntIGvZJadK_lThPS30hypEDkoTabOgFy06feqe3Mdyo-lqf0hEixgeZEoCb3SS15LqJ-86qw2oAKgz6sjYjON27BhOuhwzFTyuFZ0plRlDMqHQjJJ4TvSycemKbpc8P03rW5Go-892leVWkBsmKjFeQxNKwrPEYVKRy1BjmePHdpHds1PXyShlOhdjHJnZmV-d0WoFefTynt6CJhEjcCpKPvJZ2RHkj-_upc_Jmx4mQE-1IQbWHm266inGGgM34u6UgCNWQds6xG4JUCNbGqKdRAGzuuoqMCVYXROnn70kncE__nCZ_zb",
+        "summary": []
+      },
+      {
+        "id": "msg_07d4628bfddf2011016a82eb46f550819e847d17161be55bec",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\"items\":[{\"id\":\"M1\",\"category\":\"facturacion\",\"route\":\"pagos\",\"escalate\":true},{\"id\":\"M2\",\"category\":\"acceso\",\"route\":\"acceso\",\"escalate\":false},{\"id\":\"M3\",\"category\":\"tecnico\",\"route\":\"soporte_tecnico\",\"escalate\":false},{\"id\":\"M4\",\"category\":\"privacidad\",\"route\":\"privacidad\",\"escalate\":true},{\"id\":\"M5\",\"category\":\"comentarios\",\"route\":\"producto\",\"escalate\":false},{\"id\":\"M6\",\"category\":\"seguridad\",\"route\":\"confianza_seguridad\",\"escalate\":true},{\"id\":\"M7\",\"category\":\"cuenta\",\"route\":\"cuentas\",\"escalate\":false},{\"id\":\"M8\",\"category\":\"facturacion\",\"route\":\"pagos\",\"escalate\":false}]}"
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "low",
+      "mode": "standard",
+      "summary": null
+    },
+    "service_tier": "default",
+    "store": false,
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "description": null,
+        "name": "t04_response",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "items": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "category": {
+                    "type": "string",
+                    "enum": [
+                      "facturacion",
+                      "acceso",
+                      "tecnico",
+                      "privacidad",
+                      "comentarios",
+                      "seguridad",
+                      "cuenta"
+                    ]
+                  },
+                  "route": {
+                    "type": "string",
+                    "enum": [
+                      "pagos",
+                      "acceso",
+                      "soporte_tecnico",
+                      "privacidad",
+                      "producto",
+                      "confianza_seguridad",
+                      "cuentas"
+                    ]
+                  },
+                  "escalate": {
+                    "type": "boolean"
+                  }
+                },
+                "required": [
+                  "id",
+                  "category",
+                  "route",
+                  "escalate"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 8,
+              "maxItems": 8
+            }
+          },
+          "required": [
+            "items"
+          ],
+          "additionalProperties": false
+        },
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "tools": [],
+    "usage": {
+      "input_tokens": 291,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 261,
+      "output_tokens_details": {
+        "reasoning_tokens": 74
+      },
+      "total_tokens": 552
+    }
+  }
+}

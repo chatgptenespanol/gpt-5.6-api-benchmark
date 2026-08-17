@@ -1,0 +1,24 @@
+{
+  "run_id": "T10__gpt-5.6-terra__r2",
+  "sequence": 85,
+  "task_id": "T10",
+  "model_requested": "gpt-5.6-terra",
+  "repetition": 2,
+  "started_at_utc": "2026-08-17T11:09:31.741Z",
+  "ended_at_utc": "2026-08-17T11:09:33.406Z",
+  "latency_ms": 1622,
+  "http_status": 200,
+  "attempts": 1,
+  "response_headers": {
+    "x-request-id": "req_a1e176edeb4c4d518cd3a18c05e7b8b3",
+    "openai-processing-ms": "1349",
+    "openai-version": "2020-10-01",
+    "content-type": "application/json"
+  },
+  "response_status": "completed",
+  "output_text_chars": 383,
+  "estimated_cost_usd": 0.00213,
+  "reserved_max_cost_usd": 0.014045,
+  "request_sha256": "7330cfd84150f5b5a11b3a7cb05585cbaf3640134823fe207d993f32d2622963",
+  "frozen_manifest_sha256": "130d86eb9b563b8df3dd718b6ce8e1327f5a900e81742e58b3d35cf564c23c76"
+}

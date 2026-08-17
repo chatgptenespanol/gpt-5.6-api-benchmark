@@ -1,0 +1,11 @@
+{
+  "task_id": "T02",
+  "rules": [
+    "R1: esquema JSON válido",
+    "R2: subtotal y descuento exactos",
+    "R3: importe tras descuento y envío exactos",
+    "R4: base e impuesto exactos",
+    "R5: total y ecuación exactos"
+  ],
+  "critical_failure": "Total distinto de 8743 centésimos."
+}

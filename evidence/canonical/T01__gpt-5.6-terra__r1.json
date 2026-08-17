@@ -1,0 +1,149 @@
+{
+  "schema_version": "1.0.0",
+  "request_sha256": "82bf5de896c8f6c5be239ebaa96f12c3745d7de0841aeffac68b6fe072e8311f",
+  "frozen_manifest_sha256": "130d86eb9b563b8df3dd718b6ce8e1327f5a900e81742e58b3d35cf564c23c76",
+  "metadata": {
+    "run_id": "T01__gpt-5.6-terra__r1",
+    "sequence": 2,
+    "task_id": "T01",
+    "model_requested": "gpt-5.6-terra",
+    "repetition": 1,
+    "started_at_utc": "2026-08-17T11:04:17.611Z",
+    "ended_at_utc": "2026-08-17T11:04:19.811Z",
+    "latency_ms": 2196,
+    "http_status": 200,
+    "attempts": 1,
+    "response_headers": {
+      "x-request-id": "req_b2bc6e7dfb9b4d6da46150e68081a76b",
+      "openai-processing-ms": "1860",
+      "openai-version": "2020-10-01",
+      "content-type": "application/json"
+    },
+    "response_status": "completed",
+    "output_text_chars": 561,
+    "estimated_cost_usd": 0.00302,
+    "reserved_max_cost_usd": 0.013905,
+    "request_sha256": "82bf5de896c8f6c5be239ebaa96f12c3745d7de0841aeffac68b6fe072e8311f",
+    "frozen_manifest_sha256": "130d86eb9b563b8df3dd718b6ce8e1327f5a900e81742e58b3d35cf564c23c76"
+  },
+  "response": {
+    "id": "resp_061c66c460067126016a82eab1fb0c819ea7920a4556f883a9",
+    "object": "response",
+    "created_at": 1786964658,
+    "status": "completed",
+    "incomplete_details": null,
+    "max_output_tokens": 800,
+    "model": "gpt-5.6-terra",
+    "output": [
+      {
+        "id": "msg_061c66c460067126016a82eab2cf84819e8e2ef1c111efd2e2",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\"tickets\":[{\"id\":\"S-104\",\"fecha\":\"2026-08-17\",\"pais\":\"MX\",\"prioridad\":\"alta\",\"categoria\":\"acceso\"},{\"id\":\"S-105\",\"fecha\":\"2026-08-18\",\"pais\":\"AR\",\"prioridad\":\"urgente\",\"categoria\":\"facturacion\"},{\"id\":\"S-106\",\"fecha\":\"2026-08-18\",\"pais\":\"CO\",\"prioridad\":\"media\",\"categoria\":\"cuenta\"},{\"id\":\"S-107\",\"fecha\":\"2026-08-19\",\"pais\":\"ES\",\"prioridad\":\"alta\",\"categoria\":\"tecnico\"},{\"id\":\"S-108\",\"fecha\":\"2026-08-19\",\"pais\":\"PE\",\"prioridad\":\"baja\",\"categoria\":\"comentario\"},{\"id\":\"S-109\",\"fecha\":\"2026-08-20\",\"pais\":\"CL\",\"prioridad\":\"urgente\",\"categoria\":\"seguridad\"}]}"
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "low",
+      "mode": "standard",
+      "summary": null
+    },
+    "service_tier": "default",
+    "store": false,
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "description": null,
+        "name": "t01_response",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "tickets": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "fecha": {
+                    "type": "string"
+                  },
+                  "pais": {
+                    "type": "string",
+                    "enum": [
+                      "MX",
+                      "AR",
+                      "CO",
+                      "ES",
+                      "PE",
+                      "CL"
+                    ]
+                  },
+                  "prioridad": {
+                    "type": "string",
+                    "enum": [
+                      "baja",
+                      "media",
+                      "alta",
+                      "urgente"
+                    ]
+                  },
+                  "categoria": {
+                    "type": "string",
+                    "enum": [
+                      "acceso",
+                      "facturacion",
+                      "cuenta",
+                      "tecnico",
+                      "comentario",
+                      "seguridad"
+                    ]
+                  }
+                },
+                "required": [
+                  "id",
+                  "fecha",
+                  "pais",
+                  "prioridad",
+                  "categoria"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 6,
+              "maxItems": 6
+            }
+          },
+          "required": [
+            "tickets"
+          ],
+          "additionalProperties": false
+        },
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "tools": [],
+    "usage": {
+      "input_tokens": 364,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 191,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 555
+    }
+  }
+}

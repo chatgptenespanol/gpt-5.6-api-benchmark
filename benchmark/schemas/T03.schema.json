@@ -1,0 +1,30 @@
+{
+  "type": "object",
+  "properties": {
+    "slots": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "start": {
+            "type": "string"
+          },
+          "end": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "start",
+          "end"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 3,
+      "maxItems": 3
+    }
+  },
+  "required": [
+    "slots"
+  ],
+  "additionalProperties": false
+}

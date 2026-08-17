@@ -1,0 +1,11 @@
+{
+  "task_id": "T08",
+  "rules": [
+    "R1: esquema y dos filas",
+    "R2: total de MX exacto",
+    "R3: total de CO exacto",
+    "R4: solo países elegibles",
+    "R5: claves y orden exactos"
+  ],
+  "critical_failure": "Incluir un país no elegible o una fila adicional."
+}

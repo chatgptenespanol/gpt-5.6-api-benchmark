@@ -1,0 +1,11 @@
+{
+  "task_id": "T09",
+  "rules": [
+    "R1: esquema, IDs y orden exactos",
+    "R2: caso A exacto",
+    "R3: casos B y C exactos",
+    "R4: caso D prueba la contigüidad discreta",
+    "R5: caso E inválido y vacío"
+  ],
+  "critical_failure": "Marcar E como válido o devolver intervalos para E."
+}

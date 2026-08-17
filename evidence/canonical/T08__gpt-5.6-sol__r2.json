@@ -1,0 +1,115 @@
+{
+  "schema_version": "1.0.0",
+  "request_sha256": "b5f2715ec332733244e784639baf61af1ef195bc5f480c1ec23df099cdabef73",
+  "frozen_manifest_sha256": "130d86eb9b563b8df3dd718b6ce8e1327f5a900e81742e58b3d35cf564c23c76",
+  "metadata": {
+    "run_id": "T08__gpt-5.6-sol__r2",
+    "sequence": 69,
+    "task_id": "T08",
+    "model_requested": "gpt-5.6-sol",
+    "repetition": 2,
+    "started_at_utc": "2026-08-17T11:08:44.990Z",
+    "ended_at_utc": "2026-08-17T11:08:48.040Z",
+    "latency_ms": 3036,
+    "http_status": 200,
+    "attempts": 1,
+    "response_headers": {
+      "x-request-id": "req_b429537e6fca474d9fdf28a318da8251",
+      "openai-processing-ms": "2752",
+      "openai-version": "2020-10-01",
+      "content-type": "application/json"
+    },
+    "response_status": "completed",
+    "output_text_chars": 80,
+    "estimated_cost_usd": 0.00316,
+    "reserved_max_cost_usd": 0.03404375,
+    "request_sha256": "b5f2715ec332733244e784639baf61af1ef195bc5f480c1ec23df099cdabef73",
+    "frozen_manifest_sha256": "130d86eb9b563b8df3dd718b6ce8e1327f5a900e81742e58b3d35cf564c23c76"
+  },
+  "response": {
+    "id": "resp_0023affcc71d89ac016a82ebbd464c87d29b19ad6aea6d0e5e",
+    "object": "response",
+    "created_at": 1786964925,
+    "status": "completed",
+    "incomplete_details": null,
+    "max_output_tokens": 800,
+    "model": "gpt-5.6-sol",
+    "output": [
+      {
+        "id": "msg_0023affcc71d89ac016a82ebbe345887d28a3178beffce80a0",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\"rows\":[{\"pais\":\"CO\",\"total_cents\":110000},{\"pais\":\"MX\",\"total_cents\":155000}]}"
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "low",
+      "mode": "standard",
+      "summary": null
+    },
+    "service_tier": "default",
+    "store": false,
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "description": null,
+        "name": "t08_response",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "rows": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "pais": {
+                    "type": "string"
+                  },
+                  "total_cents": {
+                    "type": "integer"
+                  }
+                },
+                "required": [
+                  "pais",
+                  "total_cents"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 2,
+              "maxItems": 2
+            }
+          },
+          "required": [
+            "rows"
+          ],
+          "additionalProperties": false
+        },
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "tools": [],
+    "usage": {
+      "input_tokens": 416,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 36,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 452
+    }
+  }
+}

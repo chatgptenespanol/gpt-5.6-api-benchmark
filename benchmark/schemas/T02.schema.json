@@ -1,0 +1,36 @@
+{
+  "type": "object",
+  "properties": {
+    "subtotal_cents": {
+      "type": "integer"
+    },
+    "discount_cents": {
+      "type": "integer"
+    },
+    "after_discount_cents": {
+      "type": "integer"
+    },
+    "shipping_cents": {
+      "type": "integer"
+    },
+    "tax_base_cents": {
+      "type": "integer"
+    },
+    "tax_cents": {
+      "type": "integer"
+    },
+    "total_cents": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "subtotal_cents",
+    "discount_cents",
+    "after_discount_cents",
+    "shipping_cents",
+    "tax_base_cents",
+    "tax_cents",
+    "total_cents"
+  ],
+  "additionalProperties": false
+}

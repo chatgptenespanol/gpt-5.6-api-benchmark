@@ -1,0 +1,131 @@
+{
+  "id": "resp_0a5f75321852d865016a82ec132a7881a18713895dcb131cb5",
+  "object": "response",
+  "created_at": 1786965011,
+  "status": "completed",
+  "incomplete_details": null,
+  "max_output_tokens": 800,
+  "model": "gpt-5.6-sol",
+  "output": [
+    {
+      "id": "rs_0a5f75321852d865016a82ec14037081a1949b78c92b356dfd",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqguwWeQPOcjQKescFQAz94mJ1BsW2NpmwwpGIWVbl_abAAJRTkfk0aXFcTtGg7iciTWMl97WqsLJDSr4mLJnlbGQkHZ9vPpRK5qAIpe0F97ztLW0sm1seIE3hRIgRSc9-HXGk7LHiOPG7cgCsLe-h8kRJCzsw3R6Gw3U6v-5djcJUh8Rdx8BHyUmn006z9hTapN9Ue6W4XUZ3DoZnII4OnZCDVn3EJcpvPU5IUVo3m-EHFK47lz6TWAU1YyLLmVKFWsoifvp7570ZnAaRRGlFfU5RhNjKaghtQFqnfes4ZiT_jnLuJSTkOExfBRkjWDC7t0Ugf404BqH_9J8DHUL6lBezRXuZIANhuCRrlG1ZPGryEH-N69PRPJMtHU_PcX9G65dtnhRtRGyiEE9wALdmS2oZF2HgZpXjW7vtoflTe0Uox-wkxyC6jui6HsxuQvMQl0MkrNxG9GWuBpxTJR0ZziJf9eZNTRLZFa1L3DGvJI7u_iV7L4di_F-jALBdP3LqgttAiYdkXx-mu665M6SyP-5Hcs68dseY7RzKrbKrbZugGkQLXcrfC7G_GgWlLkEz73IeU2zHCDy6BDEFJOk8cM3OLJhKuiMgiUFfEpQwspVSqq4PLov3jHd-5JOWzk4yHdv9XsrsnmmxGYahSZgNjTvCZtRq5SCaXKNHcfUBE3jTUJdZdRvwS4yFiSmeYqwIZgvgwmsOTDh1PkOSHxhaon2W7Ig5WtwZaMaax91u-fGkOJg2oSBDRr4_uokr_BdjEJa_qbTjn5KHOqb-1uZqr6Srn9lpNNEMezTd8Q5dOWnIRyOmLD8KrZLdL0ipkewLKj5AukKDhA5MPM-0L_lPe0LnxET2Pv__6y_hDKO0c7lPdlJbFaPGt6lG5g58qFYM9OC6aDFJPqtaB2annlY1tZUAP-awjM84glfyGLNBr7VuCCuYUAMS7WB5Yl1YjiCXswU04vXaKfPz_NuL2rUR8CoTm-HdEldq9GioU8dzk8RBHawajrHyZtyy9YqQnkfEJKZWOyblm_0j9CpUAF_s65F9-drS69SNo_ikZdkQFsJdWkTe-_9ps7_B_O1H_LiCwJGnoho7ZgkAf6d7NsINdIJa46klg8jmyM3YAYKT0IG9URQOLr6SmdsVxkfmcrtv_HpJd7zcgxyUFChXrUR1SRL6ItcH8EJqbmttS4zNBqEEzswzKI1ho9hRqb6KB7FNwJlvp_T7YGvtKuC9IilKF8f9oBzlqTqS1Unj9Z7of35lqR9Z8h-QO3zZXtl_6btuGbcfhaur6fqHB_EFpilFH1ZGVrTP7ACTrGjeMmhUcd0h6VMaOVZOgQGAiy8hg95chEFz6VOqc6ym4A-G5JErPtwnpfk5nzp5y0lHf-PfTcjFcnKLN9B25B8M8xlJ002dBwEILeMccm0JZ91V5GY0pTnO0qx_hM7KVbY7-8-jS8AsJEM=",
+      "summary": []
+    },
+    {
+      "id": "msg_0a5f75321852d865016a82ec1519d481a1b5d6054a51965976",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"schedule\":[{\"id\":\"A\",\"start\":0,\"end\":2},{\"id\":\"B\",\"start\":2,\"end\":5},{\"id\":\"C\",\"start\":2,\"end\":6},{\"id\":\"D\",\"start\":5,\"end\":7},{\"id\":\"E\",\"start\":6,\"end\":7},{\"id\":\"F\",\"start\":7,\"end\":9}],\"project_duration\":9,\"critical_paths\":[[\"A\",\"B\",\"D\",\"F\"],[\"A\",\"C\",\"E\",\"F\"]]}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "service_tier": "default",
+  "store": false,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "t12_response",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "schedule": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "enum": [
+                    "A",
+                    "B",
+                    "C",
+                    "D",
+                    "E",
+                    "F"
+                  ]
+                },
+                "start": {
+                  "type": "integer"
+                },
+                "end": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "id",
+                "start",
+                "end"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 6,
+            "maxItems": 6
+          },
+          "project_duration": {
+            "type": "integer"
+          },
+          "critical_paths": {
+            "type": "array",
+            "items": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F"
+                ]
+              },
+              "minItems": 4,
+              "maxItems": 4
+            },
+            "minItems": 2,
+            "maxItems": 2
+          }
+        },
+        "required": [
+          "schedule",
+          "project_duration",
+          "critical_paths"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tools": [],
+  "usage": {
+    "input_tokens": 271,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 216,
+    "output_tokens_details": {
+      "reasoning_tokens": 101
+    },
+    "total_tokens": 487
+  }
+}

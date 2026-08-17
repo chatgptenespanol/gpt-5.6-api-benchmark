@@ -1,0 +1,67 @@
+{
+  "run_id": "T02__gpt-5.6-luna__r2",
+  "sequence": 14,
+  "request": {
+    "model": "gpt-5.6-luna",
+    "input": [
+      {
+        "role": "system",
+        "content": "Responde en español neutro y trabaja únicamente con los datos de la tarea. No uses fuentes externas, herramientas ni supuestos no indicados. Devuelve solo el objeto definido por el esquema JSON proporcionado."
+      },
+      {
+        "role": "user",
+        "content": "Calcula la factura sin usar coma flotante. Artículos: 3 unidades a 12,40; 2 unidades a 7,25; 1 unidad a 19,90. Aplica un descuento del 10 % al subtotal. Después suma un envío de 5,50. La base imponible es el importe posterior al descuento más el envío. Aplica un impuesto del 25 % y redondea el impuesto al centésimo más cercano, con 0,5 hacia arriba. Devuelve todos los importes como centésimos enteros de unidad monetaria."
+      }
+    ],
+    "reasoning": {
+      "effort": "low"
+    },
+    "max_output_tokens": 800,
+    "store": false,
+    "stream": false,
+    "tools": [],
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "name": "t02_response",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "subtotal_cents": {
+              "type": "integer"
+            },
+            "discount_cents": {
+              "type": "integer"
+            },
+            "after_discount_cents": {
+              "type": "integer"
+            },
+            "shipping_cents": {
+              "type": "integer"
+            },
+            "tax_base_cents": {
+              "type": "integer"
+            },
+            "tax_cents": {
+              "type": "integer"
+            },
+            "total_cents": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "subtotal_cents",
+            "discount_cents",
+            "after_discount_cents",
+            "shipping_cents",
+            "tax_base_cents",
+            "tax_cents",
+            "total_cents"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  }
+}

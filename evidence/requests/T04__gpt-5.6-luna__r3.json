@@ -1,0 +1,87 @@
+{
+  "run_id": "T04__gpt-5.6-luna__r3",
+  "sequence": 34,
+  "request": {
+    "model": "gpt-5.6-luna",
+    "input": [
+      {
+        "role": "system",
+        "content": "Responde en español neutro y trabaja únicamente con los datos de la tarea. No uses fuentes externas, herramientas ni supuestos no indicados. Devuelve solo el objeto definido por el esquema JSON proporcionado."
+      },
+      {
+        "role": "user",
+        "content": "Clasifica y enruta cada mensaje, conservando el orden. Usa escalate=true únicamente para fraude o cargo no reconocido, borrado de datos y amenaza; usa false en los demás casos.\nM1 No reconozco este cargo en mi tarjeta.\nM2 No recibo el código para iniciar sesión.\nM3 La aplicación se cierra al exportar un PDF.\nM4 Quiero borrar definitivamente todos mis datos.\nM5 Sugiero añadir un modo oscuro.\nM6 Un usuario me amenaza en los mensajes.\nM7 ¿Cómo cambio la zona horaria de mi perfil?\nM8 Necesito una factura con los datos de mi empresa."
+      }
+    ],
+    "reasoning": {
+      "effort": "low"
+    },
+    "max_output_tokens": 800,
+    "store": false,
+    "stream": false,
+    "tools": [],
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "name": "t04_response",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "items": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "category": {
+                    "type": "string",
+                    "enum": [
+                      "facturacion",
+                      "acceso",
+                      "tecnico",
+                      "privacidad",
+                      "comentarios",
+                      "seguridad",
+                      "cuenta"
+                    ]
+                  },
+                  "route": {
+                    "type": "string",
+                    "enum": [
+                      "pagos",
+                      "acceso",
+                      "soporte_tecnico",
+                      "privacidad",
+                      "producto",
+                      "confianza_seguridad",
+                      "cuentas"
+                    ]
+                  },
+                  "escalate": {
+                    "type": "boolean"
+                  }
+                },
+                "required": [
+                  "id",
+                  "category",
+                  "route",
+                  "escalate"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 8,
+              "maxItems": 8
+            }
+          },
+          "required": [
+            "items"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "id": "resp_0ce727f585cebe75016a82eb69cbbc819f89cc4af224757466",
+  "object": "response",
+  "created_at": 1786964841,
+  "status": "completed",
+  "incomplete_details": null,
+  "max_output_tokens": 800,
+  "model": "gpt-5.6-luna",
+  "output": [
+    {
+      "id": "rs_0ce727f585cebe75016a82eb6a2df0819fab96290acd4f8426",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqgutrxkEemSLNyvoOGod1husawcvmAKwpSk8LJBP1oyLMEPy2Fh8r7O7o3AvTNPVhrY_8IAbPEc3e53C0dNwkFombmfrroiz1CuVIx8zg3GE0ZIziO-CF-AtDipTWJssoDr_6S7jqriL4WS-GgyGMxrXqITKLcZsJzcBGLEU0yKPJKjcuJ2tD0QEW-ojEtnLgfPGz4IMS3-5x1WqFpPJJVsK1NUCpHTo6Rc4ttEWkECVMsQsEQddFuHdbdc5Ald52MT73lljq9yIWL1SV1TMfUUw2el_ii3MbV4sU6tiqqrASkFGZxTOhprNeRVifJAPEccDx5HJT9WoXof06-Rp1P16wVBvr5W4FOG9RdJ5BNdxR4dAz70w7uXHsfOOeuUujRlb03UH1tuR_pbV-5-Q-5gHp80V7NZtTqRfV2PQ640BGL228ATezEvyLMp57B0G3FqLtHxdxAUj2KSJWWo64RR3UVqkU0qWg0VBMYWosN9iKhaDgIewxL6oqXJrafrO-UgQo0n7DyMKABx9B6bvBi0H0o0eYKmadz4I4LzvWHM2adK9XbsUL9oNNk4-EngSvtuWSZOg2gsT8oC8j-olHpB7bZY4HRmh_qDwpHqPOaZ2ZmBy13yYxK-6GtBO4_4Acwgg5XaEPuLwYgUfVod2WXIbnQwzmIowZm37UhWevHKtRAGzMwRuThHUwfiKQ-4YXWyEYRtfkMpaZv2OxSQrGu3BvWa4o22CphIdAZdySK2FtHakPoeHjUJjpejff_sZfbb6Nzo-iY_fp7jSrkzUxR2KSZ30BS0MYL1y9kjfLg-dsVxdx4myOVj3vVl5owzqp7oEdU37hJxA-mybhj39yemxp_sw1zfZI6jmcednIGI-ScSqpH5PUH9qv9Atj26er12CfUUfRxVJEzzRrwkmnB_ms0ZEI5qUXSZPq_E_WvMluZ5dahzQexBYsUdaUhddJqb6wR7HrfQ4jlnHhYPe8Bx6AyvIuHkpRSaIUnJit1jCM9TOjm4RwYsCtaMfdRnfOhrFymoNvqYLr07SiBguyIGOlhtBu_G8IMa0XBkhoqGSfu0G36xYLSUY4L1v-0ae6EXf56G7quSG8MmLMgbAd4nNlub8gwJsK6lyWaU0pKG1nsOHsjfwXjHGmU_7mJpXEDe0frvGlDhUrWsgGOZ8lNW7TM43ETM7RQoTxcbDhRRWRVRgKCfPAni5mOcm9jg9aRcraS_vnWlYomIF4Gp4GlaXvTqzX__h6wzSmXNyXsYNnZiXAlvVsG6XzOSRN5QbzRpnt9sS83bQP_8MzM7PeuGcSFaxI4FuzM9eZ0p1-yViHIuPPVi_rvEaam4eCtBK4PuPmuhiCRftO4tFiHspDGoOz0TWZPknkw_C4q2yQwiZczUANuGnkXa5SHCbt18sjcxe0b0HpCIu77WIpt_2jKAmgO0C2g_H8Zh33CJlkt6tluaQTi4tWCSraKK39R2PTyLtnWjEm4UAHHUtzBAUi5oo8UZkJGtaO49YqtlKGfa-XkLwrQ11PNz14N85i-QXkYjTb6at0hE2GDDgIZQH1IPxwwaoCn7xoLzBf-SUQGIHPChUblaOUS_IKqmAURhHOnBh_lFWP_c0xBL2tkfspdUThf3EedS1ht-fW6qyhcQc70rI=",
+      "summary": []
+    },
+    {
+      "id": "msg_0ce727f585cebe75016a82eb6b3338819fa32f88b02b26218d",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"program\":\"Faro Piloto\",\"start_date\":\"2026-10-01\",\"end_date\":\"2026-12-31\",\"minimum_age\":18,\"file_types\":[\"PNG\",\"JPEG\"],\"max_file_mb\":10,\"retention_days\":14,\"human_review_triggers\":[\"reporte_del_usuario\",\"obligacion_legal\"],\"support\":{\"days\":\"lunes_a_viernes\",\"start_utc\":\"14:00\",\"end_utc\":\"20:00\"},\"excluded_services\":[\"API\",\"cuentas_de_equipo\"]}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "service_tier": "default",
+  "store": false,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "t05_response",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "program": {
+            "type": "string"
+          },
+          "start_date": {
+            "type": "string"
+          },
+          "end_date": {
+            "type": "string"
+          },
+          "minimum_age": {
+            "type": "integer"
+          },
+          "file_types": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "PNG",
+                "JPEG"
+              ]
+            },
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "max_file_mb": {
+            "type": "integer"
+          },
+          "retention_days": {
+            "type": "integer"
+          },
+          "human_review_triggers": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "reporte_del_usuario",
+                "obligacion_legal"
+              ]
+            },
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "support": {
+            "type": "object",
+            "properties": {
+              "days": {
+                "type": "string"
+              },
+              "start_utc": {
+                "type": "string"
+              },
+              "end_utc": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "days",
+              "start_utc",
+              "end_utc"
+            ],
+            "additionalProperties": false
+          },
+          "excluded_services": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 2,
+            "maxItems": 2
+          }
+        },
+        "required": [
+          "program",
+          "start_date",
+          "end_date",
+          "minimum_age",
+          "file_types",
+          "max_file_mb",
+          "retention_days",
+          "human_review_triggers",
+          "support",
+          "excluded_services"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tools": [],
+  "usage": {
+    "input_tokens": 375,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 200,
+    "output_tokens_details": {
+      "reasoning_tokens": 80
+    },
+    "total_tokens": 575
+  }
+}

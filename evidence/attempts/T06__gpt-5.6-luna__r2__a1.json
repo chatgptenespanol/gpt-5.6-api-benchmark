@@ -1,0 +1,97 @@
+{
+  "run_id": "T06__gpt-5.6-luna__r2",
+  "attempt": 1,
+  "started_at_utc": "2026-08-17T11:07:45.395Z",
+  "ended_at_utc": "2026-08-17T11:07:49.088Z",
+  "latency_ms": 3671,
+  "http_status": 200,
+  "response_headers": {
+    "x-request-id": "req_285114e0b66a44a29704ed38d0b3e8a4",
+    "openai-processing-ms": "3428",
+    "openai-version": "2020-10-01",
+    "content-type": "application/json"
+  },
+  "network_error": null,
+  "response": {
+    "id": "resp_0cb04a83744e4fe3016a82eb81b054819cb7332d78849fe1f0",
+    "object": "response",
+    "created_at": 1786964865,
+    "status": "completed",
+    "incomplete_details": null,
+    "max_output_tokens": 800,
+    "model": "gpt-5.6-luna",
+    "output": [
+      {
+        "id": "rs_0cb04a83744e4fe3016a82eb821d6c819cab537017c8c80e3d",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqguuFIKaDCqWD5D5_bVGAot-5HGLl_N5hPXcCO1afyxeaDTulphc2HpWfsReHO420AgMo7zc29kHr6vySG7nRsSKWApzJ4PCUKjETPQHFDKu7IRoGjYK0qDYryZMI69w7NzJhHYueo8iD4AtB2RGOyqenANEl3jejzkyTwyjYGWtnZiNIY5NV71LPX81J6MR-kYcP7zdnBt1lYxL8-i3-rtRYBHMOdXJA7wl2SUewcH70XmQxGbYU2cbaqxWECM92Tuj1sYh_z5A5A6BnYxyI-3xH4ruxv-M9OYEGqQVSbiVdM7WmTC-pNvpGackuuyAg8zauUiFqc_tmMt4nVKJ7FNXlqVvRBkIs089XkBTBwGNJb9A8mAIhwckqXuuasgJpHgqJ_8Yo0UDvg9ok_KViAGAdmes2EG0D2qZTCRsyrQ49BLMP3yjj6aDP4LzTiJvhqK9ozFkEg60ZUAhazpe6-tywbEi8Cc7kqjCY5PCHuK3Wmx8OvlsinTKQeQMZkiM5D0OOtxepLh7GWjV9vvjZAIFW4sGxersWSPUogyGukVanwwF-J8RT4OsuBJwnMvpsCCEKDoGSEAU323Yiwb9hLXMEH0HnOHUlenWsNSk8HWABqzmEJgWZhUKsKLTLCqgqQAHZVoKvnX-wbkDGf-afAMJBRTZ4sZPzYjdiSYsSZcoJqsZgd1XMwGBMhFOMfm4w_a_U8q4DGwp559K_nUbbVsrXOqjUPsrM2d4_l_J9hyxNBBqojo2IozYMc6BAgEr4BR9_AAc8ijTlKzzAZt51DhrTvv-KSC1SlebUTAbj4LHtQtPxJwpKLZPreJrcL2_wd1ZDJtjIzlBHmk0cPVLJtxbDAp5hyA68cMBqqx0hC-y3E0Lf5jG4AIexcTaUYWveQZuDYOlEE5U-vJQLT0W1tzvYffDblmLgKpBVLS7XsQ_v4ixun0H08jnWUP-BdDnV_1V9kL-pP0-uUEWB6nzmy7idAaybbtOlIb1zjCWEb4YH1QP1Ih56VJa42vqfJqNGdqiFH5Ji6d4_5Jcut8fKpQTAC5-2O2ju3qWmQO3zCHZCR8Z7Yw6dYylm4VBXkjHsIljCfX7CyiszW5sg5ylKd4mdZAEObl97Ho7cPnZXS04qnHJV5gjr28E63QfYx0gJPNLuD5oDoPLjFTeH165spkRfgKXBzkoU1ARQ1mF_HuD5rEXgMToTmlSRz_mM8gRK58U_xAOYxUtmq4bqYxmLyF_6eYO_09JWNm8FxEm_OfM27Nnp9DrNmV92-vCXcBCFoJcvC91-44SF8lqD2rszDdrQJz-SADyjmUcwX_rSECOeIltVv2caPmSscJ2fTBvCta7krMRKrRNip36xys5jmARnnMAahZLELwC2JxFptypcAwKJnIz2jFxqQvfmp388cYO7qvIDTuGWUGh1SLFBnATyAbuBldMEFzWkaDPg0NKZMda90R5TQTCUYJNq4YZGZeZrqg_U73l3wgUS40Q6NTr8fxQSwKGa-blrgbkWyMM4dAYIdK2WJY_8DfQv2RVR2cJ8b6KUuzKc6T2HBLcqCk_gv3Tx7s-dcSgCUAGDiI3336gXnq5bq89O-aYu8HWBdufCJBcyfTNmpZaW9VPmunSvGnGHzxKZ4G--LjrG2pDAaBRoIbq_C9q_rQnp58A9KFkE35hLaWk3rd6xfvTOTbAJ9slHc7knN6AbgxUYQZrSDnCgTpfRmx3DOlPTLZdDj4jObcEYbUU-Uau1Iwlvl9LVj6-WT4tWTJtpkUrEqPIJyiLj9srOYiwENR56NffKtzmrZfSbaSRCyn3qt7V4UGxlK9N49b8w4SYlqeCxMQt3XO1mNNdqcDaQ_uYOKJkRsDG4u3IYxr8e3OSU3WtmVGj75ADyLBnXqhYGBb_NPE5OjS27t2rf9OqyMJinHhyED4xpjo2cYX--i11rclA6KZTmIIrBVARRVpzJww1EaeUSKEfvWBjYEeN3vrfxvys9umr2mLWJ_ub47UJye9TwlCKlMmtmsMmJQGHFJKnkf4A12TXg0yXl2BYK8pclOkYVU80IguxTMiMSZ1ndIZEgBd4tYVG3j9f8_cLtPtXnyGJQMKa_jJ6st1JpijtUgX2bnp7AVxIyxQuTkFj3pSrevpJRL5AZhaL5RPoQW-_uNJOjueaJFZN53wbdSqa8SZ6tHsfIhd7mYjHujWudlj2rKtr_6qf6fXhTue4t0Sxct3j4UZJaTSvZEsTodFj_AvvvJ_vBmlXvDNH6S4xriH2t4UXy_ovw06Wub1U8TqrFYk5lXGtg731fNo2OYY6ogpApaNt55XUWzuP1Ie3ZPJDbEE6qfnYEHQFvMKFxhWVwyj4vN8DetxlZ-ysl8stfCnfKpYOdWIXPLYhoyjUBSlmE9pZ7Hmee49LCafYp0hJaVIQlAtOaj_pEwEnZIDWNcHbp3L9uG8tA9ewS3vWQPMUb8vkOvfxHGkVTBR6YYT4NzrsyjSRfjY1iF28CEcTbWrse2GgSDUhnV-e9uvFDc6gooXX-c-EcjgBMeUEcKwJl27tXgp0=",
+        "summary": []
+      },
+      {
+        "id": "msg_0cb04a83744e4fe3016a82eb8482a8819c96b4acce912f8f5e",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\"variants\":[\"Descubre nuevas posibilidades con Lumen y comienza hoy tu prueba gratuita sin complicaciones.\",\"Conoce cómo Lumen transforma tu rutina y disfruta una prueba gratuita desde cualquier dispositivo.\",\"Haz que cada día sea más sencillo con Lumen y activa tu prueba gratuita.\"]}"
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "low",
+      "mode": "standard",
+      "summary": null
+    },
+    "service_tier": "default",
+    "store": false,
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "description": null,
+        "name": "t06_response",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "variants": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 180
+              },
+              "minItems": 3,
+              "maxItems": 3
+            }
+          },
+          "required": [
+            "variants"
+          ],
+          "additionalProperties": false
+        },
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "tools": [],
+    "usage": {
+      "input_tokens": 357,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 307,
+      "output_tokens_details": {
+        "reasoning_tokens": 241
+      },
+      "total_tokens": 664
+    }
+  }
+}

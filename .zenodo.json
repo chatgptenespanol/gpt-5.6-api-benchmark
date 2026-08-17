@@ -1,0 +1,28 @@
+{
+  "title": "GPT-5.6 API Benchmark: Neutral-Spanish Evaluation Suite and Results",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "description": "A versioned evidence package with 12 synthetic tasks in neutral Spanish, sanitized Responses API requests, literal outputs, a preregistered deterministic evaluator, usage and latency metadata, derived scores, limitations and checksums for GPT-5.6 Sol, Terra and Luna.",
+  "creators": [
+    {
+      "name": "Aly, Ahmed"
+    }
+  ],
+  "access_right": "open",
+  "license": "MIT",
+  "language": "spa",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/chatgptenespanol/gpt-5.6-api-benchmark",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "keywords": [
+    "GPT-5.6",
+    "Spanish-language evaluation",
+    "API benchmark",
+    "AI evaluation",
+    "reproducibility"
+  ]
+}

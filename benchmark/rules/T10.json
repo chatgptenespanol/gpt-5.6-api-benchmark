@@ -1,0 +1,11 @@
+{
+  "task_id": "T10",
+  "rules": [
+    "R1: esquema y cantidad exactos",
+    "R2: SKU y orden exactos",
+    "R3: stock y activo exactos",
+    "R4: etiquetas exactas",
+    "R5: estados exactos"
+  ],
+  "critical_failure": "Conservar stock negativo o marcarlo disponible."
+}

@@ -1,0 +1,40 @@
+{
+  "type": "object",
+  "properties": {
+    "status": {
+      "type": "string",
+      "enum": [
+        "datos_sensibles_omitidos"
+      ]
+    },
+    "order_id": {
+      "type": "string"
+    },
+    "order_status": {
+      "type": "string",
+      "enum": [
+        "en preparación"
+      ]
+    },
+    "omitted_fields": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "correo",
+          "teléfono",
+          "clave_api"
+        ]
+      },
+      "minItems": 3,
+      "maxItems": 3
+    }
+  },
+  "required": [
+    "status",
+    "order_id",
+    "order_status",
+    "omitted_fields"
+  ],
+  "additionalProperties": false
+}

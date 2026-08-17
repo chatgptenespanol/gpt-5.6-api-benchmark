@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Resultados del benchmark público GPT-5.6</title>
+  <desc id="desc">Comparación de reglas cumplidas, salidas aprobadas, tareas estables y fallos críticos para Sol, Terra y Luna.</desc>
+  <style>
+    text { font-family: Arial, Helvetica, sans-serif; fill: #172033; }
+    .headline { font-size: 38px; font-weight: 700; }
+    .subtitle { font-size: 19px; fill: #596579; }
+    .model { font-size: 27px; font-weight: 700; text-transform: capitalize; }
+    .label { font-size: 17px; fill: #596579; }
+    .value { font-size: 18px; font-weight: 700; }
+    .small { font-size: 14px; fill: #596579; }
+    .foot { font-size: 15px; fill: #69758A; }
+  </style>
+  <rect width="1200" height="675" fill="#F7F9FC"/>
+  <text x="600" y="80" text-anchor="middle" class="headline">Benchmark público GPT-5.6</text>
+  <text x="600" y="120" text-anchor="middle" class="subtitle">12 tareas sintéticas en español neutro · 3 repeticiones por modelo</text>
+  <g transform="translate(80 0)">
+    <rect x="0" y="190" width="330" height="330" rx="24" fill="#FFFFFF" stroke="#DDE3EA"/>
+    <circle cx="38" cy="235" r="9" fill="#6D4AFF"/>
+    <text x="58" y="244" class="model">sol</text>
+    <text x="30" y="300" class="label">Reglas cumplidas</text>
+    <text x="300" y="300" text-anchor="end" class="value">98.3 %</text>
+    <rect x="30" y="320" width="270" height="14" rx="7" fill="#EEF1F5"/>
+    <rect x="30" y="320" width="266" height="14" rx="7" fill="#6D4AFF"/>
+    <text x="30" y="385" class="label">Salidas aprobadas</text>
+    <text x="300" y="385" text-anchor="end" class="value">36/36</text>
+    <rect x="30" y="405" width="270" height="14" rx="7" fill="#EEF1F5"/>
+    <rect x="30" y="405" width="270" height="14" rx="7" fill="#6D4AFF"/>
+    <text x="30" y="470" class="small">Tareas estables: 12/12 · Fallos críticos: 0</text>
+  </g>
+<g transform="translate(450 0)">
+    <rect x="0" y="190" width="330" height="330" rx="24" fill="#FFFFFF" stroke="#DDE3EA"/>
+    <circle cx="38" cy="235" r="9" fill="#1677FF"/>
+    <text x="58" y="244" class="model">terra</text>
+    <text x="30" y="300" class="label">Reglas cumplidas</text>
+    <text x="300" y="300" text-anchor="end" class="value">97.2 %</text>
+    <rect x="30" y="320" width="270" height="14" rx="7" fill="#EEF1F5"/>
+    <rect x="30" y="320" width="263" height="14" rx="7" fill="#1677FF"/>
+    <text x="30" y="385" class="label">Salidas aprobadas</text>
+    <text x="300" y="385" text-anchor="end" class="value">35/36</text>
+    <rect x="30" y="405" width="270" height="14" rx="7" fill="#EEF1F5"/>
+    <rect x="30" y="405" width="263" height="14" rx="7" fill="#1677FF"/>
+    <text x="30" y="470" class="small">Tareas estables: 12/12 · Fallos críticos: 0</text>
+  </g>
+<g transform="translate(820 0)">
+    <rect x="0" y="190" width="330" height="330" rx="24" fill="#FFFFFF" stroke="#DDE3EA"/>
+    <circle cx="38" cy="235" r="9" fill="#0A9B72"/>
+    <text x="58" y="244" class="model">luna</text>
+    <text x="30" y="300" class="label">Reglas cumplidas</text>
+    <text x="300" y="300" text-anchor="end" class="value">98.3 %</text>
+    <rect x="30" y="320" width="270" height="14" rx="7" fill="#EEF1F5"/>
+    <rect x="30" y="320" width="266" height="14" rx="7" fill="#0A9B72"/>
+    <text x="30" y="385" class="label">Salidas aprobadas</text>
+    <text x="300" y="385" text-anchor="end" class="value">36/36</text>
+    <rect x="30" y="405" width="270" height="14" rx="7" fill="#EEF1F5"/>
+    <rect x="30" y="405" width="270" height="14" rx="7" fill="#0A9B72"/>
+    <text x="30" y="470" class="small">Tareas estables: 12/12 · Fallos críticos: 0</text>
+  </g>
+  <text x="600" y="590" text-anchor="middle" class="foot">Resultados fechados; no demuestran superioridad universal. Calidad sin latencia ni coste.</text>
+  <text x="600" y="620" text-anchor="middle" class="foot">chatgpt-gratis.chat · 17 de agosto de 2026</text>
+</svg>

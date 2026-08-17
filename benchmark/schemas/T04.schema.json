@@ -1,0 +1,56 @@
+{
+  "type": "object",
+  "properties": {
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "category": {
+            "type": "string",
+            "enum": [
+              "facturacion",
+              "acceso",
+              "tecnico",
+              "privacidad",
+              "comentarios",
+              "seguridad",
+              "cuenta"
+            ]
+          },
+          "route": {
+            "type": "string",
+            "enum": [
+              "pagos",
+              "acceso",
+              "soporte_tecnico",
+              "privacidad",
+              "producto",
+              "confianza_seguridad",
+              "cuentas"
+            ]
+          },
+          "escalate": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "id",
+          "category",
+          "route",
+          "escalate"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 8,
+      "maxItems": 8
+    }
+  },
+  "required": [
+    "items"
+  ],
+  "additionalProperties": false
+}

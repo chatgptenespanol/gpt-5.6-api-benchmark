@@ -1,0 +1,97 @@
+{
+  "run_id": "T06__gpt-5.6-terra__r2",
+  "attempt": 1,
+  "started_at_utc": "2026-08-17T11:07:40.985Z",
+  "ended_at_utc": "2026-08-17T11:07:45.377Z",
+  "latency_ms": 4366,
+  "http_status": 200,
+  "response_headers": {
+    "x-request-id": "req_8abb09508f3d463bbe6fa9607a7612b9",
+    "openai-processing-ms": "4111",
+    "openai-version": "2020-10-01",
+    "content-type": "application/json"
+  },
+  "network_error": null,
+  "response": {
+    "id": "resp_005adb83bdfafa7b016a82eb7d4ff887d2907692545dddbaca",
+    "object": "response",
+    "created_at": 1786964861,
+    "status": "completed",
+    "incomplete_details": null,
+    "max_output_tokens": 800,
+    "model": "gpt-5.6-terra",
+    "output": [
+      {
+        "id": "rs_005adb83bdfafa7b016a82eb7de01487d2891584f4dc78a6f6",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqguuBLjWvdivJi4bHmckSmHS7fArIewpPgSbHBhNo4kHSSAvGNFMOVXeujC7Nok5lhJeIox-MfswAFa8fIISak0zwGLnyF6-s6dPyPrgHMy5lOIGWD35z1iyPcRt_Z9IF4BeTtVxcrengLjRYAHMqP-9ypJnMLHOnoE6IRs01h0qKalKJ4WmJ21RQpZ11n-pQNPUEif_KYjAg9U16z8EhrL9SUlu34PfHjWuN6sTxGsqnTtNHVmj5t_WqT8k1xP-b2I7JP1IWPWFINVL1tTMTveC4q7Weke4X6RefZDcW-VApQbTUkNaXkkAWM-5uIBoJ-7BBGZTCTMhVxLGTl6nMo1z5MUklQUBDq2p7L33n9vIzEXw8APiBTG6O9g1Ew6EJQyr3ZUmF3wTAvK5njX2CAHvezZCYxyvx1U_naLUwkoLHJspTm4z5Xzu2oFOEsgH29EmvR58SbPB4Ze29yz7KFh3ZMXudyqPHEI5z0CV5Kx7H9Fg2Rh1oBRf1HmbQHORt-yHzGjf0BcUvwoVnUFSjmF_OaRKoW3jxAg4WghIRw5cj3Xi-khQkB68GYgnqbwaYvrXFqNBTX6mR6-_3Ju4-AQmL4RTw4GJZ78Vwowob9DSorf5VNlZxlsGAeg2eW_VoMfjSxVrWb5fkMN9TSdHVls8x53pelqeLyQgXT_kYur39aj1N_ctoraP7lZMXi0X4_aKkaotZi4n3lxFkJOdnWK0yhKiFXKWYVCrN6MvieX9qbj9-_XoqMJPPLfCamlyVvdtjixPmWmxmwe7UKnSU_V4GlKPAd69U-NebJz8QI6cBUCmQHCzdtq8tXV84XybbTczMCDUhozv_tKX4xLxJEQxwerF4DNiyYVLYOBnImolium-jkoFNuI8SZ7hk3cwzX5cpR2irnXUs48PnByMhqgLZsL4guOU8WCvmBix0xd-V91v-iGKmJ9fzrsZsi8jBYmbP6GIzBTvAa2ikxFqdlwLVAlNWNHLI6O1RqZe_ReQ6VUUOr2svImhe2D0qUhAUlwnxHSXKKIIzZan5iHFV5onH-ro9Q4HI3kRvbYhqxpM1h6n6bVz12zgm7Oy9vNfBQ8XMAF38PDv2Bvs1ZYQ0fL9BhMCIYwjvG8E5GP__mDIkB5wMtl79hHC_5D9mtWaF2zkaW18o6IfbuDKb4Nm1mGgW3xeOR60U8uhwY69SqVIYktJsSVfn7VRfqG0Hp59WA63SoOvVkwqhqcsUFL7SIw87Zn-WDHpMFa77QtsOygqZvgbYH_LQQXpp8V2PWb6-5seZN4MNxXBddWPXl7nWh9CBgbCsnBsAoFHoa0BBg9sEDic8X97j7HvRSY9KQ-tlhQ4dMsCmcmw0iL5dgCe9hvX893ay0BZbpJGTYu2qSLa_zJQBVs0cKLbERwQHcRGZOU5Z7_RAv66790WGX_Lz6zSt6fXLAopA7TXWF2Fi1qFyPKIykIiUb3-m5efsWsM2qMZK0ZLp9Bggshx_3u3PDIGVW5merGxY3k2BAW9Fq5PtjqgqxBPXSyC-OeZ-0Re8_VHKBq4VBNxgS7LUwnnPd7fFt1RSDPLaTXyrwusVJseuTRXJgxRc5dwGesm4GVM04u6SBFnVYgxI6dcDjcTDQ_PSPA-VpaSR9kYYGod94KtrlrUCiX1cZHmicRayjqxtXkRdq2fpubP7h21dTjm2UZ_6Y2IxaaqtmoVPFd1CokgBWHeZSCojGy5vjzLfnB3wj2tPjo0V0A7eGcwk-eSudkve61MulLgw1jlyb6c3o4OcOBnjmxznQBllcqRwD1telSuiR6WjxU6ESUqDNQN4W_fGTOVPMgt5AtcGz7gfj5ixmHek1Gowo3M20gLObl-a5NUDid3Gz42dB4Nwx7k3vIJ2PzcVipNQzoeQAFhI37pCrKCiu1jFhJ6km11Bn-8QvmIfBuTTGUILZdIbNfjGzUe7w7xkRCA6Xysx4eTPnvTtS0DyFUJSGUTIdkj_RtVuEcu89rYIKFa3Vicw8xicL5fQbRhEzp95oLSiV6sbn4l4AbiSyQhtJP4kQHRY27mVI7W4dQ50jeOuryOdx_0dus3o5nZjk2volAzZf6ygsuMz9hzjJRBl536KPjo7MU3mrwCfQhnD-zLCFOL4KOeLqV8IhqFouKBRWi0WWoe28Xtl8ZzQD_9bKGkA-sfXUuzKvYHF_q8DglN2lZZbMpaLgmK_NBwF_aKAcU40j0Cva-xmo-U6HQuL89v27r_VhmfGhdn0eUUjdkXU42IohDYP9Gtl3Zuq0TZF0aD8vVTOCBZmRENQ1OLp9va4-fht9iOOQJhq6Jy7sB4WONBuv_hLy_928oDCME_CePm4D1QAkRAqfBsorqApSZvxP6dvLWjEd8cUg4d4j6kukpwcz9iYHprmJVnmeiB4vYULm8udFFsgpZmFy48LrtVND9j4ji-KHE8ZOworBt7vEq-5jvO1p2JY8jjI8i3aIEtWt_d9vwWfrLVFhDb0rX9gQxU3VerczgtVanVEocBglmZoPdmcTRh4Tu2e5K32DpEBgweWN_Utk1mnfkRka-Db8T6Tehkq4nPU4nNtNcpR9Qam-ItwIuZPHQ==",
+        "summary": []
+      },
+      {
+        "id": "msg_005adb83bdfafa7b016a82eb80bbe887d293c8be121302107b",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\"variants\":[\"Descubre cómo Lumen simplifica tus tareas diarias con una prueba gratuita desde hoy.\",\"Empieza tu prueba gratuita y explora las funciones de Lumen para organizar cada proyecto.\",\"¿Quieres conocer Lumen con una prueba gratuita para crear rutinas claras en tu equipo?\"]}"
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "low",
+      "mode": "standard",
+      "summary": null
+    },
+    "service_tier": "default",
+    "store": false,
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "description": null,
+        "name": "t06_response",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "variants": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 180
+              },
+              "minItems": 3,
+              "maxItems": 3
+            }
+          },
+          "required": [
+            "variants"
+          ],
+          "additionalProperties": false
+        },
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "tools": [],
+    "usage": {
+      "input_tokens": 357,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 319,
+      "output_tokens_details": {
+        "reasoning_tokens": 249
+      },
+      "total_tokens": 676
+    }
+  }
+}

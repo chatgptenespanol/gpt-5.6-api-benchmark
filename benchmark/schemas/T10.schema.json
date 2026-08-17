@@ -1,0 +1,51 @@
+{
+  "type": "object",
+  "properties": {
+    "products": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "sku": {
+            "type": "string"
+          },
+          "stock": {
+            "type": "integer"
+          },
+          "active": {
+            "type": "boolean"
+          },
+          "tags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "inventory_status": {
+            "type": "string",
+            "enum": [
+              "inactive",
+              "out_of_stock",
+              "low",
+              "available"
+            ]
+          }
+        },
+        "required": [
+          "sku",
+          "stock",
+          "active",
+          "tags",
+          "inventory_status"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 4,
+      "maxItems": 4
+    }
+  },
+  "required": [
+    "products"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,131 @@
+{
+  "id": "resp_0e2adfa6a05c71b2016a82ec25d25487d2a69b8e99ea2b0f2c",
+  "object": "response",
+  "created_at": 1786965029,
+  "status": "completed",
+  "incomplete_details": null,
+  "max_output_tokens": 800,
+  "model": "gpt-5.6-sol",
+  "output": [
+    {
+      "id": "rs_0e2adfa6a05c71b2016a82ec26c80087d291b8b7a885179889",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqguwpPJ9rRA2jZFpDjPrqNdwZLMTtPLQompArj_HTX5rAzZa030PdWHvoCwxwbh3sJuU2UorAicK4y3RvfR4u49q6wV6xfwJ8SlpD_aQNL9AxUtLEOaOtBSgmyPsSz3l29WJHJkIXfRjIBaRRw4dsCOfwkA8faqjKzHnvHrjMCgoMByY40zHgC3wyUAPup_4txBr7vm70gWi0tpZ4IDnqHEN1rLmGmgisEWjyYgroPXPiWeXI1A1rQM0ihW4BxMPvAcaRv-neaeboJImmH4YR6u_MJeO40btW31nuyfztioFTxdlUmJIiZNnUOxuYMc_EKnzfgpRJRk3RQCI3pUGRD4pC0nj_VlheHfwU_XRVgF4p4BSjAIQPu2vuZqQfRg9Z8Xr0jzolPYZRn_Eva2PC2IF7M9riWmJnZGnOabqkUKTYf0wquBgoHk72n6TJh5huoynQAQ1xGOWnFO-vP7a6BLCGoQX5K3UNjOkSXgRmCZFDGfv-z2jIMvu1v3qT6Z8Q55ua2eJoLJVeY2s8PiEKhmnaZFBzIDqE3FNShnzgoTvsMwtM6z3aYVoyjpMLUrr8Q1xOVC3Ha_1bhqGP8YDRSfqbJMn8Ek5egn3zxZCcrTM5lj9S2uDNO968YgEghToCrrj46yeFyebBoXlOTmVFVyAQFb2sWtKADL-YFzdFTaVSuJSzmjpalCaQfyaIXImAV6JGGm8Xas-sHX-WRKtxCaS8ip9gu49zNMMGP_2uA1kh-AtzPoniBKWXIrIZmrBSiW9NHspu-J8whMak8sxeffe-9gD7dMZqqqZ37TqvbrnjmAezUG0cffTe3FOLMGioaFfzKEAIBctnBWkrnjxaXaGi3SlxbMtPOHVU5ZHBig9cguKZLr1FXGKqJ4LuNZwq954P05Epomcw_umWWeU4ISEwjjTCZLTsVwvf626F7A0lamwqSaLBvE5gEsBX8fO1F9D3PVa9pNz5YDZxzyDhlFuSxPygmwRidKR_pErSjomW1RvXmF86jKed4ZCKWkPjzBeB9vjqjXT0xSKy4Fchpr7hlPWKsqkPTJS208tViYJTjRweHMq3GMbHZz1A3TkCe_KLp0NXorM3sVd_d9_ZTwB1x6OVCykro0IHTPDgTAHhcNzpTBqpuTQ3yYcjzDEnALtZEMlrgoQbWWf63jI9SLNOruW7SeGjt3CUkteJSn0rIvJ7JD-KJWmg9gHxq4kJdxSICwMqSYUzYXI74rnhFY_6vi41VsdEXQa_hgACSK13NgotGIqzdD8r7kJoJf6aEGPu-nkfgsl0UFr9fxXbv7gvX_49yI188703ScntGfml2FSVPwBK3b2m6bjBTYoff3SzO7hyumm1Ko9dcuDkKYWKgxHPG1Zro9p8JisAjnDVtV18uJiELAFuRmAx-ZBZSRndmCDbMoLEe7J7oYQfVjhZssUqW2b45MOviDnwQ9GFvxS--KtPdR2NSBiQ__Mw7RFW",
+      "summary": []
+    },
+    {
+      "id": "msg_0e2adfa6a05c71b2016a82ec2816d887d285da486e7a9e2b5f",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"schedule\":[{\"id\":\"A\",\"start\":0,\"end\":2},{\"id\":\"B\",\"start\":2,\"end\":5},{\"id\":\"C\",\"start\":2,\"end\":6},{\"id\":\"D\",\"start\":5,\"end\":7},{\"id\":\"E\",\"start\":6,\"end\":7},{\"id\":\"F\",\"start\":7,\"end\":9}],\"project_duration\":9,\"critical_paths\":[[\"A\",\"B\",\"D\",\"F\"],[\"A\",\"C\",\"E\",\"F\"]]}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "service_tier": "default",
+  "store": false,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "t12_response",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "schedule": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "enum": [
+                    "A",
+                    "B",
+                    "C",
+                    "D",
+                    "E",
+                    "F"
+                  ]
+                },
+                "start": {
+                  "type": "integer"
+                },
+                "end": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "id",
+                "start",
+                "end"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 6,
+            "maxItems": 6
+          },
+          "project_duration": {
+            "type": "integer"
+          },
+          "critical_paths": {
+            "type": "array",
+            "items": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F"
+                ]
+              },
+              "minItems": 4,
+              "maxItems": 4
+            },
+            "minItems": 2,
+            "maxItems": 2
+          }
+        },
+        "required": [
+          "schedule",
+          "project_duration",
+          "critical_paths"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tools": [],
+  "usage": {
+    "input_tokens": 271,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 222,
+    "output_tokens_details": {
+      "reasoning_tokens": 107
+    },
+    "total_tokens": 493
+  }
+}

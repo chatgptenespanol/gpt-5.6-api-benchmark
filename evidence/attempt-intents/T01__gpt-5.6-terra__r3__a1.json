@@ -1,0 +1,9 @@
+{
+  "schema_version": "1.0.0",
+  "run_id": "T01__gpt-5.6-terra__r3",
+  "attempt": 1,
+  "started_at_utc": "2026-08-17T11:05:06.989Z",
+  "request_sha256": "094e0d13e35fd3148602469df869e09040b036c1642cddc110c97357da8238ea",
+  "frozen_manifest_sha256": "130d86eb9b563b8df3dd718b6ce8e1327f5a900e81742e58b3d35cf564c23c76",
+  "reserved_max_cost_usd": 0.013905
+}

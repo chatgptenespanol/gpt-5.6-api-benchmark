@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "sku": "A-01",
+      "stock": 7,
+      "active": true,
+      "tags": [
+        "azul",
+        "oficina"
+      ],
+      "inventory_status": "available"
+    },
+    {
+      "sku": "B-02",
+      "stock": 0,
+      "active": false,
+      "tags": [],
+      "inventory_status": "inactive"
+    },
+    {
+      "sku": "C-03",
+      "stock": 12,
+      "active": true,
+      "tags": [
+        "hogar",
+        "oferta"
+      ],
+      "inventory_status": "available"
+    },
+    {
+      "sku": "D-04",
+      "stock": 0,
+      "active": true,
+      "tags": [
+        "liquidación"
+      ],
+      "inventory_status": "out_of_stock"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "task_id": "T05",
+  "rules": [
+    "R1: esquema JSON válido",
+    "R2: nombre, fechas y edad exactos",
+    "R3: formatos y tamaño exactos",
+    "R4: retención y causas de revisión exactas",
+    "R5: soporte y exclusiones exactos"
+  ],
+  "critical_failure": "Alterar la retención o ampliar las causas de revisión humana."
+}

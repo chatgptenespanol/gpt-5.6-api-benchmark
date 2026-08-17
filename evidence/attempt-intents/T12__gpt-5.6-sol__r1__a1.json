@@ -1,0 +1,9 @@
+{
+  "schema_version": "1.0.0",
+  "run_id": "T12__gpt-5.6-sol__r1",
+  "attempt": 1,
+  "started_at_utc": "2026-08-17T11:10:10.714Z",
+  "request_sha256": "320025451a2a4ee30fbad2e1882c3e4ef30563d9312b06a3c469b9e274b5aa13",
+  "frozen_manifest_sha256": "130d86eb9b563b8df3dd718b6ce8e1327f5a900e81742e58b3d35cf564c23c76",
+  "reserved_max_cost_usd": 0.0332
+}

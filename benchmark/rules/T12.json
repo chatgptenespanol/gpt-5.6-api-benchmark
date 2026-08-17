@@ -1,0 +1,11 @@
+{
+  "task_id": "T12",
+  "rules": [
+    "R1: esquema, IDs y orden exactos",
+    "R2: tiempos A–C exactos",
+    "R3: tiempos D–F exactos",
+    "R4: duración exacta",
+    "R5: caminos críticos exactos y ordenados"
+  ],
+  "critical_failure": "Cualquier inicio o fin de tarea incorrecto, dependencia violada o duración distinta de 9."
+}

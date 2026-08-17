@@ -1,0 +1,108 @@
+{
+  "run_id": "T08__gpt-5.6-terra__r2",
+  "attempt": 1,
+  "started_at_utc": "2026-08-17T11:08:40.798Z",
+  "ended_at_utc": "2026-08-17T11:08:42.813Z",
+  "latency_ms": 2000,
+  "http_status": 200,
+  "response_headers": {
+    "x-request-id": "req_3a0b2eaa3aad443ab8b75ea298b89f03",
+    "openai-processing-ms": "1698",
+    "openai-version": "2020-10-01",
+    "content-type": "application/json"
+  },
+  "network_error": null,
+  "response": {
+    "id": "resp_0aa00980b8e43418016a82ebb91dd887d280ecc0a0a5120e41",
+    "object": "response",
+    "created_at": 1786964921,
+    "status": "completed",
+    "incomplete_details": null,
+    "max_output_tokens": 800,
+    "model": "gpt-5.6-terra",
+    "output": [
+      {
+        "id": "rs_0aa00980b8e43418016a82ebb98b9887d2afdf7b63cd3209c6",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqguu6bfVhPp0RTZA_LcnopK8PYWevUYyfnfG9_oQ8TKMqU8aBR4KU_cHqZdtsvOLDVQY8GsZO_F7BrLomeoZulrU_V9vflbyZm0DsHOI9ZUyPUnAVKzb77WS-mPN1960MxAwMEeV-atkp__7m3EVxRZpHBVvHU6CQ8tu41bGV8q0sJlRBJRt2AfYaQKgSl36mPPTt3tNLrh5CMZEO5ajSa4PXyQij1o0ssaRmZbA5VWKQjAsKRMVi-0dfDDZ3wi7BgTTG-WPhpCKgius05H4FaQ20M_yF6YEALFh4w6WxDfxRKuu0tB6JoqWlZ-CVtp1q7BzvZfRlEiihdLOwdvqUFHC-mqhbXx-QPjJu0aCi7FFuXYfLW2MOqQXME3oUlYrFl8FLoFzD2F8Mog5rMXNVbnzwReLaYmWpw_SMZqE4EnAtqo8w2EZvt2Hsql2bhHuqfIXDKgEjGp_3LeZJ2PshpsSST4lsCvtmzchGryOiDc82Xg2jrtixeR7lcwXMB-QTQwsn3Re7WyfhiVj9GJfbIzbpssHfeE4AYtYTZSwsNjuKwaamXvgV6f8rteLQounKo1eBHyNgS_Ke7qWcaK_8aagtlw6Eo511dc_iXSaZ-N5B_UN2wA04K9pBEmjSKgWujS2LKjwhBijfLYbILQcfGdKjR7yGLIqquTrqlNaVfGPyh98LmDcNEQIfl1JsHLogyCyXgQmhZf9dNN1QslyPsVhaqyomcL3Ypw0SkjoeaRjuS-jaPuTcbMO2YluqQaA-TZL8AUonz0vw-EVLLzuqTSFEcFtqZTg4C_EUxKKY7hQ7O_Olpd3UQQqWPFSzkypDLZK_wWSGcg8qn0ZuLqIL2e599uOKcqlsKLWFom7UiYOVJiNQX_hfkTvR8UoAg7YIdPVHZu36sKgdGb-lntdSJSzA1l0xAyvxP4lA0jMy4o02YjfofHNyZPMLgwlNcbJRtqXYl9buTst90Wh9xY-lFzj2u1UXtHkmfHCIYRk8OMsPODaJh3C663BtZctRAVFJic80gSChlEWvhTBitN8TF_g_RurabNkjMnzHOdR5Qi39airTbyJVuTR3tyXI6u96469DkV7FqQPuolpspiMv7EXecum7nLA02YHx-LS_GaWVWBh9P89Tc_4sjADjOFDiNU1-KQpsI6x3UR7T39hq-8dwxt3ahzfJnhn0gGWijPHoVOkHaBndlryfIXmfgqjsUZDH06Trt03VS5CQ8SazUT0GqxRiX9AiBuCNt0_fKMC_-yIaAuVXSc3Z0MmSeqWGBF-LVUquxCweo-2Fru-upibAic_SYALpuonIIpT0dsDyb2TYPXId0rqKyuYwnnGYbphgpijMPjAjox49gE5RE3tALJLDlYp-8M1xleEqVFwHqKCaESAcc5z7RCXzPmIp_2Ua36sR8ll2PHY7pDPCCc8ifpmNQGt7gWBG1-VJMlUgccZ6L5INK1QV3LCTCam1lR7TD38XvaPJFgTK5CyEl6jxDw==",
+        "summary": []
+      },
+      {
+        "id": "msg_0aa00980b8e43418016a82ebba73c487d2adc1457d17f277e0",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\"rows\":[{\"pais\":\"MX\",\"total_cents\":155000},{\"pais\":\"CO\",\"total_cents\":110000}]}"
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "low",
+      "mode": "standard",
+      "summary": null
+    },
+    "service_tier": "default",
+    "store": false,
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "description": null,
+        "name": "t08_response",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "rows": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "pais": {
+                    "type": "string"
+                  },
+                  "total_cents": {
+                    "type": "integer"
+                  }
+                },
+                "required": [
+                  "pais",
+                  "total_cents"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 2,
+              "maxItems": 2
+            }
+          },
+          "required": [
+            "rows"
+          ],
+          "additionalProperties": false
+        },
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "tools": [],
+    "usage": {
+      "input_tokens": 416,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 124,
+      "output_tokens_details": {
+        "reasoning_tokens": 86
+      },
+      "total_tokens": 540
+    }
+  }
+}

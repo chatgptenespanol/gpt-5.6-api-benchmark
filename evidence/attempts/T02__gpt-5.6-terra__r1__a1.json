@@ -1,0 +1,114 @@
+{
+  "run_id": "T02__gpt-5.6-terra__r1",
+  "attempt": 1,
+  "started_at_utc": "2026-08-17T11:05:12.346Z",
+  "ended_at_utc": "2026-08-17T11:05:14.564Z",
+  "latency_ms": 2214,
+  "http_status": 200,
+  "response_headers": {
+    "x-request-id": "req_a3edbb3d9c0c46929335c91c7cb35c34",
+    "openai-processing-ms": "1948",
+    "openai-version": "2020-10-01",
+    "content-type": "application/json"
+  },
+  "network_error": null,
+  "response": {
+    "id": "resp_096eee0e672bb144016a82eae8a56081a1bd2d5a4183b753f6",
+    "object": "response",
+    "created_at": 1786964712,
+    "status": "completed",
+    "incomplete_details": null,
+    "max_output_tokens": 800,
+    "model": "gpt-5.6-terra",
+    "output": [
+      {
+        "id": "rs_096eee0e672bb144016a82eae9792881a1b8c78f660f2e4bfb",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqgurqdAUr5WtGHsikxCQLOT3K9-AsiOmn2m7hTg6KPQFNvOk8CGnev8o31_Q5KMVDqaKLZhx3rk-CH4n9Yu6SWPWXPNv3JJm6D0YiJhtHAbpGNK6ZFMxX-uooTR25lQexeePxXzHrH5XZJ_7Ah3Lj7C30OEvV1nBqf32NH7Uuqhb9vv6VEa014bw1vIK8OoAxUg9yF8Wcci2v1kvPexJkb3wxUoQXcqlKKb8TTgWVQx5Wh3NhyuwnwNId-WvroVUDwE1ws8uFoVtH03i_huGYo0NEw-5sZ5gFTb2u5z9KO3Jg4QG3PA-Lnct9zGFE1pYSiWONP-sN3_wIPdf8aEylyQ3gcScleISD-IFZPZ7mZNa2KAVZLAp2g-6G6k4mryFH9atFJHtvxsB523k8LI_b9Bfmo4fJZW6w_XHOfbAmEPSYpO2iaB1Qn--cW2FRxvDGS1Uc-gW3JYhOmgbUOPPm8imHqjg_LYOwj1Lt4kwcl4Kwcs_4q1IQMPkkQsSQPbxikRhrVvtT2E0cU5cLUBg77ANaC6GvDUWbJpVxG04xDIhnueoDasfMsY9z8MFsN6xdl5H9usrl2AqdGc7x6zr8IkUXq2UejBY6yz3CVifJr19TmcdAlDroLELvwWyVYfsaJOqaZ1jbZ4rVkBELSXeBtwFWYklhVK5zRkJkUswCd3jzXurKt8OMf12xnRjJLuy6AB-L7tphlsimi3jbTUo0O05AyV7oC8ttcOX2UVvKuy5hIdolLCHziggqhJSyTakxcl9HkForFJMirHVfVwNvoCQKxMlwmA4hOEzEl9oSHg0VDtTfLVW9J27x1dOXYWRq-Fd4IIk7JgtbcV4QgbKtoybTZMLB-ujK5SEjXhY9HSxb4F_Evu51ktU4tfMh0ishAGlCpIOBES6HtVk4f_GYIwHMmtuoeY_xEOMBwIVhVc8gQa5KZC9YwQyQOn8OWFI0oSMq_u3zUQPGndz7j1KRpafSwSVLTGoiAX4mWz_vI7ap1zBx6LlDnxwGeNW6O0QsduuR7COzLkHswtgRIbaYI1vyfgRsm8NjeylYhjkPri8h8XMWEGpAYAHPJW_La5ADdQq7Jg9yeK2AvaDP6EQyJL_a9nBFfbsyDVDas7BjddsqXu68tljdZ7a6TtZjvbW2RugOcWTzYBQPhGDAsvB1mkdeQCjSuLKMtOif9r0W1WJIJfxGxhiXBPlrOSmBsl1Jv6Q-OsiPn7VH6y8PxxKut32prqxg_s4hgTyQRCjzMBnKCNZ2oNDFRFgtTsTPYDdIhA0fW-cIhTOr-attd2ilg8MI5H-2S8wN6vPNqYo-_ZGmL3cisMQJmJKBLqgFWxm2eBqza7xwFLan7CANQIHdKUvkjmyaqk-Flj8e40dk1ZCVxx6eeRqbYo2WyyXSHofJxKxt_uT4TldvtOk4gRx__9QNLwvHs2yEXf8sC6e7h6svER8=",
+        "summary": []
+      },
+      {
+        "id": "msg_096eee0e672bb144016a82eaea42d481a1911d22b5a7cfd940",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\"subtotal_cents\":7160,\"discount_cents\":716,\"after_discount_cents\":6444,\"shipping_cents\":550,\"tax_base_cents\":6994,\"tax_cents\":1749,\"total_cents\":8743}"
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "low",
+      "mode": "standard",
+      "summary": null
+    },
+    "service_tier": "default",
+    "store": false,
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "description": null,
+        "name": "t02_response",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "subtotal_cents": {
+              "type": "integer"
+            },
+            "discount_cents": {
+              "type": "integer"
+            },
+            "after_discount_cents": {
+              "type": "integer"
+            },
+            "shipping_cents": {
+              "type": "integer"
+            },
+            "tax_base_cents": {
+              "type": "integer"
+            },
+            "tax_cents": {
+              "type": "integer"
+            },
+            "total_cents": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "subtotal_cents",
+            "discount_cents",
+            "after_discount_cents",
+            "shipping_cents",
+            "tax_base_cents",
+            "tax_cents",
+            "total_cents"
+          ],
+          "additionalProperties": false
+        },
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "tools": [],
+    "usage": {
+      "input_tokens": 254,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 146,
+      "output_tokens_details": {
+        "reasoning_tokens": 85
+      },
+      "total_tokens": 400
+    }
+  }
+}

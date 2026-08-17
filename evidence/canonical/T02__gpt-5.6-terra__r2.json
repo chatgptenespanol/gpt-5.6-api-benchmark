@@ -1,0 +1,128 @@
+{
+  "schema_version": "1.0.0",
+  "request_sha256": "2dac8f4bb82ddc4b2cfc47f91caa31f6d095c728e15b800fac7ab3463b6fdfc3",
+  "frozen_manifest_sha256": "130d86eb9b563b8df3dd718b6ce8e1327f5a900e81742e58b3d35cf564c23c76",
+  "metadata": {
+    "run_id": "T02__gpt-5.6-terra__r2",
+    "sequence": 13,
+    "task_id": "T02",
+    "model_requested": "gpt-5.6-terra",
+    "repetition": 2,
+    "started_at_utc": "2026-08-17T11:05:16.611Z",
+    "ended_at_utc": "2026-08-17T11:05:18.432Z",
+    "latency_ms": 1817,
+    "http_status": 200,
+    "attempts": 1,
+    "response_headers": {
+      "x-request-id": "req_26c61afc54da41caa4c2ea158e10c429",
+      "openai-processing-ms": "1564",
+      "openai-version": "2020-10-01",
+      "content-type": "application/json"
+    },
+    "response_status": "completed",
+    "output_text_chars": 151,
+    "estimated_cost_usd": 0.002092,
+    "reserved_max_cost_usd": 0.012995,
+    "request_sha256": "2dac8f4bb82ddc4b2cfc47f91caa31f6d095c728e15b800fac7ab3463b6fdfc3",
+    "frozen_manifest_sha256": "130d86eb9b563b8df3dd718b6ce8e1327f5a900e81742e58b3d35cf564c23c76"
+  },
+  "response": {
+    "id": "resp_019201e913a1324e016a82eaece68881a18653488cb04c5954",
+    "object": "response",
+    "created_at": 1786964716,
+    "status": "completed",
+    "incomplete_details": null,
+    "max_output_tokens": 800,
+    "model": "gpt-5.6-terra",
+    "output": [
+      {
+        "id": "rs_019201e913a1324e016a82eaed632481a1b2253dbcf2705751",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqguruzVmxIHJ9rvir0QTltyo_w5PQASLeic-S8Fqa7i5_wYmD1yJM8H3E4-L4RF1xe67RNhbzoW6u09qQHcRUSk-mHUzwNYPp0ugUN20Jc2k4LhJDuxxXX5lvRmH5R3NXjQ-xU5EO5fosO3el_kEuexWLDORYhin9A2lVkuw_hsCT9wK-Aw__iPia-tYF6tlV2j1aarfgyp0-VDLACaoGJibprshMXEY04qUAGhG6lPo1qgyIMsgUi3cWKEsHo5eIBf65tZHmaIEj9twpXlWbU9si3mbxZPqclJ60_w58R5R4nxC6uU2zlMAcJ1XT8auN4tPYC9TLCAAstFf1AHO3eIQtGWD63lR6mKNLL4lWc3aTb7ntq18Z3UqEve-fsrVeMW6PO7MbQ6Nju8t8nO35_-LSlCtr12l8ca-Z3orspITLJkLbz3xQkLILv3mEAJ-WH4RzGmCDMpyMzjotTR__G0xr7A-OwMb-wv68VQYh4BC97XNRBUURKQxeklDUoKW96B0t2yMKRXcnXAA3hl_StWIBVXhbmk3-quuTiZ97ovh0AHS46bsMJcNwq9h0rd5WbO4dHZm4wzPdgMmlFd-rHfGySJ5FIoBsQVzvTqn9ntg-jiHiFT7-phTBg2_pqivTkS4ZA5EOL_y4w-PJ8CiSx86XOpFlXN-1k4xWa0D5FTN0RoogexPgIo5z7qyKCxHuUVKHMyFf-dywZ_v5YlockbCpR9jQd_u2RjUe5W2nXh7HqDj_qhlI5k_y0q4pNuBQL66aDB9Y-NSoIlIEBQts5Oc3HMgBh_TM4V8_0dNIpRc1j67IfXi1OxTWH-lrp0XnpK6Halz4vVYuyh6txzlvnZovwpw7XEdTk2XFbFN4vgskN4jvlMrUN_zBPqOMzuU9pPaaUzlnyozZo5ZIeUwSol4blbsDlwI-UoBoe9dtZaBANBvEbT6M9hIl9885zA0zEEKG0BUCLGbpJ35fhMlM4RSx0H3JLWk6mGJDYbk98JoWwAE523BufRA7hn5W7ot3vKqZ_fcqH3j7GoOzW9l0Phzdc7A_AddeVbqcba3dq5xh4zJ_oUwuxOWF1bjybRXJTusOFkjlBEwD6T6bDG3iQuRqJZpc3CDv20xtutnDy_gkOcr9I5HR5zFkU2-hT_f5V_sGEDuFrxSc6pRB5tepQ0l0sM3gHZq7f08MPOGwUmKwndxPHNnpBJWFZ7B96k0O0O91dmGEbVVzFBxvlfGnazTckwnycw_B255-WJExvgyZQh377Jc6GT_YUyoNFmxCRy8Z7qy9NwVE4aYzjYPDeZsVY0qWwxFG-benv4vh_rzLEWeHQO4vmP8p0se6Jj7JtGoyrD0r4SsyKGi1FiXomXwpltmMU_NWR2WkDSY21UY4wf0x1w5oy5Sl1W49toyZGcrk",
+        "summary": []
+      },
+      {
+        "id": "msg_019201e913a1324e016a82eaee1ff081a19986ba64ba1d422d",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\"subtotal_cents\":7160,\"discount_cents\":716,\"after_discount_cents\":6444,\"shipping_cents\":550,\"tax_base_cents\":6994,\"tax_cents\":1749,\"total_cents\":8743}"
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "low",
+      "mode": "standard",
+      "summary": null
+    },
+    "service_tier": "default",
+    "store": false,
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "description": null,
+        "name": "t02_response",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "subtotal_cents": {
+              "type": "integer"
+            },
+            "discount_cents": {
+              "type": "integer"
+            },
+            "after_discount_cents": {
+              "type": "integer"
+            },
+            "shipping_cents": {
+              "type": "integer"
+            },
+            "tax_base_cents": {
+              "type": "integer"
+            },
+            "tax_cents": {
+              "type": "integer"
+            },
+            "total_cents": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "subtotal_cents",
+            "discount_cents",
+            "after_discount_cents",
+            "shipping_cents",
+            "tax_base_cents",
+            "tax_cents",
+            "total_cents"
+          ],
+          "additionalProperties": false
+        },
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "tools": [],
+    "usage": {
+      "input_tokens": 254,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 132,
+      "output_tokens_details": {
+        "reasoning_tokens": 71
+      },
+      "total_tokens": 386
+    }
+  }
+}

@@ -1,0 +1,508 @@
+{
+  "generated_at_utc": "2026-08-17T11:10:36.439Z",
+  "evaluator_version": "gpt56-evaluator-v1.0.0",
+  "frozen_manifest_sha256": "130d86eb9b563b8df3dd718b6ce8e1327f5a900e81742e58b3d35cf564c23c76",
+  "by_model": [
+    {
+      "model": "gpt-5.6-sol",
+      "runs": 36,
+      "passed_runs": 36,
+      "pass_rate": 1,
+      "rules_passed": 177,
+      "rules_total": 180,
+      "rule_pass_rate": 0.9833333333333333,
+      "stable_tasks": 12,
+      "critical_failures": 0,
+      "mean_score_5": 4.916666666666667,
+      "median_score_5": 5,
+      "latency_ms_p50": 2681,
+      "latency_ms_p95": 6690,
+      "input_tokens": 10872,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 5114,
+      "reasoning_tokens": 1560,
+      "estimated_cost_usd": 0.20777999999999996,
+      "by_task": [
+        {
+          "task_id": "T01",
+          "passes": 3,
+          "runs": 3,
+          "stable": true,
+          "scores": [
+            5,
+            5,
+            5
+          ],
+          "range": 0
+        },
+        {
+          "task_id": "T02",
+          "passes": 3,
+          "runs": 3,
+          "stable": true,
+          "scores": [
+            5,
+            5,
+            5
+          ],
+          "range": 0
+        },
+        {
+          "task_id": "T03",
+          "passes": 3,
+          "runs": 3,
+          "stable": true,
+          "scores": [
+            5,
+            5,
+            5
+          ],
+          "range": 0
+        },
+        {
+          "task_id": "T04",
+          "passes": 3,
+          "runs": 3,
+          "stable": true,
+          "scores": [
+            5,
+            5,
+            5
+          ],
+          "range": 0
+        },
+        {
+          "task_id": "T05",
+          "passes": 3,
+          "runs": 3,
+          "stable": true,
+          "scores": [
+            5,
+            5,
+            5
+          ],
+          "range": 0
+        },
+        {
+          "task_id": "T06",
+          "passes": 3,
+          "runs": 3,
+          "stable": true,
+          "scores": [
+            5,
+            5,
+            5
+          ],
+          "range": 0
+        },
+        {
+          "task_id": "T07",
+          "passes": 3,
+          "runs": 3,
+          "stable": true,
+          "scores": [
+            5,
+            5,
+            5
+          ],
+          "range": 0
+        },
+        {
+          "task_id": "T08",
+          "passes": 3,
+          "runs": 3,
+          "stable": true,
+          "scores": [
+            4,
+            4,
+            4
+          ],
+          "range": 0
+        },
+        {
+          "task_id": "T09",
+          "passes": 3,
+          "runs": 3,
+          "stable": true,
+          "scores": [
+            5,
+            5,
+            5
+          ],
+          "range": 0
+        },
+        {
+          "task_id": "T10",
+          "passes": 3,
+          "runs": 3,
+          "stable": true,
+          "scores": [
+            5,
+            5,
+            5
+          ],
+          "range": 0
+        },
+        {
+          "task_id": "T11",
+          "passes": 3,
+          "runs": 3,
+          "stable": true,
+          "scores": [
+            5,
+            5,
+            5
+          ],
+          "range": 0
+        },
+        {
+          "task_id": "T12",
+          "passes": 3,
+          "runs": 3,
+          "stable": true,
+          "scores": [
+            5,
+            5,
+            5
+          ],
+          "range": 0
+        }
+      ]
+    },
+    {
+      "model": "gpt-5.6-terra",
+      "runs": 36,
+      "passed_runs": 35,
+      "pass_rate": 0.9722222222222222,
+      "rules_passed": 175,
+      "rules_total": 180,
+      "rule_pass_rate": 0.9722222222222222,
+      "stable_tasks": 12,
+      "critical_failures": 0,
+      "mean_score_5": 4.861111111111111,
+      "median_score_5": 5,
+      "latency_ms_p50": 2131,
+      "latency_ms_p95": 4514,
+      "input_tokens": 10872,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 6134,
+      "reasoning_tokens": 2564,
+      "estimated_cost_usd": 0.09535199999999998,
+      "by_task": [
+        {
+          "task_id": "T01",
+          "passes": 3,
+          "runs": 3,
+          "stable": true,
+          "scores": [
+            5,
+            5,
+            5
+          ],
+          "range": 0
+        },
+        {
+          "task_id": "T02",
+          "passes": 3,
+          "runs": 3,
+          "stable": true,
+          "scores": [
+            5,
+            5,
+            5
+          ],
+          "range": 0
+        },
+        {
+          "task_id": "T03",
+          "passes": 2,
+          "runs": 3,
+          "stable": true,
+          "scores": [
+            2,
+            5,
+            5
+          ],
+          "range": 3
+        },
+        {
+          "task_id": "T04",
+          "passes": 3,
+          "runs": 3,
+          "stable": true,
+          "scores": [
+            5,
+            4,
+            4
+          ],
+          "range": 1
+        },
+        {
+          "task_id": "T05",
+          "passes": 3,
+          "runs": 3,
+          "stable": true,
+          "scores": [
+            5,
+            5,
+            5
+          ],
+          "range": 0
+        },
+        {
+          "task_id": "T06",
+          "passes": 3,
+          "runs": 3,
+          "stable": true,
+          "scores": [
+            5,
+            5,
+            5
+          ],
+          "range": 0
+        },
+        {
+          "task_id": "T07",
+          "passes": 3,
+          "runs": 3,
+          "stable": true,
+          "scores": [
+            5,
+            5,
+            5
+          ],
+          "range": 0
+        },
+        {
+          "task_id": "T08",
+          "passes": 3,
+          "runs": 3,
+          "stable": true,
+          "scores": [
+            5,
+            5,
+            5
+          ],
+          "range": 0
+        },
+        {
+          "task_id": "T09",
+          "passes": 3,
+          "runs": 3,
+          "stable": true,
+          "scores": [
+            5,
+            5,
+            5
+          ],
+          "range": 0
+        },
+        {
+          "task_id": "T10",
+          "passes": 3,
+          "runs": 3,
+          "stable": true,
+          "scores": [
+            5,
+            5,
+            5
+          ],
+          "range": 0
+        },
+        {
+          "task_id": "T11",
+          "passes": 3,
+          "runs": 3,
+          "stable": true,
+          "scores": [
+            5,
+            5,
+            5
+          ],
+          "range": 0
+        },
+        {
+          "task_id": "T12",
+          "passes": 3,
+          "runs": 3,
+          "stable": true,
+          "scores": [
+            5,
+            5,
+            5
+          ],
+          "range": 0
+        }
+      ]
+    },
+    {
+      "model": "gpt-5.6-luna",
+      "runs": 36,
+      "passed_runs": 36,
+      "pass_rate": 1,
+      "rules_passed": 177,
+      "rules_total": 180,
+      "rule_pass_rate": 0.9833333333333333,
+      "stable_tasks": 12,
+      "critical_failures": 0,
+      "mean_score_5": 4.916666666666667,
+      "median_score_5": 5,
+      "latency_ms_p50": 2308,
+      "latency_ms_p95": 6031,
+      "input_tokens": 10872,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 7607,
+      "reasoning_tokens": 4003,
+      "estimated_cost_usd": 0.011302799999999998,
+      "by_task": [
+        {
+          "task_id": "T01",
+          "passes": 3,
+          "runs": 3,
+          "stable": true,
+          "scores": [
+            5,
+            5,
+            5
+          ],
+          "range": 0
+        },
+        {
+          "task_id": "T02",
+          "passes": 3,
+          "runs": 3,
+          "stable": true,
+          "scores": [
+            5,
+            5,
+            5
+          ],
+          "range": 0
+        },
+        {
+          "task_id": "T03",
+          "passes": 3,
+          "runs": 3,
+          "stable": true,
+          "scores": [
+            5,
+            5,
+            5
+          ],
+          "range": 0
+        },
+        {
+          "task_id": "T04",
+          "passes": 3,
+          "runs": 3,
+          "stable": true,
+          "scores": [
+            4,
+            5,
+            4
+          ],
+          "range": 1
+        },
+        {
+          "task_id": "T05",
+          "passes": 3,
+          "runs": 3,
+          "stable": true,
+          "scores": [
+            5,
+            5,
+            5
+          ],
+          "range": 0
+        },
+        {
+          "task_id": "T06",
+          "passes": 3,
+          "runs": 3,
+          "stable": true,
+          "scores": [
+            5,
+            5,
+            5
+          ],
+          "range": 0
+        },
+        {
+          "task_id": "T07",
+          "passes": 3,
+          "runs": 3,
+          "stable": true,
+          "scores": [
+            5,
+            5,
+            5
+          ],
+          "range": 0
+        },
+        {
+          "task_id": "T08",
+          "passes": 3,
+          "runs": 3,
+          "stable": true,
+          "scores": [
+            5,
+            4,
+            5
+          ],
+          "range": 1
+        },
+        {
+          "task_id": "T09",
+          "passes": 3,
+          "runs": 3,
+          "stable": true,
+          "scores": [
+            5,
+            5,
+            5
+          ],
+          "range": 0
+        },
+        {
+          "task_id": "T10",
+          "passes": 3,
+          "runs": 3,
+          "stable": true,
+          "scores": [
+            5,
+            5,
+            5
+          ],
+          "range": 0
+        },
+        {
+          "task_id": "T11",
+          "passes": 3,
+          "runs": 3,
+          "stable": true,
+          "scores": [
+            5,
+            5,
+            5
+          ],
+          "range": 0
+        },
+        {
+          "task_id": "T12",
+          "passes": 3,
+          "runs": 3,
+          "stable": true,
+          "scores": [
+            5,
+            5,
+            5
+          ],
+          "range": 0
+        }
+      ]
+    }
+  ]
+}

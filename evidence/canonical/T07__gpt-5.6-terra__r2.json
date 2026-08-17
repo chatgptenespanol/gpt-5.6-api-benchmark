@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.0.0",
+  "request_sha256": "99502f92f92141adfe9597856c144369cfaea2cc30dc37559e5d2b7ebeeb2198",
+  "frozen_manifest_sha256": "130d86eb9b563b8df3dd718b6ce8e1327f5a900e81742e58b3d35cf564c23c76",
+  "metadata": {
+    "run_id": "T07__gpt-5.6-terra__r2",
+    "sequence": 58,
+    "task_id": "T07",
+    "model_requested": "gpt-5.6-terra",
+    "repetition": 2,
+    "started_at_utc": "2026-08-17T11:08:21.945Z",
+    "ended_at_utc": "2026-08-17T11:08:23.154Z",
+    "latency_ms": 1189,
+    "http_status": 200,
+    "attempts": 1,
+    "response_headers": {
+      "x-request-id": "req_ec7c09cd176d4ee0972f4d060da1a650",
+      "openai-processing-ms": "950",
+      "openai-version": "2020-10-01",
+      "content-type": "application/json"
+    },
+    "response_status": "completed",
+    "output_text_chars": 141,
+    "estimated_cost_usd": 0.000824,
+    "reserved_max_cost_usd": 0.0123925,
+    "request_sha256": "99502f92f92141adfe9597856c144369cfaea2cc30dc37559e5d2b7ebeeb2198",
+    "frozen_manifest_sha256": "130d86eb9b563b8df3dd718b6ce8e1327f5a900e81742e58b3d35cf564c23c76"
+  },
+  "response": {
+    "id": "resp_0f06fca42dd1823b016a82eba63ce881a1bccdf0f65e52cb75",
+    "object": "response",
+    "created_at": 1786964902,
+    "status": "completed",
+    "incomplete_details": null,
+    "max_output_tokens": 800,
+    "model": "gpt-5.6-terra",
+    "output": [
+      {
+        "id": "msg_0f06fca42dd1823b016a82eba6de9081a197a831612eaaf6ef",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\"status\":\"needs_information\",\"can_create_plan\":false,\"missing_fields\":[\"audience\",\"market\",\"deadline\",\"budget\",\"channels\",\"success_metric\"]}"
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "low",
+      "mode": "standard",
+      "summary": null
+    },
+    "service_tier": "default",
+    "store": false,
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "description": null,
+        "name": "t07_response",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "type": "string",
+              "enum": [
+                "needs_information"
+              ]
+            },
+            "can_create_plan": {
+              "type": "boolean"
+            },
+            "missing_fields": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "audience",
+                  "market",
+                  "deadline",
+                  "budget",
+                  "channels",
+                  "success_metric"
+                ]
+              },
+              "minItems": 6,
+              "maxItems": 6
+            }
+          },
+          "required": [
+            "status",
+            "can_create_plan",
+            "missing_fields"
+          ],
+          "additionalProperties": false
+        },
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "tools": [],
+    "usage": {
+      "input_tokens": 178,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 39,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 217
+    }
+  }
+}

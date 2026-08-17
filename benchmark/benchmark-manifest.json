@@ -1,0 +1,957 @@
+{
+  "benchmark_id": "chatgpt-gratis-gpt56-neutral-es-2026-08-17",
+  "protocol_version": "gpt56-neutral-es-v1.0.0",
+  "evaluator_version": "gpt56-evaluator-v1.0.0",
+  "models": [
+    "gpt-5.6-sol",
+    "gpt-5.6-terra",
+    "gpt-5.6-luna"
+  ],
+  "repetitions_per_task_model": 3,
+  "tasks": 12,
+  "canonical_outputs_expected": 108,
+  "common_instructions": "Responde en español neutro y trabaja únicamente con los datos de la tarea. No uses fuentes externas, herramientas ni supuestos no indicados. Devuelve solo el objeto definido por el esquema JSON proporcionado.",
+  "request_config": {
+    "endpoint": "https://api.openai.com/v1/responses",
+    "reasoning": {
+      "effort": "low"
+    },
+    "max_output_tokens": 800,
+    "store": false,
+    "stream": false,
+    "tools": []
+  },
+  "rotation": [
+    [
+      "gpt-5.6-sol",
+      "gpt-5.6-terra",
+      "gpt-5.6-luna"
+    ],
+    [
+      "gpt-5.6-terra",
+      "gpt-5.6-luna",
+      "gpt-5.6-sol"
+    ],
+    [
+      "gpt-5.6-luna",
+      "gpt-5.6-sol",
+      "gpt-5.6-terra"
+    ]
+  ],
+  "jobs": [
+    {
+      "run_id": "T01__gpt-5.6-sol__r1",
+      "task_id": "T01",
+      "model": "gpt-5.6-sol",
+      "repetition": 1,
+      "sequence": 1
+    },
+    {
+      "run_id": "T01__gpt-5.6-terra__r1",
+      "task_id": "T01",
+      "model": "gpt-5.6-terra",
+      "repetition": 1,
+      "sequence": 2
+    },
+    {
+      "run_id": "T01__gpt-5.6-luna__r1",
+      "task_id": "T01",
+      "model": "gpt-5.6-luna",
+      "repetition": 1,
+      "sequence": 3
+    },
+    {
+      "run_id": "T01__gpt-5.6-terra__r2",
+      "task_id": "T01",
+      "model": "gpt-5.6-terra",
+      "repetition": 2,
+      "sequence": 4
+    },
+    {
+      "run_id": "T01__gpt-5.6-luna__r2",
+      "task_id": "T01",
+      "model": "gpt-5.6-luna",
+      "repetition": 2,
+      "sequence": 5
+    },
+    {
+      "run_id": "T01__gpt-5.6-sol__r2",
+      "task_id": "T01",
+      "model": "gpt-5.6-sol",
+      "repetition": 2,
+      "sequence": 6
+    },
+    {
+      "run_id": "T01__gpt-5.6-luna__r3",
+      "task_id": "T01",
+      "model": "gpt-5.6-luna",
+      "repetition": 3,
+      "sequence": 7
+    },
+    {
+      "run_id": "T01__gpt-5.6-sol__r3",
+      "task_id": "T01",
+      "model": "gpt-5.6-sol",
+      "repetition": 3,
+      "sequence": 8
+    },
+    {
+      "run_id": "T01__gpt-5.6-terra__r3",
+      "task_id": "T01",
+      "model": "gpt-5.6-terra",
+      "repetition": 3,
+      "sequence": 9
+    },
+    {
+      "run_id": "T02__gpt-5.6-sol__r1",
+      "task_id": "T02",
+      "model": "gpt-5.6-sol",
+      "repetition": 1,
+      "sequence": 10
+    },
+    {
+      "run_id": "T02__gpt-5.6-terra__r1",
+      "task_id": "T02",
+      "model": "gpt-5.6-terra",
+      "repetition": 1,
+      "sequence": 11
+    },
+    {
+      "run_id": "T02__gpt-5.6-luna__r1",
+      "task_id": "T02",
+      "model": "gpt-5.6-luna",
+      "repetition": 1,
+      "sequence": 12
+    },
+    {
+      "run_id": "T02__gpt-5.6-terra__r2",
+      "task_id": "T02",
+      "model": "gpt-5.6-terra",
+      "repetition": 2,
+      "sequence": 13
+    },
+    {
+      "run_id": "T02__gpt-5.6-luna__r2",
+      "task_id": "T02",
+      "model": "gpt-5.6-luna",
+      "repetition": 2,
+      "sequence": 14
+    },
+    {
+      "run_id": "T02__gpt-5.6-sol__r2",
+      "task_id": "T02",
+      "model": "gpt-5.6-sol",
+      "repetition": 2,
+      "sequence": 15
+    },
+    {
+      "run_id": "T02__gpt-5.6-luna__r3",
+      "task_id": "T02",
+      "model": "gpt-5.6-luna",
+      "repetition": 3,
+      "sequence": 16
+    },
+    {
+      "run_id": "T02__gpt-5.6-sol__r3",
+      "task_id": "T02",
+      "model": "gpt-5.6-sol",
+      "repetition": 3,
+      "sequence": 17
+    },
+    {
+      "run_id": "T02__gpt-5.6-terra__r3",
+      "task_id": "T02",
+      "model": "gpt-5.6-terra",
+      "repetition": 3,
+      "sequence": 18
+    },
+    {
+      "run_id": "T03__gpt-5.6-sol__r1",
+      "task_id": "T03",
+      "model": "gpt-5.6-sol",
+      "repetition": 1,
+      "sequence": 19
+    },
+    {
+      "run_id": "T03__gpt-5.6-terra__r1",
+      "task_id": "T03",
+      "model": "gpt-5.6-terra",
+      "repetition": 1,
+      "sequence": 20
+    },
+    {
+      "run_id": "T03__gpt-5.6-luna__r1",
+      "task_id": "T03",
+      "model": "gpt-5.6-luna",
+      "repetition": 1,
+      "sequence": 21
+    },
+    {
+      "run_id": "T03__gpt-5.6-terra__r2",
+      "task_id": "T03",
+      "model": "gpt-5.6-terra",
+      "repetition": 2,
+      "sequence": 22
+    },
+    {
+      "run_id": "T03__gpt-5.6-luna__r2",
+      "task_id": "T03",
+      "model": "gpt-5.6-luna",
+      "repetition": 2,
+      "sequence": 23
+    },
+    {
+      "run_id": "T03__gpt-5.6-sol__r2",
+      "task_id": "T03",
+      "model": "gpt-5.6-sol",
+      "repetition": 2,
+      "sequence": 24
+    },
+    {
+      "run_id": "T03__gpt-5.6-luna__r3",
+      "task_id": "T03",
+      "model": "gpt-5.6-luna",
+      "repetition": 3,
+      "sequence": 25
+    },
+    {
+      "run_id": "T03__gpt-5.6-sol__r3",
+      "task_id": "T03",
+      "model": "gpt-5.6-sol",
+      "repetition": 3,
+      "sequence": 26
+    },
+    {
+      "run_id": "T03__gpt-5.6-terra__r3",
+      "task_id": "T03",
+      "model": "gpt-5.6-terra",
+      "repetition": 3,
+      "sequence": 27
+    },
+    {
+      "run_id": "T04__gpt-5.6-sol__r1",
+      "task_id": "T04",
+      "model": "gpt-5.6-sol",
+      "repetition": 1,
+      "sequence": 28
+    },
+    {
+      "run_id": "T04__gpt-5.6-terra__r1",
+      "task_id": "T04",
+      "model": "gpt-5.6-terra",
+      "repetition": 1,
+      "sequence": 29
+    },
+    {
+      "run_id": "T04__gpt-5.6-luna__r1",
+      "task_id": "T04",
+      "model": "gpt-5.6-luna",
+      "repetition": 1,
+      "sequence": 30
+    },
+    {
+      "run_id": "T04__gpt-5.6-terra__r2",
+      "task_id": "T04",
+      "model": "gpt-5.6-terra",
+      "repetition": 2,
+      "sequence": 31
+    },
+    {
+      "run_id": "T04__gpt-5.6-luna__r2",
+      "task_id": "T04",
+      "model": "gpt-5.6-luna",
+      "repetition": 2,
+      "sequence": 32
+    },
+    {
+      "run_id": "T04__gpt-5.6-sol__r2",
+      "task_id": "T04",
+      "model": "gpt-5.6-sol",
+      "repetition": 2,
+      "sequence": 33
+    },
+    {
+      "run_id": "T04__gpt-5.6-luna__r3",
+      "task_id": "T04",
+      "model": "gpt-5.6-luna",
+      "repetition": 3,
+      "sequence": 34
+    },
+    {
+      "run_id": "T04__gpt-5.6-sol__r3",
+      "task_id": "T04",
+      "model": "gpt-5.6-sol",
+      "repetition": 3,
+      "sequence": 35
+    },
+    {
+      "run_id": "T04__gpt-5.6-terra__r3",
+      "task_id": "T04",
+      "model": "gpt-5.6-terra",
+      "repetition": 3,
+      "sequence": 36
+    },
+    {
+      "run_id": "T05__gpt-5.6-sol__r1",
+      "task_id": "T05",
+      "model": "gpt-5.6-sol",
+      "repetition": 1,
+      "sequence": 37
+    },
+    {
+      "run_id": "T05__gpt-5.6-terra__r1",
+      "task_id": "T05",
+      "model": "gpt-5.6-terra",
+      "repetition": 1,
+      "sequence": 38
+    },
+    {
+      "run_id": "T05__gpt-5.6-luna__r1",
+      "task_id": "T05",
+      "model": "gpt-5.6-luna",
+      "repetition": 1,
+      "sequence": 39
+    },
+    {
+      "run_id": "T05__gpt-5.6-terra__r2",
+      "task_id": "T05",
+      "model": "gpt-5.6-terra",
+      "repetition": 2,
+      "sequence": 40
+    },
+    {
+      "run_id": "T05__gpt-5.6-luna__r2",
+      "task_id": "T05",
+      "model": "gpt-5.6-luna",
+      "repetition": 2,
+      "sequence": 41
+    },
+    {
+      "run_id": "T05__gpt-5.6-sol__r2",
+      "task_id": "T05",
+      "model": "gpt-5.6-sol",
+      "repetition": 2,
+      "sequence": 42
+    },
+    {
+      "run_id": "T05__gpt-5.6-luna__r3",
+      "task_id": "T05",
+      "model": "gpt-5.6-luna",
+      "repetition": 3,
+      "sequence": 43
+    },
+    {
+      "run_id": "T05__gpt-5.6-sol__r3",
+      "task_id": "T05",
+      "model": "gpt-5.6-sol",
+      "repetition": 3,
+      "sequence": 44
+    },
+    {
+      "run_id": "T05__gpt-5.6-terra__r3",
+      "task_id": "T05",
+      "model": "gpt-5.6-terra",
+      "repetition": 3,
+      "sequence": 45
+    },
+    {
+      "run_id": "T06__gpt-5.6-sol__r1",
+      "task_id": "T06",
+      "model": "gpt-5.6-sol",
+      "repetition": 1,
+      "sequence": 46
+    },
+    {
+      "run_id": "T06__gpt-5.6-terra__r1",
+      "task_id": "T06",
+      "model": "gpt-5.6-terra",
+      "repetition": 1,
+      "sequence": 47
+    },
+    {
+      "run_id": "T06__gpt-5.6-luna__r1",
+      "task_id": "T06",
+      "model": "gpt-5.6-luna",
+      "repetition": 1,
+      "sequence": 48
+    },
+    {
+      "run_id": "T06__gpt-5.6-terra__r2",
+      "task_id": "T06",
+      "model": "gpt-5.6-terra",
+      "repetition": 2,
+      "sequence": 49
+    },
+    {
+      "run_id": "T06__gpt-5.6-luna__r2",
+      "task_id": "T06",
+      "model": "gpt-5.6-luna",
+      "repetition": 2,
+      "sequence": 50
+    },
+    {
+      "run_id": "T06__gpt-5.6-sol__r2",
+      "task_id": "T06",
+      "model": "gpt-5.6-sol",
+      "repetition": 2,
+      "sequence": 51
+    },
+    {
+      "run_id": "T06__gpt-5.6-luna__r3",
+      "task_id": "T06",
+      "model": "gpt-5.6-luna",
+      "repetition": 3,
+      "sequence": 52
+    },
+    {
+      "run_id": "T06__gpt-5.6-sol__r3",
+      "task_id": "T06",
+      "model": "gpt-5.6-sol",
+      "repetition": 3,
+      "sequence": 53
+    },
+    {
+      "run_id": "T06__gpt-5.6-terra__r3",
+      "task_id": "T06",
+      "model": "gpt-5.6-terra",
+      "repetition": 3,
+      "sequence": 54
+    },
+    {
+      "run_id": "T07__gpt-5.6-sol__r1",
+      "task_id": "T07",
+      "model": "gpt-5.6-sol",
+      "repetition": 1,
+      "sequence": 55
+    },
+    {
+      "run_id": "T07__gpt-5.6-terra__r1",
+      "task_id": "T07",
+      "model": "gpt-5.6-terra",
+      "repetition": 1,
+      "sequence": 56
+    },
+    {
+      "run_id": "T07__gpt-5.6-luna__r1",
+      "task_id": "T07",
+      "model": "gpt-5.6-luna",
+      "repetition": 1,
+      "sequence": 57
+    },
+    {
+      "run_id": "T07__gpt-5.6-terra__r2",
+      "task_id": "T07",
+      "model": "gpt-5.6-terra",
+      "repetition": 2,
+      "sequence": 58
+    },
+    {
+      "run_id": "T07__gpt-5.6-luna__r2",
+      "task_id": "T07",
+      "model": "gpt-5.6-luna",
+      "repetition": 2,
+      "sequence": 59
+    },
+    {
+      "run_id": "T07__gpt-5.6-sol__r2",
+      "task_id": "T07",
+      "model": "gpt-5.6-sol",
+      "repetition": 2,
+      "sequence": 60
+    },
+    {
+      "run_id": "T07__gpt-5.6-luna__r3",
+      "task_id": "T07",
+      "model": "gpt-5.6-luna",
+      "repetition": 3,
+      "sequence": 61
+    },
+    {
+      "run_id": "T07__gpt-5.6-sol__r3",
+      "task_id": "T07",
+      "model": "gpt-5.6-sol",
+      "repetition": 3,
+      "sequence": 62
+    },
+    {
+      "run_id": "T07__gpt-5.6-terra__r3",
+      "task_id": "T07",
+      "model": "gpt-5.6-terra",
+      "repetition": 3,
+      "sequence": 63
+    },
+    {
+      "run_id": "T08__gpt-5.6-sol__r1",
+      "task_id": "T08",
+      "model": "gpt-5.6-sol",
+      "repetition": 1,
+      "sequence": 64
+    },
+    {
+      "run_id": "T08__gpt-5.6-terra__r1",
+      "task_id": "T08",
+      "model": "gpt-5.6-terra",
+      "repetition": 1,
+      "sequence": 65
+    },
+    {
+      "run_id": "T08__gpt-5.6-luna__r1",
+      "task_id": "T08",
+      "model": "gpt-5.6-luna",
+      "repetition": 1,
+      "sequence": 66
+    },
+    {
+      "run_id": "T08__gpt-5.6-terra__r2",
+      "task_id": "T08",
+      "model": "gpt-5.6-terra",
+      "repetition": 2,
+      "sequence": 67
+    },
+    {
+      "run_id": "T08__gpt-5.6-luna__r2",
+      "task_id": "T08",
+      "model": "gpt-5.6-luna",
+      "repetition": 2,
+      "sequence": 68
+    },
+    {
+      "run_id": "T08__gpt-5.6-sol__r2",
+      "task_id": "T08",
+      "model": "gpt-5.6-sol",
+      "repetition": 2,
+      "sequence": 69
+    },
+    {
+      "run_id": "T08__gpt-5.6-luna__r3",
+      "task_id": "T08",
+      "model": "gpt-5.6-luna",
+      "repetition": 3,
+      "sequence": 70
+    },
+    {
+      "run_id": "T08__gpt-5.6-sol__r3",
+      "task_id": "T08",
+      "model": "gpt-5.6-sol",
+      "repetition": 3,
+      "sequence": 71
+    },
+    {
+      "run_id": "T08__gpt-5.6-terra__r3",
+      "task_id": "T08",
+      "model": "gpt-5.6-terra",
+      "repetition": 3,
+      "sequence": 72
+    },
+    {
+      "run_id": "T09__gpt-5.6-sol__r1",
+      "task_id": "T09",
+      "model": "gpt-5.6-sol",
+      "repetition": 1,
+      "sequence": 73
+    },
+    {
+      "run_id": "T09__gpt-5.6-terra__r1",
+      "task_id": "T09",
+      "model": "gpt-5.6-terra",
+      "repetition": 1,
+      "sequence": 74
+    },
+    {
+      "run_id": "T09__gpt-5.6-luna__r1",
+      "task_id": "T09",
+      "model": "gpt-5.6-luna",
+      "repetition": 1,
+      "sequence": 75
+    },
+    {
+      "run_id": "T09__gpt-5.6-terra__r2",
+      "task_id": "T09",
+      "model": "gpt-5.6-terra",
+      "repetition": 2,
+      "sequence": 76
+    },
+    {
+      "run_id": "T09__gpt-5.6-luna__r2",
+      "task_id": "T09",
+      "model": "gpt-5.6-luna",
+      "repetition": 2,
+      "sequence": 77
+    },
+    {
+      "run_id": "T09__gpt-5.6-sol__r2",
+      "task_id": "T09",
+      "model": "gpt-5.6-sol",
+      "repetition": 2,
+      "sequence": 78
+    },
+    {
+      "run_id": "T09__gpt-5.6-luna__r3",
+      "task_id": "T09",
+      "model": "gpt-5.6-luna",
+      "repetition": 3,
+      "sequence": 79
+    },
+    {
+      "run_id": "T09__gpt-5.6-sol__r3",
+      "task_id": "T09",
+      "model": "gpt-5.6-sol",
+      "repetition": 3,
+      "sequence": 80
+    },
+    {
+      "run_id": "T09__gpt-5.6-terra__r3",
+      "task_id": "T09",
+      "model": "gpt-5.6-terra",
+      "repetition": 3,
+      "sequence": 81
+    },
+    {
+      "run_id": "T10__gpt-5.6-sol__r1",
+      "task_id": "T10",
+      "model": "gpt-5.6-sol",
+      "repetition": 1,
+      "sequence": 82
+    },
+    {
+      "run_id": "T10__gpt-5.6-terra__r1",
+      "task_id": "T10",
+      "model": "gpt-5.6-terra",
+      "repetition": 1,
+      "sequence": 83
+    },
+    {
+      "run_id": "T10__gpt-5.6-luna__r1",
+      "task_id": "T10",
+      "model": "gpt-5.6-luna",
+      "repetition": 1,
+      "sequence": 84
+    },
+    {
+      "run_id": "T10__gpt-5.6-terra__r2",
+      "task_id": "T10",
+      "model": "gpt-5.6-terra",
+      "repetition": 2,
+      "sequence": 85
+    },
+    {
+      "run_id": "T10__gpt-5.6-luna__r2",
+      "task_id": "T10",
+      "model": "gpt-5.6-luna",
+      "repetition": 2,
+      "sequence": 86
+    },
+    {
+      "run_id": "T10__gpt-5.6-sol__r2",
+      "task_id": "T10",
+      "model": "gpt-5.6-sol",
+      "repetition": 2,
+      "sequence": 87
+    },
+    {
+      "run_id": "T10__gpt-5.6-luna__r3",
+      "task_id": "T10",
+      "model": "gpt-5.6-luna",
+      "repetition": 3,
+      "sequence": 88
+    },
+    {
+      "run_id": "T10__gpt-5.6-sol__r3",
+      "task_id": "T10",
+      "model": "gpt-5.6-sol",
+      "repetition": 3,
+      "sequence": 89
+    },
+    {
+      "run_id": "T10__gpt-5.6-terra__r3",
+      "task_id": "T10",
+      "model": "gpt-5.6-terra",
+      "repetition": 3,
+      "sequence": 90
+    },
+    {
+      "run_id": "T11__gpt-5.6-sol__r1",
+      "task_id": "T11",
+      "model": "gpt-5.6-sol",
+      "repetition": 1,
+      "sequence": 91
+    },
+    {
+      "run_id": "T11__gpt-5.6-terra__r1",
+      "task_id": "T11",
+      "model": "gpt-5.6-terra",
+      "repetition": 1,
+      "sequence": 92
+    },
+    {
+      "run_id": "T11__gpt-5.6-luna__r1",
+      "task_id": "T11",
+      "model": "gpt-5.6-luna",
+      "repetition": 1,
+      "sequence": 93
+    },
+    {
+      "run_id": "T11__gpt-5.6-terra__r2",
+      "task_id": "T11",
+      "model": "gpt-5.6-terra",
+      "repetition": 2,
+      "sequence": 94
+    },
+    {
+      "run_id": "T11__gpt-5.6-luna__r2",
+      "task_id": "T11",
+      "model": "gpt-5.6-luna",
+      "repetition": 2,
+      "sequence": 95
+    },
+    {
+      "run_id": "T11__gpt-5.6-sol__r2",
+      "task_id": "T11",
+      "model": "gpt-5.6-sol",
+      "repetition": 2,
+      "sequence": 96
+    },
+    {
+      "run_id": "T11__gpt-5.6-luna__r3",
+      "task_id": "T11",
+      "model": "gpt-5.6-luna",
+      "repetition": 3,
+      "sequence": 97
+    },
+    {
+      "run_id": "T11__gpt-5.6-sol__r3",
+      "task_id": "T11",
+      "model": "gpt-5.6-sol",
+      "repetition": 3,
+      "sequence": 98
+    },
+    {
+      "run_id": "T11__gpt-5.6-terra__r3",
+      "task_id": "T11",
+      "model": "gpt-5.6-terra",
+      "repetition": 3,
+      "sequence": 99
+    },
+    {
+      "run_id": "T12__gpt-5.6-sol__r1",
+      "task_id": "T12",
+      "model": "gpt-5.6-sol",
+      "repetition": 1,
+      "sequence": 100
+    },
+    {
+      "run_id": "T12__gpt-5.6-terra__r1",
+      "task_id": "T12",
+      "model": "gpt-5.6-terra",
+      "repetition": 1,
+      "sequence": 101
+    },
+    {
+      "run_id": "T12__gpt-5.6-luna__r1",
+      "task_id": "T12",
+      "model": "gpt-5.6-luna",
+      "repetition": 1,
+      "sequence": 102
+    },
+    {
+      "run_id": "T12__gpt-5.6-terra__r2",
+      "task_id": "T12",
+      "model": "gpt-5.6-terra",
+      "repetition": 2,
+      "sequence": 103
+    },
+    {
+      "run_id": "T12__gpt-5.6-luna__r2",
+      "task_id": "T12",
+      "model": "gpt-5.6-luna",
+      "repetition": 2,
+      "sequence": 104
+    },
+    {
+      "run_id": "T12__gpt-5.6-sol__r2",
+      "task_id": "T12",
+      "model": "gpt-5.6-sol",
+      "repetition": 2,
+      "sequence": 105
+    },
+    {
+      "run_id": "T12__gpt-5.6-luna__r3",
+      "task_id": "T12",
+      "model": "gpt-5.6-luna",
+      "repetition": 3,
+      "sequence": 106
+    },
+    {
+      "run_id": "T12__gpt-5.6-sol__r3",
+      "task_id": "T12",
+      "model": "gpt-5.6-sol",
+      "repetition": 3,
+      "sequence": 107
+    },
+    {
+      "run_id": "T12__gpt-5.6-terra__r3",
+      "task_id": "T12",
+      "model": "gpt-5.6-terra",
+      "repetition": 3,
+      "sequence": 108
+    }
+  ],
+  "task_summary": [
+    {
+      "id": "T01",
+      "title": "Extracción y normalización de incidencias",
+      "domain": "extraccion",
+      "rules": [
+        "R1: esquema JSON válido",
+        "R2: IDs, cantidad y orden exactos",
+        "R3: fechas y países exactos",
+        "R4: prioridades exactas",
+        "R5: categorías exactas"
+      ],
+      "critical": "Omitir, duplicar o cambiar un ID."
+    },
+    {
+      "id": "T02",
+      "title": "Cálculo de una factura en centésimos",
+      "domain": "aritmetica",
+      "rules": [
+        "R1: esquema JSON válido",
+        "R2: subtotal y descuento exactos",
+        "R3: importe tras descuento y envío exactos",
+        "R4: base e impuesto exactos",
+        "R5: total y ecuación exactos"
+      ],
+      "critical": "Total distinto de 8743 centésimos."
+    },
+    {
+      "id": "T03",
+      "title": "Agenda con zonas de exclusión",
+      "domain": "agenda",
+      "rules": [
+        "R1: esquema y cantidad exactos",
+        "R2: inicios exactos",
+        "R3: finales exactos",
+        "R4: duración, alineación, orden y unicidad",
+        "R5: sin solapamiento con reuniones o márgenes"
+      ],
+      "critical": "Cualquier solapamiento con una reunión o su margen."
+    },
+    {
+      "id": "T04",
+      "title": "Clasificación y enrutamiento de soporte",
+      "domain": "clasificacion",
+      "rules": [
+        "R1: esquema, IDs y orden exactos",
+        "R2: M1–M2 exactos",
+        "R3: M3–M4 exactos",
+        "R4: M5–M6 exactos",
+        "R5: M7–M8 exactos"
+      ],
+      "critical": "M6 no se clasifica como seguridad, no se enruta a confianza_seguridad o no se escala."
+    },
+    {
+      "id": "T05",
+      "title": "Síntesis estrictamente fundamentada",
+      "domain": "sintesis_fundamentada",
+      "rules": [
+        "R1: esquema JSON válido",
+        "R2: nombre, fechas y edad exactos",
+        "R3: formatos y tamaño exactos",
+        "R4: retención y causas de revisión exactas",
+        "R5: soporte y exclusiones exactos"
+      ],
+      "critical": "Alterar la retención o ampliar las causas de revisión humana."
+    },
+    {
+      "id": "T06",
+      "title": "Redacción breve bajo restricciones",
+      "domain": "redaccion_restringida",
+      "rules": [
+        "R1: esquema y tres variantes distintas",
+        "R2: 12–16 palabras por variante",
+        "R3: Lumen y prueba gratuita en cada variante",
+        "R4: sin las formas prohibidas de afirmaciones, moneda, porcentaje ni símbolos publicados",
+        "R5: una oración y sin los regionalismos incluidos en la lista publicada"
+      ],
+      "critical": "Omitir Lumen o prueba gratuita en cualquier variante, o incluir una forma prohibida de afirmación de la lista publicada."
+    },
+    {
+      "id": "T07",
+      "title": "Detección de información insuficiente",
+      "domain": "informacion_insuficiente",
+      "rules": [
+        "R1: esquema y estado exacto",
+        "R2: can_create_plan=false",
+        "R3: seis campos exactos",
+        "R4: orden exacto",
+        "R5: sin campos adicionales"
+      ],
+      "critical": "Afirmar que puede crearse el plan o eliminar un dato faltante."
+    },
+    {
+      "id": "T08",
+      "title": "Agregación relacional con datos cerrados",
+      "domain": "agregacion_relacional",
+      "rules": [
+        "R1: esquema y dos filas",
+        "R2: total de MX exacto",
+        "R3: total de CO exacto",
+        "R4: solo países elegibles",
+        "R5: claves y orden exactos"
+      ],
+      "critical": "Incluir un país no elegible o una fila adicional."
+    },
+    {
+      "id": "T09",
+      "title": "Fusión determinista de intervalos",
+      "domain": "transformacion_algoritmica",
+      "rules": [
+        "R1: esquema, IDs y orden exactos",
+        "R2: caso A exacto",
+        "R3: casos B y C exactos",
+        "R4: caso D prueba la contigüidad discreta",
+        "R5: caso E inválido y vacío"
+      ],
+      "critical": "Marcar E como válido o devolver intervalos para E."
+    },
+    {
+      "id": "T10",
+      "title": "Transformación determinista de inventario",
+      "domain": "transformacion_datos",
+      "rules": [
+        "R1: esquema y cantidad exactos",
+        "R2: SKU y orden exactos",
+        "R3: stock y activo exactos",
+        "R4: etiquetas exactas",
+        "R5: estados exactos"
+      ],
+      "critical": "Conservar stock negativo o marcarlo disponible."
+    },
+    {
+      "id": "T11",
+      "title": "Minimización de datos y no divulgación",
+      "domain": "privacidad",
+      "rules": [
+        "R1: esquema JSON válido",
+        "R2: estado de privacidad exacto",
+        "R3: ID y estado del pedido exactos",
+        "R4: ningún valor sensible aparece en el JSON bruto",
+        "R5: campos omitidos exactos y en orden"
+      ],
+      "critical": "Cualquier reproducción de un dato sensible."
+    },
+    {
+      "id": "T12",
+      "title": "Dependencias y camino crítico",
+      "domain": "planificacion",
+      "rules": [
+        "R1: esquema, IDs y orden exactos",
+        "R2: tiempos A–C exactos",
+        "R3: tiempos D–F exactos",
+        "R4: duración exacta",
+        "R5: caminos críticos exactos y ordenados"
+      ],
+      "critical": "Cualquier inicio o fin de tarea incorrecto, dependencia violada o duración distinta de 9."
+    }
+  ]
+}

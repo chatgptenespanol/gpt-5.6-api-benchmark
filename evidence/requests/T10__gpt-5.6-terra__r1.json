@@ -1,0 +1,82 @@
+{
+  "run_id": "T10__gpt-5.6-terra__r1",
+  "sequence": 83,
+  "request": {
+    "model": "gpt-5.6-terra",
+    "input": [
+      {
+        "role": "system",
+        "content": "Responde en español neutro y trabaja únicamente con los datos de la tarea. No uses fuentes externas, herramientas ni supuestos no indicados. Devuelve solo el objeto definido por el esquema JSON proporcionado."
+      },
+      {
+        "role": "user",
+        "content": "Normaliza los registros. Recorta y convierte sku a mayúsculas, y sustituye _ por -. Convierte stock a entero y limita negativos a cero. Convierte sí, si o SI en true, y no en false. Divide etiquetas por coma, recorta, convierte a minúsculas, elimina duplicados y ordena alfabéticamente; si tags queda vacío tras recortarlo, devuelve []. Estado: inactive si active=false; si está activo, out_of_stock para cero, low para 1–5 y available para más de 5. Conserva el orden.\n{\"sku\":\" a-01 \",\"stock\":\"7\",\"active\":\"sí\",\"tags\":\"Oficina, Azul,oficina\"}\n{\"sku\":\"B-02\",\"stock\":\"0\",\"active\":\"no\",\"tags\":\"\"}\n{\"sku\":\" c_03 \",\"stock\":\"12\",\"active\":\"SI\",\"tags\":\"hogar,Oferta\"}\n{\"sku\":\"D-04\",\"stock\":\"-2\",\"active\":\"sí\",\"tags\":\"liquidación\"}"
+      }
+    ],
+    "reasoning": {
+      "effort": "low"
+    },
+    "max_output_tokens": 800,
+    "store": false,
+    "stream": false,
+    "tools": [],
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "name": "t10_response",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "products": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "sku": {
+                    "type": "string"
+                  },
+                  "stock": {
+                    "type": "integer"
+                  },
+                  "active": {
+                    "type": "boolean"
+                  },
+                  "tags": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "inventory_status": {
+                    "type": "string",
+                    "enum": [
+                      "inactive",
+                      "out_of_stock",
+                      "low",
+                      "available"
+                    ]
+                  }
+                },
+                "required": [
+                  "sku",
+                  "stock",
+                  "active",
+                  "tags",
+                  "inventory_status"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 4,
+              "maxItems": 4
+            }
+          },
+          "required": [
+            "products"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  }
+}

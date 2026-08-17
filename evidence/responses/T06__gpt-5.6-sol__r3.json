@@ -1,0 +1,82 @@
+{
+  "id": "resp_0e67ef6dda517fc0016a82eb96e74481a29f7961af4d967385",
+  "object": "response",
+  "created_at": 1786964886,
+  "status": "completed",
+  "incomplete_details": null,
+  "max_output_tokens": 800,
+  "model": "gpt-5.6-sol",
+  "output": [
+    {
+      "id": "rs_0e67ef6dda517fc0016a82eb97c00881a292be3d108ac384da",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqguudo9TMdOfqOTQbcq_dKH4q9FLg1x6FZk9G1_zSr_Siah9ZwSRy7VQ7C75oKM-CeouUuXy0rYJbNY-BcQjBQPVYex_2LOpy18bq6oSukWQpqby9IIVwVTrSNpS1PhrTr5C_yvpwGLP760SjzM-JaKkPisFx88cRADWCg-rwXhEhWczpBYATqcgFLKmAUwkPVyDOLknJFXiz5ls23pc5F_vMtNwTh5nkpYdfhypp4i2CNw5MMwUNTAH-078f-5QBbAm1L9DYkWsONhD5SZyFGgnwyXmPDvljKradaFRkzDn9T-g59RpuSbXBwTFxC2P7sVHzkzHZmV4H4f6vTLz-Wq_di5trGRTYjBmZKJBX_Z0zqth2GZ93E5Yel5pOKF34SjjFoSCn1t3RwoEn6MMFc8VIL0C2r98hohWZgNBOOkjHn_ZqqKdB-QFq-cYZ3plIZPt70gT_fBxiU6VpHOBv6sFq_VeTzcdpwwlNjAWst6BQRl-zXE2JF6gWUfPmexjIgL50vnOkLKnFnUmBhnBHHtCjTOHVUEev95myTzHTmCv_s2FUQeSoPc7Sz3LDUUax-dlgiqqWPYHx1HJhAIwNbCzGdU1-2BKI0176OSvVtyArkiyPfot_eO1z0MEc8YZ3C3uvVJUkzvKgAvaY9kM0rF4gic4OkgZq2a-RrAjfbztxWw8MZ4tamJKPRk8iYJV3xIQCmcG9TLvRbP_IwIrr9m-ov-z67d_G3-3a4Mpu-EpfUn9837ipGmdSVOG6liJCJt5-vwBrxpw98SPmoCrfsanVQFwYuaxi2OvwRcLkY-WL-VO_es1gPDEc1PYN4rAhWb3-ABF091mKR66xYJ8vQ1nnMW8_sVJ7FPYBBcfpaixyudgkvE6WcSO8nhpo0FL9eT5fX5EXMzrQDfWIlkiTLiIF7l1afKHewM8qlLVjyaTZkPZ4fTFH7dZwrAwgPZ_nz98g6tBVttV1K7ewY8rPFxbQKJqmVzUKZu7dI8HI2cC-UpRnD_rUNhxklV_dFOH3_hzySbq4w34sIPQKlg-yUtuC-iYC53y4K3ok86JW-g4UaNi5gVC9qQmUxLuhwoyYfcLjI-C5lYqCNecqUf5ihVQV_xbbCRyi2Qqmcl5BbUBIHztUNMXg4HAAsQ8TUq-GtDgl4qPezEcBYYJAPQXpie6sFaOAsXpwKtec6aYD3oUk1-3svdirvXAqjLWGQsBIgYmJzFbNtAbxWdazM7CrQRq1RKgrCVK9nmbVwmgtsbjib1Kaw6_aCbE5l5d9vn4LXKsu5qh6OtAYW6IqZr1qn7QOrkADUoRMy5IRj9HfVcXUVKcqiz-1tOmswUaxmwkOgqo_FnTxueUXWI-AJEBl9-dN5QakAHmyBNd2u07x96ckbxUG9_HEroI1jvZy1KGC6-MsXz_GC-mtzTHtvRof2jtqs32SLQoXrMfcFxJ8mYJDXQgM_rqYTAku7AOnm0rtMMBVcImmQw3gvWEqjzmvGw4eexNlJb2x0FMhvNDtnabBj1zdZtbNn-EaQXrDprJqFP2JoNLjFUXTBUSoTKMDSrllTOcN03GXTpcf-nKVvLVmdPb1teF0LuVf86dJf1Kzqbj_LfcH0bnRBkvRN_2JNlUAyZhnqg9CPZPvrhuVbeqxPWyS6y1yRWOK519EP5a7N76f4kFyBDFQgH7jNZed4vL2MNxHOev_1A9QLnvA6SalGboOlUn-7Fybb6T3MQiTZsQGVw8pBKb1vi-3e7ojoxbSaxM3BTEPHx6dLmRg0uqJjeZSZCtpQD3IUjELCOmNuQVBj5k6858exKrpuXHgjT64dDJddi3BSmsDCSQ2As2u8WE5DmQzSTnehU1oMpAhNvBU3J_DCxT_-99JV2azTVnDmMDFlCwZ7Vu0qK3UuDV-Ovjot7PTPwOikCRsRXjDMbi4ktSJyOIr8Uvq3WgicLsqjH3bQPqe6eRJ1fW1p2-5y_czrASSt4DS6XubxJxlylCPAdLlY_7KdyMFQK1M9EWFsX5ep9pg2jVcPQomWf99gM5nZMPsR0HUC0W3qwaGzK_Edv2ZxRXlaAWVfMtmNWoafZgg6oY_3HlUqN9Ix5LUff35JWmTgSAHG06PxUVrPFIRrxZRuOogoMvZ51MUFdbPryr288TruNRK0mK3GB1Qq50cmbMqG_JmzS5xXyXENl0w",
+      "summary": []
+    },
+    {
+      "id": "msg_0e67ef6dda517fc0016a82eb9c34d081a29e35fade41274659",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"variants\":[\"Descubre nuevas posibilidades con Lumen y activa hoy tu prueba gratuita fácilmente.\",\"Conoce Lumen a tu ritmo y comienza ahora una prueba gratuita sencilla.\",\"¿Quieres explorar Lumen y descubrir cómo funciona con una prueba gratuita hoy?\"]}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "service_tier": "default",
+  "store": false,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "t06_response",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "variants": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 180
+            },
+            "minItems": 3,
+            "maxItems": 3
+          }
+        },
+        "required": [
+          "variants"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tools": [],
+  "usage": {
+    "input_tokens": 357,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 240,
+    "output_tokens_details": {
+      "reasoning_tokens": 179
+    },
+    "total_tokens": 597
+  }
+}

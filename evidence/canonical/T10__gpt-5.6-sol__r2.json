@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.0.0",
+  "request_sha256": "a62a62bc658afb0dad9abb21e706010e2036bc02cb6ade81162db22c75f8abf7",
+  "frozen_manifest_sha256": "130d86eb9b563b8df3dd718b6ce8e1327f5a900e81742e58b3d35cf564c23c76",
+  "metadata": {
+    "run_id": "T10__gpt-5.6-sol__r2",
+    "sequence": 87,
+    "task_id": "T10",
+    "model_requested": "gpt-5.6-sol",
+    "repetition": 2,
+    "started_at_utc": "2026-08-17T11:09:35.461Z",
+    "ended_at_utc": "2026-08-17T11:09:37.866Z",
+    "latency_ms": 2388,
+    "http_status": 200,
+    "attempts": 1,
+    "response_headers": {
+      "x-request-id": "req_665c186110324d1c8e9da4477ce62ff3",
+      "openai-processing-ms": "2157",
+      "openai-version": "2020-10-01",
+      "content-type": "application/json"
+    },
+    "response_status": "completed",
+    "output_text_chars": 383,
+    "estimated_cost_usd": 0.005325,
+    "reserved_max_cost_usd": 0.0351,
+    "request_sha256": "a62a62bc658afb0dad9abb21e706010e2036bc02cb6ade81162db22c75f8abf7",
+    "frozen_manifest_sha256": "130d86eb9b563b8df3dd718b6ce8e1327f5a900e81742e58b3d35cf564c23c76"
+  },
+  "response": {
+    "id": "resp_0a24219290b1b677016a82ebefbd8881a18d2dd05e5760d9c2",
+    "object": "response",
+    "created_at": 1786964975,
+    "status": "completed",
+    "incomplete_details": null,
+    "max_output_tokens": 800,
+    "model": "gpt-5.6-sol",
+    "output": [
+      {
+        "id": "msg_0a24219290b1b677016a82ebf0a90081a19499330e530dfd21",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\"products\":[{\"sku\":\"A-01\",\"stock\":7,\"active\":true,\"tags\":[\"azul\",\"oficina\"],\"inventory_status\":\"available\"},{\"sku\":\"B-02\",\"stock\":0,\"active\":false,\"tags\":[],\"inventory_status\":\"inactive\"},{\"sku\":\"C-03\",\"stock\":12,\"active\":true,\"tags\":[\"hogar\",\"oferta\"],\"inventory_status\":\"available\"},{\"sku\":\"D-04\",\"stock\":0,\"active\":true,\"tags\":[\"liquidación\"],\"inventory_status\":\"out_of_stock\"}]}"
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "low",
+      "mode": "standard",
+      "summary": null
+    },
+    "service_tier": "default",
+    "store": false,
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "description": null,
+        "name": "t10_response",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "products": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "sku": {
+                    "type": "string"
+                  },
+                  "stock": {
+                    "type": "integer"
+                  },
+                  "active": {
+                    "type": "boolean"
+                  },
+                  "tags": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "inventory_status": {
+                    "type": "string",
+                    "enum": [
+                      "inactive",
+                      "out_of_stock",
+                      "low",
+                      "available"
+                    ]
+                  }
+                },
+                "required": [
+                  "sku",
+                  "stock",
+                  "active",
+                  "tags",
+                  "inventory_status"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 4,
+              "maxItems": 4
+            }
+          },
+          "required": [
+            "products"
+          ],
+          "additionalProperties": false
+        },
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "tools": [],
+    "usage": {
+      "input_tokens": 345,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 120,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 465
+    }
+  }
+}

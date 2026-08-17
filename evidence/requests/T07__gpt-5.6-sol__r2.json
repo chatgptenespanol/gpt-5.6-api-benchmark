@@ -1,0 +1,67 @@
+{
+  "run_id": "T07__gpt-5.6-sol__r2",
+  "sequence": 60,
+  "request": {
+    "model": "gpt-5.6-sol",
+    "input": [
+      {
+        "role": "system",
+        "content": "Responde en español neutro y trabaja únicamente con los datos de la tarea. No uses fuentes externas, herramientas ni supuestos no indicados. Devuelve solo el objeto definido por el esquema JSON proporcionado."
+      },
+      {
+        "role": "user",
+        "content": "El usuario solo dice: «Prepara el plan para lanzar el producto». No inventes un plan. Devuelve status=needs_information, can_create_plan=false y la lista exacta de datos faltantes en este orden: audience, market, deadline, budget, channels, success_metric."
+      }
+    ],
+    "reasoning": {
+      "effort": "low"
+    },
+    "max_output_tokens": 800,
+    "store": false,
+    "stream": false,
+    "tools": [],
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "name": "t07_response",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "type": "string",
+              "enum": [
+                "needs_information"
+              ]
+            },
+            "can_create_plan": {
+              "type": "boolean"
+            },
+            "missing_fields": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "audience",
+                  "market",
+                  "deadline",
+                  "budget",
+                  "channels",
+                  "success_metric"
+                ]
+              },
+              "minItems": 6,
+              "maxItems": 6
+            }
+          },
+          "required": [
+            "status",
+            "can_create_plan",
+            "missing_fields"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "schema_version": "1.0.0",
+  "run_id": "T01__gpt-5.6-luna__r1",
+  "attempt": 1,
+  "started_at_utc": "2026-08-17T11:04:32.219Z",
+  "request_sha256": "2478d55bf56863b345130c885bf3c57a428b0a8f4d7388d0e9c6ad5ba405563d",
+  "frozen_manifest_sha256": "130d86eb9b563b8df3dd718b6ce8e1327f5a900e81742e58b3d35cf564c23c76",
+  "reserved_max_cost_usd": 0.00139025
+}

@@ -1,0 +1,80 @@
+{
+  "run_id": "T09__gpt-5.6-sol__r1",
+  "sequence": 73,
+  "request": {
+    "model": "gpt-5.6-sol",
+    "input": [
+      {
+        "role": "system",
+        "content": "Responde en español neutro y trabaja únicamente con los datos de la tarea. No uses fuentes externas, herramientas ni supuestos no indicados. Devuelve solo el objeto definido por el esquema JSON proporcionado."
+      },
+      {
+        "role": "user",
+        "content": "Fusiona intervalos cerrados de enteros sin escribir ni ejecutar código. Ordena por inicio. Dos intervalos se consideran solapados o contiguos si inicio_siguiente <= fin_actual + 1. Para un caso vacío devuelve una lista vacía. Si algún inicio es mayor que su fin, marca valid=false y devuelve merged=[]. Casos: A [[1,3],[2,5],[8,10],[10,12]]; B [[-3,-1],[5,6],[0,2],[-1,0]]; C []; D [[1,3],[4,5],[9,9]]; E [[4,1]]. Conserva el orden A–E."
+      }
+    ],
+    "reasoning": {
+      "effort": "low"
+    },
+    "max_output_tokens": 800,
+    "store": false,
+    "stream": false,
+    "tools": [],
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "name": "t09_response",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "cases": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string",
+                    "enum": [
+                      "A",
+                      "B",
+                      "C",
+                      "D",
+                      "E"
+                    ]
+                  },
+                  "valid": {
+                    "type": "boolean"
+                  },
+                  "merged": {
+                    "type": "array",
+                    "items": {
+                      "type": "array",
+                      "items": {
+                        "type": "integer"
+                      },
+                      "minItems": 2,
+                      "maxItems": 2
+                    }
+                  }
+                },
+                "required": [
+                  "id",
+                  "valid",
+                  "merged"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 5,
+              "maxItems": 5
+            }
+          },
+          "required": [
+            "cases"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  }
+}

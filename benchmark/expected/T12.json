@@ -1,0 +1,49 @@
+{
+  "schedule": [
+    {
+      "id": "A",
+      "start": 0,
+      "end": 2
+    },
+    {
+      "id": "B",
+      "start": 2,
+      "end": 5
+    },
+    {
+      "id": "C",
+      "start": 2,
+      "end": 6
+    },
+    {
+      "id": "D",
+      "start": 5,
+      "end": 7
+    },
+    {
+      "id": "E",
+      "start": 6,
+      "end": 7
+    },
+    {
+      "id": "F",
+      "start": 7,
+      "end": 9
+    }
+  ],
+  "project_duration": 9,
+  "critical_paths": [
+    [
+      "A",
+      "B",
+      "D",
+      "F"
+    ],
+    [
+      "A",
+      "C",
+      "E",
+      "F"
+    ]
+  ]
+}

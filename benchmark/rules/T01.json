@@ -1,0 +1,11 @@
+{
+  "task_id": "T01",
+  "rules": [
+    "R1: esquema JSON válido",
+    "R2: IDs, cantidad y orden exactos",
+    "R3: fechas y países exactos",
+    "R4: prioridades exactas",
+    "R5: categorías exactas"
+  ],
+  "critical_failure": "Omitir, duplicar o cambiar un ID."
+}

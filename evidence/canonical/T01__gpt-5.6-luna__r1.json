@@ -1,0 +1,156 @@
+{
+  "schema_version": "1.0.0",
+  "request_sha256": "2478d55bf56863b345130c885bf3c57a428b0a8f4d7388d0e9c6ad5ba405563d",
+  "frozen_manifest_sha256": "130d86eb9b563b8df3dd718b6ce8e1327f5a900e81742e58b3d35cf564c23c76",
+  "metadata": {
+    "run_id": "T01__gpt-5.6-luna__r1",
+    "sequence": 3,
+    "task_id": "T01",
+    "model_requested": "gpt-5.6-luna",
+    "repetition": 1,
+    "started_at_utc": "2026-08-17T11:04:32.219Z",
+    "ended_at_utc": "2026-08-17T11:04:34.982Z",
+    "latency_ms": 2759,
+    "http_status": 200,
+    "attempts": 1,
+    "response_headers": {
+      "x-request-id": "req_17e1441ed86d4e95a20f095f7e44c380",
+      "openai-processing-ms": "2294",
+      "openai-version": "2020-10-01",
+      "content-type": "application/json"
+    },
+    "response_status": "completed",
+    "output_text_chars": 561,
+    "estimated_cost_usd": 0.0003608,
+    "reserved_max_cost_usd": 0.00139025,
+    "request_sha256": "2478d55bf56863b345130c885bf3c57a428b0a8f4d7388d0e9c6ad5ba405563d",
+    "frozen_manifest_sha256": "130d86eb9b563b8df3dd718b6ce8e1327f5a900e81742e58b3d35cf564c23c76"
+  },
+  "response": {
+    "id": "resp_078fe285e1170992016a82eac0b2fc819f872088a68a997658",
+    "object": "response",
+    "created_at": 1786964672,
+    "status": "completed",
+    "incomplete_details": null,
+    "max_output_tokens": 800,
+    "model": "gpt-5.6-luna",
+    "output": [
+      {
+        "id": "rs_078fe285e1170992016a82eac17428819fa287b6146d3d2765",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqgurCCiOeOfWR6XFzCuPEV4HspljWpvtcmpE9G1yjiD_Z_0WFIuSTPYeG8S1lk0aGMVmkYC-sztSubDJmS9Y9jJYYkeLvztZ6FzfKl9AXShS6_mCiO1fIa6N9DQzUWTyhUEcCyjU5Ea2C44EXyRoAaEMfeB4uqvOXMC8N_g3GvE-wfNJmoWXMHChzQy8V7nY_kzSsb-bqWiPlChz7BxBwkPY_NNAYZDtSf9ZkQp6vDOgoh76LSCNzHRtOW2d0RRZt_Bhzb3ve0IkWt5bqD3l4ixXxOKaTf7-HUb9dVHQtsHGWaaH4WZcN8KKGJpZVqsH4FqaKQhqLS4wYq9xBLejwVCmGbMcuUv5V3Bb9tmjARSZbtTWP5STzGkm0IiDf8c8U5-_UQGoOm6zxosnwUzrpGbY5XaY_dcLbgjHVmKGEOO3Z3ZH_whwDw9BhBMuQp8SVkG3H6KvqHjURG482Qou81epT3KwgT4P0mun0cyYCtxd8M30li6xo-E3N4RP4HPSPFt2tCCypA8b0m7brooiur4WYK6FyZzwkMReaFGYQvfKjYHz8XB0SY_RST-Kmxog0_ptTWO99Hmssk7uVVR0-Y-4Vabmin4KK3s-0OLbj9XX7KgpHqR9yolfsYqaIfrQGOlo9JeUtijkwzig39BsPo5ibce5yMUYsAkVpHz0ocClohelqoHDiIJbVM1mdENKc09FHxqbjx5_PVn0FYIfDyXkz9NDYjDo7X4ALfgDZ0tPeL5_PBJBm67i79IUTQwdR7VfJutThWuqLwXu_-FGv6qscggU0lMWPpyCEet3ew3PfqaTNm_aZtm-e47ybhjPh1kqVAtgW6a1DHpTAzrto_YeYc6IM6-s4xgJI7EESocieOX7agiwQJu3MZ38dlvmwrUPc8F_rqp5KqIqyiA1mQyjyghGHLVHz39HRYefGDd8VQ5L2zef1orfQRyQMjn88ryAX8F79jOfpz6MUTXAZNfD_PlgtcQlDSAlgDM3yjgSbH0JSHUAbvJitMgzLqeF-LM_fKzu06NhISdkq6UTEWZDNvEhLb6dVG7RqwIfy-dvG1iXNFfqKG1vAHSggqahhPO6bi-EitdX5GBQSmMn_yZPul9PZ6O5Siz8_GQ8G4jETivXC3p0p3GMnD5KD4oQcwsemuG2pV5T3SV0LeRz32aNatEBOyDe9H3a2PNIJeX1UphOEve5O4TnXDU73ncn1Cn0USsI7wsmliuEicMcQBrCntlr6VHmD28PqJmfpcjDunlfI_Av5e11YZKQBM2ApHmj7l4aVo18APo0suHIAh-NWcPhIawv10zxtawM_GdPwwss8lZWDxNS5liZ8au8so7X74H02w0tBoDyE7Ss1bNA3wl1buB-cVxbELCNStz1OCI1lPgadH67dIwQK834045oeGwIfrX9YZRsKXyJhVFA7QQ==",
+        "summary": []
+      },
+      {
+        "id": "msg_078fe285e1170992016a82eac22fd4819fbacff33232db1528",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\"tickets\":[{\"id\":\"S-104\",\"fecha\":\"2026-08-17\",\"pais\":\"MX\",\"prioridad\":\"alta\",\"categoria\":\"acceso\"},{\"id\":\"S-105\",\"fecha\":\"2026-08-18\",\"pais\":\"AR\",\"prioridad\":\"urgente\",\"categoria\":\"facturacion\"},{\"id\":\"S-106\",\"fecha\":\"2026-08-18\",\"pais\":\"CO\",\"prioridad\":\"media\",\"categoria\":\"cuenta\"},{\"id\":\"S-107\",\"fecha\":\"2026-08-19\",\"pais\":\"ES\",\"prioridad\":\"alta\",\"categoria\":\"tecnico\"},{\"id\":\"S-108\",\"fecha\":\"2026-08-19\",\"pais\":\"PE\",\"prioridad\":\"baja\",\"categoria\":\"comentario\"},{\"id\":\"S-109\",\"fecha\":\"2026-08-20\",\"pais\":\"CL\",\"prioridad\":\"urgente\",\"categoria\":\"seguridad\"}]}"
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "low",
+      "mode": "standard",
+      "summary": null
+    },
+    "service_tier": "default",
+    "store": false,
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "description": null,
+        "name": "t01_response",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "tickets": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "fecha": {
+                    "type": "string"
+                  },
+                  "pais": {
+                    "type": "string",
+                    "enum": [
+                      "MX",
+                      "AR",
+                      "CO",
+                      "ES",
+                      "PE",
+                      "CL"
+                    ]
+                  },
+                  "prioridad": {
+                    "type": "string",
+                    "enum": [
+                      "baja",
+                      "media",
+                      "alta",
+                      "urgente"
+                    ]
+                  },
+                  "categoria": {
+                    "type": "string",
+                    "enum": [
+                      "acceso",
+                      "facturacion",
+                      "cuenta",
+                      "tecnico",
+                      "comentario",
+                      "seguridad"
+                    ]
+                  }
+                },
+                "required": [
+                  "id",
+                  "fecha",
+                  "pais",
+                  "prioridad",
+                  "categoria"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 6,
+              "maxItems": 6
+            }
+          },
+          "required": [
+            "tickets"
+          ],
+          "additionalProperties": false
+        },
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "tools": [],
+    "usage": {
+      "input_tokens": 364,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 240,
+      "output_tokens_details": {
+        "reasoning_tokens": 47
+      },
+      "total_tokens": 604
+    }
+  }
+}

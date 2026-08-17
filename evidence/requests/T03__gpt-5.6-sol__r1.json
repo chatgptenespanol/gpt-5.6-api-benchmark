@@ -1,0 +1,61 @@
+{
+  "run_id": "T03__gpt-5.6-sol__r1",
+  "sequence": 19,
+  "request": {
+    "model": "gpt-5.6-sol",
+    "input": [
+      {
+        "role": "system",
+        "content": "Responde en español neutro y trabaja únicamente con los datos de la tarea. No uses fuentes externas, herramientas ni supuestos no indicados. Devuelve solo el objeto definido por el esquema JSON proporcionado."
+      },
+      {
+        "role": "user",
+        "content": "Para el 15 de septiembre de 2026 en UTC, encuentra todos los intervalos disponibles de 30 minutos alineados a múltiplos de 15 minutos. Horario disponible: 09:00–12:00 y 14:00–17:00. Reuniones: 09:30–10:15, 11:00–11:30, 14:00–15:00 y 16:30–17:00. Debe existir un margen libre de 15 minutos antes y después de cada reunión. Enumera todas las ventanas candidatas, aunque se solapen entre sí; una ventana puede comenzar exactamente cuando termina un margen y terminar exactamente cuando comienza otro. Devuelve los intervalos en orden cronológico con fecha y sufijo Z."
+      }
+    ],
+    "reasoning": {
+      "effort": "low"
+    },
+    "max_output_tokens": 800,
+    "store": false,
+    "stream": false,
+    "tools": [],
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "name": "t03_response",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "slots": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "start": {
+                    "type": "string"
+                  },
+                  "end": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "start",
+                  "end"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 3,
+              "maxItems": 3
+            }
+          },
+          "required": [
+            "slots"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  }
+}

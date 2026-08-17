@@ -1,0 +1,93 @@
+{
+  "id": "resp_01684e4297a27937016a82eb0a98dc819dba248cab26c4734c",
+  "object": "response",
+  "created_at": 1786964746,
+  "status": "completed",
+  "incomplete_details": null,
+  "max_output_tokens": 800,
+  "model": "gpt-5.6-terra",
+  "output": [
+    {
+      "id": "rs_01684e4297a27937016a82eb0b02fc819dbc018255e865ca1b",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqgusPil2SdjDVDmOMfm0XMsdKzzBvWAiwBQsPJ3WAw5sOm9D_r17VwYlEm5vhMmpEPEXwR0_ScULvRURMI6rWhAp6V9GL8zdRUG9KVzoLvoAJ-Iy98hphDtIcEI1OXfg8lQHYEsTgUP97Gsjnwk4jNM4NsHwFC9xsTwqNlZNq9HDm-ndKchrCohbtyRGSWfbD3R7pyEiIoZvctdGo7B_WhSzmtfekN_PvuBniN3bEB3uhCk2i9y-mYsoAOcumVJyP8yyyn_o_cpPSGSWewB_kA962uyootQFQRLEUVm_nrS-kXPgiEJDIfO3NGVtnXgH2TJqQIBUloLasn1L9y5IN1cnHK9hcunpSlNuWkBZE_IPaBKohRiMx-N797groX4EBrSMOnjfKvdmHwO2XxZzSkynXZ4X0fpU7PJs5RjHUr8sAS7-P0OMvtapVeZTLu70Iuj8CQXRa6N4Q90Fgsfzn4Q1VfiteQsfGaG1qy1Qc-x0XS8OUpVwvSx9aujEDz99Z05f4RpL16iAcGm0O9o4aa006ndlS0f-S0icf9SUvjacIoQq7kz2JHkB7phiYSpKBhcEz8i4GnLVTKKM5FBG7JTuJGdnFvBRKOo2mlhgcqRyQwwK0ieKKRYoewB735wq_HN7KV9ZPujBK9Iy6XqJj5tSl1RkPDNuMCixLy_hnj3hFs9H-Bl1FESD36kIAnO8iBqHw1-OFSrIg3aw-K1LB_-HdN_aPW0e_JPnS_YqmT3AQ3F9TkWMSRNikfd7liZb_K59qe-7RWKzkDkMxPwssKN9NvXxy3US_9mnApWHysvx5EUc_v5aIXz-Bs_nSYOmDunPEsLilxcEohT8PBaYbSuU5fvjzrTtKNvfLQv4zD7idG4e2tkse_BThU1pWNCkf9zNREVNAHIl2hmwgFK9MVSFd8ZBhpkzUwsPesdvPH8Kc7Tf72FNy8rEgKWjkgQz8YcLiGf75mRPi44wCmbzQkZBDjERX8xAsn6lYZ7tpsUqmoY5tslal4BvaFy90yofGjsGtenoQevriTiXytG08orZ_wsDqJbQ6gI2RQFsyUxgfJnW4K5tcfsNitjmJiokdE9iBbhurghyC6Uxqb_s6jX-3J2O8OiCx_rGE5QAuDgnnAlfkLjKocGvJvvPBY3yGzzPm_gyy_WjRM4Q5VvXueEvYu2tNn_HKdXwfTeLHVhlBFh4jLHYjs9hqKt1vKosZkOf4kPDCfCV79xo13Y6oRXxK3srdPqH828JZOzBpAe0fMbK55xA1yFrbnYcrtnUSyNAy8IwCSuXspXTlPKi4qBXWPxNyGZor-fD21kkzhI3TtEiVv9WSJmGUoHwNcVLTYAf_9YaMZm8nT1aOTz08l_lA63aP3MQorRIATm_vGyW9ztoed8I36M3bWUaz6KxAOjxOdq48jhbQNq41mD_3TgIbBFAmzfmIsYFVNja1aFYHpdftgj-I5eghwvP1vpqM53nb74BiXHS3UKNc4uae3Z8A6_uE_Dn_K24hDormQrmwrqZfWT1UjsBWNR5IbJ-sh3H8d28g148vgSAJ6esA_CRs72yU62_oz_Td63a9oyz0N50WE25RKvHVRFRr4pIiPU-j5OuFA8jnmpMitJYFCffKH6Q4I5UT8wPvj06FfmQwseclzItWJV3rUq3gD0NUkoQ0_RweCgPxuskDRGGm2IG9yJ_Avt33nQvjQcjIaNubUukdy96ipWt1q9bg7MERxE0w0efNEE4WX1MhqhWhc0A0QvCt_4sI3isREIjv5FoI7gzZfLrc_lY-LoRe2MrmrH1Gjg9vKhAHJ8aqaTdtQTAKLOA8iO8si_N12TsXcU-wJ--p3CQISydmu-Ju7z1qECYOTlREeK8Zbq_S39zd0L3PXi5Ro82wUPA9QZQxo6JIkoPLe4Z8-LS0V-Y5zcIkw9nIXPlKgqNr_IxeHoc2ogid3ka-Pahzl-tc3XGEq1gg7y21o2Jb9jyLxC5VL_rrng-RFYBj5Olce4_0AL5p_hKRGhWyvlWkirhpZnZ55aTdh4makxyT8ObvuBZ_MwKGLNyZ0HJhqcap1WLf13gv1l29FGprbTUnfyqo5CrzbLvXTHPMjad-t1hnA0GQjox37rx-oBvqG9doF8IapR2GxYur1I3-XZL4eWWwX_3u4XjornHZuAVbp-Oww1Lumun4B6HsBlKkovxHiDpgDlf3GQPdcA7G-ER4I8YrNMPvUzQf-n9wti-9Jih-6J_nmSRgT3b2X3swJPrk648IOrKOHRwJcIsNYkyLpL6ye4k0w4Dn196pAJt0ZFIn2tc5rEtVBA1Ejeoj2HIrJszgfMSpHgYo8m3gbniIKnqvlDUeJfKGGIk=",
+      "summary": []
+    },
+    {
+      "id": "msg_01684e4297a27937016a82eb0e56f0819d8940d454f3fe9645",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"slots\":[{\"start\":\"2026-09-15T15:15Z\",\"end\":\"2026-09-15T15:45Z\"},{\"start\":\"2026-09-15T15:30Z\",\"end\":\"2026-09-15T16:00Z\"},{\"start\":\"2026-09-15T15:45Z\",\"end\":\"2026-09-15T16:15Z\"}]}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "service_tier": "default",
+  "store": false,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "t03_response",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "slots": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "start": {
+                  "type": "string"
+                },
+                "end": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "start",
+                "end"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 3,
+            "maxItems": 3
+          }
+        },
+        "required": [
+          "slots"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tools": [],
+  "usage": {
+    "input_tokens": 257,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 394,
+    "output_tokens_details": {
+      "reasoning_tokens": 294
+    },
+    "total_tokens": 651
+  }
+}

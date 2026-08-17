@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.0.0",
+  "request_sha256": "9b5f9ccb18fe901132337521757e48c516b15893d0f3d19fdfe4da6e82090ca1",
+  "frozen_manifest_sha256": "130d86eb9b563b8df3dd718b6ce8e1327f5a900e81742e58b3d35cf564c23c76",
+  "metadata": {
+    "run_id": "T09__gpt-5.6-sol__r3",
+    "sequence": 80,
+    "task_id": "T09",
+    "model_requested": "gpt-5.6-sol",
+    "repetition": 3,
+    "started_at_utc": "2026-08-17T11:09:20.617Z",
+    "ended_at_utc": "2026-08-17T11:09:22.992Z",
+    "latency_ms": 2360,
+    "http_status": 200,
+    "attempts": 1,
+    "response_headers": {
+      "x-request-id": "req_4e5cb1c831744b128da36cf6acee4b97",
+      "openai-processing-ms": "2151",
+      "openai-version": "2020-10-01",
+      "content-type": "application/json"
+    },
+    "response_status": "completed",
+    "output_text_chars": 227,
+    "estimated_cost_usd": 0.004245,
+    "reserved_max_cost_usd": 0.0324125,
+    "request_sha256": "9b5f9ccb18fe901132337521757e48c516b15893d0f3d19fdfe4da6e82090ca1",
+    "frozen_manifest_sha256": "130d86eb9b563b8df3dd718b6ce8e1327f5a900e81742e58b3d35cf564c23c76"
+  },
+  "response": {
+    "id": "resp_0543101782ef4366016a82ebe0ed2481a2ba08a5346a5a7c3a",
+    "object": "response",
+    "created_at": 1786964960,
+    "status": "completed",
+    "incomplete_details": null,
+    "max_output_tokens": 800,
+    "model": "gpt-5.6-sol",
+    "output": [
+      {
+        "id": "msg_0543101782ef4366016a82ebe2254881a2adf58d7e004da14b",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\"cases\":[{\"id\":\"A\",\"valid\":true,\"merged\":[[1,5],[8,12]]},{\"id\":\"B\",\"valid\":true,\"merged\":[[-3,2],[5,6]]},{\"id\":\"C\",\"valid\":true,\"merged\":[]},{\"id\":\"D\",\"valid\":true,\"merged\":[[1,5],[9,9]]},{\"id\":\"E\",\"valid\":false,\"merged\":[]}]}"
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "low",
+      "mode": "standard",
+      "summary": null
+    },
+    "service_tier": "default",
+    "store": false,
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "description": null,
+        "name": "t09_response",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "cases": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string",
+                    "enum": [
+                      "A",
+                      "B",
+                      "C",
+                      "D",
+                      "E"
+                    ]
+                  },
+                  "valid": {
+                    "type": "boolean"
+                  },
+                  "merged": {
+                    "type": "array",
+                    "items": {
+                      "type": "array",
+                      "items": {
+                        "type": "integer"
+                      },
+                      "minItems": 2,
+                      "maxItems": 2
+                    }
+                  }
+                },
+                "required": [
+                  "id",
+                  "valid",
+                  "merged"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 5,
+              "maxItems": 5
+            }
+          },
+          "required": [
+            "cases"
+          ],
+          "additionalProperties": false
+        },
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "tools": [],
+    "usage": {
+      "input_tokens": 273,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 96,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 369
+    }
+  }
+}

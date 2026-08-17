@@ -1,0 +1,146 @@
+{
+  "run_id": "T12__gpt-5.6-luna__r1",
+  "attempt": 1,
+  "started_at_utc": "2026-08-17T11:10:16.349Z",
+  "ended_at_utc": "2026-08-17T11:10:19.076Z",
+  "latency_ms": 2687,
+  "http_status": 200,
+  "response_headers": {
+    "x-request-id": "req_3444f13c21b2475495ea75dd5fde5636",
+    "openai-processing-ms": "2299",
+    "openai-version": "2020-10-01",
+    "content-type": "application/json"
+  },
+  "network_error": null,
+  "response": {
+    "id": "resp_06af65b15952ad64016a82ec18ade087d2a92674c277d8678a",
+    "object": "response",
+    "created_at": 1786965016,
+    "status": "completed",
+    "incomplete_details": null,
+    "max_output_tokens": 800,
+    "model": "gpt-5.6-luna",
+    "output": [
+      {
+        "id": "rs_06af65b15952ad64016a82ec19190087d2a67a0e11383c8aae",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqguwawo9YvBINTdFuiyN02wfh0yyDEaKLFgh50vBS8i62aDmrx0pRLf55wl3LfEIqbLe9eVuS37omcPKmm_Dy8Z_9c3RkyPWmkFezqLMPdRh0XDITkZpBRNXYbCYNh5mKews98Xki9qEtC8DnTjaUZbchkP-LepXeOoIiHEZLALeZ_pIAx4SX5raiASfSTqkx8eG3BXAo7tRWEkr1IiXAHQzPrW7VeC9haxjuEDKtvFZvz5kRDqc-_nEMCoXCq7_J9_LO5Hjk2GDpKp-EctJFUjWEe3YiKFH9KLKXTCviYHAYMXK6sjBEfj6R4u2H5hJACwJGwloqab6FBOKKSBYDVWtraaVoXm8cltYC2Im5uoGUIbaoT1CCkL-wqf4c01A5Ne5asJRGVn0_K0N-MFHxNuG01Nq_jiMWfCMEkzDtbDh6277Mf4xzwMCYg_JUenSP5v1F3diDCJ6nbRh-7KM0meHsLt2U6OPvLPFtJh0J9ocWzFDdSRbB5EDV2xOiv_0Pwoya6g-cz8Ruxbl-E5l-FLbBAVCuIuUtTXGlv3BWhu8MXk7wOr_qDil8DEOxuv4DQBH8saVKc3pihOH6tXPoOAwG6Qfs2fXRx_FiFfENUr9lLX3WPqYMgiq1cplBO2hDcLddv4bsVB-LPHxw88tZ2yIpUr_z1UYtqMMtdgfO5_pgyiln0GkxPMbI3R0G8uj8LPUvAeI-sibyawk_vfUbdjntLFe4l5O4CtHHnWqe4Lgv4Ql7MASME8q_uk68lW1_Q0teWopbYAlbwbpTNF-HM9XLnRy4w8OcpH7AaQ311RINuRm93QkQ7kg-vi-UWglUVxK2ioJ6NWxSm_wmbATBsrEEMQWt5zYuPKXxpdIHruHnWLhGsqRHy9uEIeuZjicET9M87w65sZ1_hSJyJvwh6aAsU8h_lTdMZour_DWg7g-7PZS_goGPrlrVHQwuU0OM67VxJI2vLvof-ONwvJQAEjl5ciHcKnGdWAO_Ht2mx60H2rpBI6OdDEaroKZ-erdG4IYB70MBdLlntef4RYmqLYNyDiUZgFCuBBO-s-eGZZk_VjdsEnID-9OOsebPzlFgSd6hCj2j9Ep5V4ryguc95rwteH074GtpbTL7p2n3pPwePvc9A8RN3RVTMrMg2Pg7eZQ7RlrgVb7PDguJQknWUL1wxIkiIPwmDQus6xnoUBmq_wrzcBzpy8ajJFOhnfugl8AUY-_Iy79ZuUK5zVLULCbe8mE0RyOj6A6N4yKaNQ0MGsjbr0PwQcS_0Z5MtI7cADvRRkndFDowk2V1bXfqFbQSyOvjButIelXtpCOanSrV4rY8tcmBVjVqqH3XTKd3onsccrz9wO0rlF7xtqVTGfEg4bFzd6LSMN_7gTRtiFqON9jM5s84lIcd-w0r7tv6mrOpSjeYVKS_7MSa4-riPKe-5YrKDG2aMUK8bulfXg_eMSsjxeZkxVPjrsZSB0PrEsl8",
+        "summary": []
+      },
+      {
+        "id": "msg_06af65b15952ad64016a82ec1a032087d2bf8d5d29d0964b57",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\"schedule\":[{\"id\":\"A\",\"start\":0,\"end\":2},{\"id\":\"B\",\"start\":2,\"end\":5},{\"id\":\"C\",\"start\":2,\"end\":6},{\"id\":\"D\",\"start\":5,\"end\":7},{\"id\":\"E\",\"start\":6,\"end\":7},{\"id\":\"F\",\"start\":7,\"end\":9}],\"project_duration\":9,\"critical_paths\":[[\"A\",\"B\",\"D\",\"F\"],[\"A\",\"C\",\"E\",\"F\"]]}"
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "low",
+      "mode": "standard",
+      "summary": null
+    },
+    "service_tier": "default",
+    "store": false,
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "description": null,
+        "name": "t12_response",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "schedule": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string",
+                    "enum": [
+                      "A",
+                      "B",
+                      "C",
+                      "D",
+                      "E",
+                      "F"
+                    ]
+                  },
+                  "start": {
+                    "type": "integer"
+                  },
+                  "end": {
+                    "type": "integer"
+                  }
+                },
+                "required": [
+                  "id",
+                  "start",
+                  "end"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 6,
+              "maxItems": 6
+            },
+            "project_duration": {
+              "type": "integer"
+            },
+            "critical_paths": {
+              "type": "array",
+              "items": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "enum": [
+                    "A",
+                    "B",
+                    "C",
+                    "D",
+                    "E",
+                    "F"
+                  ]
+                },
+                "minItems": 4,
+                "maxItems": 4
+              },
+              "minItems": 2,
+              "maxItems": 2
+            }
+          },
+          "required": [
+            "schedule",
+            "project_duration",
+            "critical_paths"
+          ],
+          "additionalProperties": false
+        },
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "tools": [],
+    "usage": {
+      "input_tokens": 271,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 206,
+      "output_tokens_details": {
+        "reasoning_tokens": 91
+      },
+      "total_tokens": 477
+    }
+  }
+}

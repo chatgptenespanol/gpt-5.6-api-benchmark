@@ -1,0 +1,141 @@
+{
+  "schema_version": "1.0.0",
+  "request_sha256": "0c40fa9852fe45430c92ad9f4a9cd150f689ebcc8e0150b1d768a6a22250fe41",
+  "frozen_manifest_sha256": "130d86eb9b563b8df3dd718b6ce8e1327f5a900e81742e58b3d35cf564c23c76",
+  "metadata": {
+    "run_id": "T09__gpt-5.6-luna__r2",
+    "sequence": 77,
+    "task_id": "T09",
+    "model_requested": "gpt-5.6-luna",
+    "repetition": 2,
+    "started_at_utc": "2026-08-17T11:09:13.906Z",
+    "ended_at_utc": "2026-08-17T11:09:16.129Z",
+    "latency_ms": 2209,
+    "http_status": 200,
+    "attempts": 1,
+    "response_headers": {
+      "x-request-id": "req_7aea2981eab345e4ad744d863a6c768c",
+      "openai-processing-ms": "2011",
+      "openai-version": "2020-10-01",
+      "content-type": "application/json"
+    },
+    "response_status": "completed",
+    "output_text_chars": 227,
+    "estimated_cost_usd": 0.00030419999999999997,
+    "reserved_max_cost_usd": 0.00129675,
+    "request_sha256": "0c40fa9852fe45430c92ad9f4a9cd150f689ebcc8e0150b1d768a6a22250fe41",
+    "frozen_manifest_sha256": "130d86eb9b563b8df3dd718b6ce8e1327f5a900e81742e58b3d35cf564c23c76"
+  },
+  "response": {
+    "id": "resp_09577886b0705a29016a82ebda2c9081a08bea4afb486644a7",
+    "object": "response",
+    "created_at": 1786964954,
+    "status": "completed",
+    "incomplete_details": null,
+    "max_output_tokens": 800,
+    "model": "gpt-5.6-luna",
+    "output": [
+      {
+        "id": "rs_09577886b0705a29016a82ebdabc9481a08c0f3ef2eae57b94",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqguvchBMs36TVLsCx6ILWUQPvHvCq0DOn2Uv7fHh5439eJWDDGwH_cz0keko20JZ4qUWQvEoORFmJWET8aN4bWEnT541VQfu6UVAoLtMx4fDZe6LwlSMIrgOt7Avme0JjDjefYE_hZax-jHE03pQaE3TUzhyAhCArLU1Trd9Um_0lTq86P9m5ihuhk84OcleyhXoK4f9m595sL2zFo5NqJ0x1l3-Mm53-vNYjQ2gYSiwN1LZet6mqZ8_UgBKgwzK45W_NdqxWxWats_aUfC_ppP47E8e1zDVBhgvVGzXjxQPXY8jBwkPrL4pRyBwCg_8DmpLKp4bcAPzAxY0yBIbSsIPrMVq5S1rF6nH5QfcvS5PrLmb_dqOZPuax8tmhpP38Btb2KwQ6efnoV5IRVOZFJHK0gFTl1aOwvEicLuQfvBc_ATLJ2dG2wEHis2Stz70PBU_SpXIwDHcgmwyMWWoByzGF6v7WlZ3oi0gnhu6o7yAL-zG3_DPqyGZX_ahIh9w_xRShO2bQ9-cuzFGqF2wOO2zDid7bgCOXYqnID9v7t1cxHx55sMmahdo_XAWYo6OXxbGrXobgbxRFcp94aLAyWiVvOhwVtVbbv5kHdpaTHaMbWL4UpSfqe2HAxMMuU26zj-gWWu98sKdZOp9aMClCoduTyb81fA7JKMoI5x2TySH1sr6wqTgC6mQKtAyGyQkxm32qOa_3UImKf83Qj9oxFdIalcZ-911EbW_JJ30pcvyi1_rClbNPP26Uxxcub_4A1JT58s_hxoestl_DHVBp26w_UqrTR-Qbw67tqg5tjBGZsU86CHiSF4Z1wi9q1Ot5KNomU6mAgEQH-F9DplZs6H-jqrvKtvVxrgGvchhszV5jrZId6bfnhmZ9GK_zJMO7ITj7eRrpqu2yC7pzCw_TYbBVUrE3iQWEhNFepefAT59FWJZbZOKjvX7R-bDMjhax5k0Du_dayu7CyLFnabhxKGeBqw5puCkW7nv7XokK3S7l5QmUYU0Ca5UMkZAZnYq87oCQxK1yuCvKcPeFumrfYHfrnKLiKJH_aQPCKpsySbd2oepyE3bPdVlGtuP68oPxOONL32nZ3COfqSlqlXle74yRz3pTdesiUoNCu6oqlkX1ZKCnHtSCpW1KOJf1m-hxxPJI9yK-ZT-s6UoddXcaQbg8XqIpWBLX0iyI6CyjNV8lSCxC5mKHKeg8UmKKq4vWMT8bl4rtM6qv3ptF_JqGWFXbStvmky01HiSe9-XM3v0wj5SBdCCLRIrOEX3GiRm6YyXNCRZxKm8qM28-UT4HSI2zG2ho6meeujNxu4DlfAn-Lb6hNc_Hsh4AnxpGs6pH3uP8qC_yMRZslMjtrUROBlgO3EsptqcJqevU9ppX6nsM5oiJKJxElQmUqniacyMDaH5XB0kMutI5lkzX4qrCQBVbrzebHN6FWs5HTuvmPeygnwdN4Fn61Lxl5M8f7f25RnjpHwhGVxHiiNbLM8UKGfYIvQ==",
+        "summary": []
+      },
+      {
+        "id": "msg_09577886b0705a29016a82ebdbbf6081a0a140864a345f4bbf",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\"cases\":[{\"id\":\"A\",\"valid\":true,\"merged\":[[1,5],[8,12]]},{\"id\":\"B\",\"valid\":true,\"merged\":[[-3,2],[5,6]]},{\"id\":\"C\",\"valid\":true,\"merged\":[]},{\"id\":\"D\",\"valid\":true,\"merged\":[[1,5],[9,9]]},{\"id\":\"E\",\"valid\":false,\"merged\":[]}]}"
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "low",
+      "mode": "standard",
+      "summary": null
+    },
+    "service_tier": "default",
+    "store": false,
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "description": null,
+        "name": "t09_response",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "cases": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string",
+                    "enum": [
+                      "A",
+                      "B",
+                      "C",
+                      "D",
+                      "E"
+                    ]
+                  },
+                  "valid": {
+                    "type": "boolean"
+                  },
+                  "merged": {
+                    "type": "array",
+                    "items": {
+                      "type": "array",
+                      "items": {
+                        "type": "integer"
+                      },
+                      "minItems": 2,
+                      "maxItems": 2
+                    }
+                  }
+                },
+                "required": [
+                  "id",
+                  "valid",
+                  "merged"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 5,
+              "maxItems": 5
+            }
+          },
+          "required": [
+            "cases"
+          ],
+          "additionalProperties": false
+        },
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "tools": [],
+    "usage": {
+      "input_tokens": 273,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 208,
+      "output_tokens_details": {
+        "reasoning_tokens": 110
+      },
+      "total_tokens": 481
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "status": "datos_sensibles_omitidos",
+  "order_id": "O-7782",
+  "order_status": "en preparación",
+  "omitted_fields": [
+    "correo",
+    "teléfono",
+    "clave_api"
+  ]
+}

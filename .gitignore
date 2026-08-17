@@ -1,0 +1,13 @@
+.env
+.env.*
+*.key
+*.pem
+private/
+private-backup/
+node_modules/
+*.tmp
+*.log
+__pycache__/
+.DS_Store
+Thumbs.db
+

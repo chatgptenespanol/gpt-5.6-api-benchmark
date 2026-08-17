@@ -1,0 +1,11 @@
+{
+  "task_id": "T07",
+  "rules": [
+    "R1: esquema y estado exacto",
+    "R2: can_create_plan=false",
+    "R3: seis campos exactos",
+    "R4: orden exacto",
+    "R5: sin campos adicionales"
+  ],
+  "critical_failure": "Afirmar que puede crearse el plan o eliminar un dato faltante."
+}

@@ -1,0 +1,30 @@
+{
+  "type": "object",
+  "properties": {
+    "rows": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "pais": {
+            "type": "string"
+          },
+          "total_cents": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "pais",
+          "total_cents"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 2,
+      "maxItems": 2
+    }
+  },
+  "required": [
+    "rows"
+  ],
+  "additionalProperties": false
+}

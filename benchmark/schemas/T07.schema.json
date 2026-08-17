@@ -1,0 +1,36 @@
+{
+  "type": "object",
+  "properties": {
+    "status": {
+      "type": "string",
+      "enum": [
+        "needs_information"
+      ]
+    },
+    "can_create_plan": {
+      "type": "boolean"
+    },
+    "missing_fields": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "audience",
+          "market",
+          "deadline",
+          "budget",
+          "channels",
+          "success_metric"
+        ]
+      },
+      "minItems": 6,
+      "maxItems": 6
+    }
+  },
+  "required": [
+    "status",
+    "can_create_plan",
+    "missing_fields"
+  ],
+  "additionalProperties": false
+}

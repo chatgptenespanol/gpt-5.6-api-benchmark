@@ -1,0 +1,56 @@
+{
+  "cases": [
+    {
+      "id": "A",
+      "valid": true,
+      "merged": [
+        [
+          1,
+          5
+        ],
+        [
+          8,
+          12
+        ]
+      ]
+    },
+    {
+      "id": "B",
+      "valid": true,
+      "merged": [
+        [
+          -3,
+          2
+        ],
+        [
+          5,
+          6
+        ]
+      ]
+    },
+    {
+      "id": "C",
+      "valid": true,
+      "merged": []
+    },
+    {
+      "id": "D",
+      "valid": true,
+      "merged": [
+        [
+          1,
+          5
+        ],
+        [
+          9,
+          9
+        ]
+      ]
+    },
+    {
+      "id": "E",
+      "valid": false,
+      "merged": []
+    }
+  ]
+}

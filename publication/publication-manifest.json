@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0.0",
+  "published_version": "1.0.0",
+  "pre_run_manifest_sha256": "130d86eb9b563b8df3dd718b6ce8e1327f5a900e81742e58b3d35cf564c23c76",
+  "post_run_sanitizations": [
+    {
+      "path": "tests/runner.test.mjs",
+      "original_pre_run_sha256": "b85b163fecd55ca045552ef4ce4681ea8b1b36127347438e19216add6b7b907f",
+      "published_sha256": "48e3af7aff2853925fa8d813b15b68da2da080b9ee7d3e782e6b3bdb24cfe436",
+      "published_bytes": 5851,
+      "change": "Replaced two occurrences of a synthetic Gmail-shaped test literal with unexpected@example.invalid before public release.",
+      "impact": "Test fixture only. No benchmark request, model response, evaluator rule, score, latency, token count or cost was changed."
+    }
+  ]
+}

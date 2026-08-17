@@ -1,0 +1,24 @@
+{
+  "run_id": "T02__gpt-5.6-sol__r2",
+  "sequence": 15,
+  "task_id": "T02",
+  "model_requested": "gpt-5.6-sol",
+  "repetition": 2,
+  "started_at_utc": "2026-08-17T11:05:20.466Z",
+  "ended_at_utc": "2026-08-17T11:05:24.394Z",
+  "latency_ms": 3921,
+  "http_status": 200,
+  "attempts": 1,
+  "response_headers": {
+    "x-request-id": "req_1deb9ec06e294413a653c81495bdfd85",
+    "openai-processing-ms": "3642",
+    "openai-version": "2020-10-01",
+    "content-type": "application/json"
+  },
+  "response_status": "completed",
+  "output_text_chars": 151,
+  "estimated_cost_usd": 0.00547,
+  "reserved_max_cost_usd": 0.032475,
+  "request_sha256": "2bde0b11fdff384cdd7e785db43cccadae5b23aecd9b92b1c0ccdee111e4060b",
+  "frozen_manifest_sha256": "130d86eb9b563b8df3dd718b6ce8e1327f5a900e81742e58b3d35cf564c23c76"
+}

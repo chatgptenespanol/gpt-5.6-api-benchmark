@@ -1,0 +1,5942 @@
+[
+  {
+    "run_id": "T01__gpt-5.6-sol__r1",
+    "sequence": 1,
+    "task_id": "T01",
+    "model_requested": "gpt-5.6-sol",
+    "model_returned": "gpt-5.6-sol",
+    "repetition": 1,
+    "started_at_utc": "2026-08-17T11:04:00.007Z",
+    "ended_at_utc": "2026-08-17T11:04:04.126Z",
+    "latency_ms": 4116,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 364,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 191,
+    "reasoning_tokens": 0,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "IDs, cantidad y orden"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "fechas y países"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "prioridades"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "categorías"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.00755
+  },
+  {
+    "run_id": "T01__gpt-5.6-terra__r1",
+    "sequence": 2,
+    "task_id": "T01",
+    "model_requested": "gpt-5.6-terra",
+    "model_returned": "gpt-5.6-terra",
+    "repetition": 1,
+    "started_at_utc": "2026-08-17T11:04:17.611Z",
+    "ended_at_utc": "2026-08-17T11:04:19.811Z",
+    "latency_ms": 2196,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 364,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 191,
+    "reasoning_tokens": 0,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "IDs, cantidad y orden"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "fechas y países"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "prioridades"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "categorías"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.00302
+  },
+  {
+    "run_id": "T01__gpt-5.6-luna__r1",
+    "sequence": 3,
+    "task_id": "T01",
+    "model_requested": "gpt-5.6-luna",
+    "model_returned": "gpt-5.6-luna",
+    "repetition": 1,
+    "started_at_utc": "2026-08-17T11:04:32.219Z",
+    "ended_at_utc": "2026-08-17T11:04:34.982Z",
+    "latency_ms": 2759,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 364,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 240,
+    "reasoning_tokens": 47,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "IDs, cantidad y orden"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "fechas y países"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "prioridades"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "categorías"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.0003608
+  },
+  {
+    "run_id": "T01__gpt-5.6-terra__r2",
+    "sequence": 4,
+    "task_id": "T01",
+    "model_requested": "gpt-5.6-terra",
+    "model_returned": "gpt-5.6-terra",
+    "repetition": 2,
+    "started_at_utc": "2026-08-17T11:04:54.682Z",
+    "ended_at_utc": "2026-08-17T11:04:56.818Z",
+    "latency_ms": 2131,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 364,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 191,
+    "reasoning_tokens": 0,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "IDs, cantidad y orden"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "fechas y países"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "prioridades"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "categorías"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.00302
+  },
+  {
+    "run_id": "T01__gpt-5.6-luna__r2",
+    "sequence": 5,
+    "task_id": "T01",
+    "model_requested": "gpt-5.6-luna",
+    "model_returned": "gpt-5.6-luna",
+    "repetition": 2,
+    "started_at_utc": "2026-08-17T11:04:56.841Z",
+    "ended_at_utc": "2026-08-17T11:04:59.118Z",
+    "latency_ms": 2272,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 364,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 225,
+    "reasoning_tokens": 32,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "IDs, cantidad y orden"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "fechas y países"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "prioridades"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "categorías"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.00034280000000000004
+  },
+  {
+    "run_id": "T01__gpt-5.6-sol__r2",
+    "sequence": 6,
+    "task_id": "T01",
+    "model_requested": "gpt-5.6-sol",
+    "model_returned": "gpt-5.6-sol",
+    "repetition": 2,
+    "started_at_utc": "2026-08-17T11:04:59.136Z",
+    "ended_at_utc": "2026-08-17T11:05:01.813Z",
+    "latency_ms": 2674,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 364,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 191,
+    "reasoning_tokens": 0,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "IDs, cantidad y orden"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "fechas y países"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "prioridades"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "categorías"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.00755
+  },
+  {
+    "run_id": "T01__gpt-5.6-luna__r3",
+    "sequence": 7,
+    "task_id": "T01",
+    "model_requested": "gpt-5.6-luna",
+    "model_returned": "gpt-5.6-luna",
+    "repetition": 3,
+    "started_at_utc": "2026-08-17T11:05:01.847Z",
+    "ended_at_utc": "2026-08-17T11:05:04.746Z",
+    "latency_ms": 2894,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 364,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 239,
+    "reasoning_tokens": 46,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "IDs, cantidad y orden"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "fechas y países"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "prioridades"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "categorías"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.0003596
+  },
+  {
+    "run_id": "T01__gpt-5.6-sol__r3",
+    "sequence": 8,
+    "task_id": "T01",
+    "model_requested": "gpt-5.6-sol",
+    "model_returned": "gpt-5.6-sol",
+    "repetition": 3,
+    "started_at_utc": "2026-08-17T11:05:04.770Z",
+    "ended_at_utc": "2026-08-17T11:05:06.972Z",
+    "latency_ms": 2198,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 364,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 191,
+    "reasoning_tokens": 0,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "IDs, cantidad y orden"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "fechas y países"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "prioridades"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "categorías"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.00755
+  },
+  {
+    "run_id": "T01__gpt-5.6-terra__r3",
+    "sequence": 9,
+    "task_id": "T01",
+    "model_requested": "gpt-5.6-terra",
+    "model_returned": "gpt-5.6-terra",
+    "repetition": 3,
+    "started_at_utc": "2026-08-17T11:05:06.989Z",
+    "ended_at_utc": "2026-08-17T11:05:09.304Z",
+    "latency_ms": 2307,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 364,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 191,
+    "reasoning_tokens": 0,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "IDs, cantidad y orden"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "fechas y países"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "prioridades"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "categorías"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.00302
+  },
+  {
+    "run_id": "T02__gpt-5.6-sol__r1",
+    "sequence": 10,
+    "task_id": "T02",
+    "model_requested": "gpt-5.6-sol",
+    "model_returned": "gpt-5.6-sol",
+    "repetition": 1,
+    "started_at_utc": "2026-08-17T11:05:09.332Z",
+    "ended_at_utc": "2026-08-17T11:05:12.333Z",
+    "latency_ms": 2993,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 254,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 134,
+    "reasoning_tokens": 73,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "subtotal y descuento"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "descuento y envío"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "base e impuesto"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "total"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.00529
+  },
+  {
+    "run_id": "T02__gpt-5.6-terra__r1",
+    "sequence": 11,
+    "task_id": "T02",
+    "model_requested": "gpt-5.6-terra",
+    "model_returned": "gpt-5.6-terra",
+    "repetition": 1,
+    "started_at_utc": "2026-08-17T11:05:12.346Z",
+    "ended_at_utc": "2026-08-17T11:05:14.564Z",
+    "latency_ms": 2214,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 254,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 146,
+    "reasoning_tokens": 85,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "subtotal y descuento"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "descuento y envío"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "base e impuesto"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "total"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.00226
+  },
+  {
+    "run_id": "T02__gpt-5.6-luna__r1",
+    "sequence": 12,
+    "task_id": "T02",
+    "model_requested": "gpt-5.6-luna",
+    "model_returned": "gpt-5.6-luna",
+    "repetition": 1,
+    "started_at_utc": "2026-08-17T11:05:14.585Z",
+    "ended_at_utc": "2026-08-17T11:05:16.584Z",
+    "latency_ms": 1993,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 254,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 137,
+    "reasoning_tokens": 76,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "subtotal y descuento"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "descuento y envío"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "base e impuesto"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "total"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.00021520000000000003
+  },
+  {
+    "run_id": "T02__gpt-5.6-terra__r2",
+    "sequence": 13,
+    "task_id": "T02",
+    "model_requested": "gpt-5.6-terra",
+    "model_returned": "gpt-5.6-terra",
+    "repetition": 2,
+    "started_at_utc": "2026-08-17T11:05:16.611Z",
+    "ended_at_utc": "2026-08-17T11:05:18.432Z",
+    "latency_ms": 1817,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 254,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 132,
+    "reasoning_tokens": 71,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "subtotal y descuento"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "descuento y envío"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "base e impuesto"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "total"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.002092
+  },
+  {
+    "run_id": "T02__gpt-5.6-luna__r2",
+    "sequence": 14,
+    "task_id": "T02",
+    "model_requested": "gpt-5.6-luna",
+    "model_returned": "gpt-5.6-luna",
+    "repetition": 2,
+    "started_at_utc": "2026-08-17T11:05:18.456Z",
+    "ended_at_utc": "2026-08-17T11:05:20.448Z",
+    "latency_ms": 1986,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 254,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 141,
+    "reasoning_tokens": 80,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "subtotal y descuento"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "descuento y envío"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "base e impuesto"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "total"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.00022
+  },
+  {
+    "run_id": "T02__gpt-5.6-sol__r2",
+    "sequence": 15,
+    "task_id": "T02",
+    "model_requested": "gpt-5.6-sol",
+    "model_returned": "gpt-5.6-sol",
+    "repetition": 2,
+    "started_at_utc": "2026-08-17T11:05:20.466Z",
+    "ended_at_utc": "2026-08-17T11:05:24.394Z",
+    "latency_ms": 3921,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 254,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 140,
+    "reasoning_tokens": 79,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "subtotal y descuento"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "descuento y envío"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "base e impuesto"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "total"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.00547
+  },
+  {
+    "run_id": "T02__gpt-5.6-luna__r3",
+    "sequence": 16,
+    "task_id": "T02",
+    "model_requested": "gpt-5.6-luna",
+    "model_returned": "gpt-5.6-luna",
+    "repetition": 3,
+    "started_at_utc": "2026-08-17T11:05:34.122Z",
+    "ended_at_utc": "2026-08-17T11:05:36.082Z",
+    "latency_ms": 1954,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 254,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 137,
+    "reasoning_tokens": 76,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "subtotal y descuento"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "descuento y envío"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "base e impuesto"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "total"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.00021520000000000003
+  },
+  {
+    "run_id": "T02__gpt-5.6-sol__r3",
+    "sequence": 17,
+    "task_id": "T02",
+    "model_requested": "gpt-5.6-sol",
+    "model_returned": "gpt-5.6-sol",
+    "repetition": 3,
+    "started_at_utc": "2026-08-17T11:05:36.107Z",
+    "ended_at_utc": "2026-08-17T11:05:38.794Z",
+    "latency_ms": 2681,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 254,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 131,
+    "reasoning_tokens": 70,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "subtotal y descuento"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "descuento y envío"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "base e impuesto"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "total"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.0052
+  },
+  {
+    "run_id": "T02__gpt-5.6-terra__r3",
+    "sequence": 18,
+    "task_id": "T02",
+    "model_requested": "gpt-5.6-terra",
+    "model_returned": "gpt-5.6-terra",
+    "repetition": 3,
+    "started_at_utc": "2026-08-17T11:05:38.809Z",
+    "ended_at_utc": "2026-08-17T11:05:40.988Z",
+    "latency_ms": 2172,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 254,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 131,
+    "reasoning_tokens": 70,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "subtotal y descuento"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "descuento y envío"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "base e impuesto"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "total"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.00208
+  },
+  {
+    "run_id": "T03__gpt-5.6-sol__r1",
+    "sequence": 19,
+    "task_id": "T03",
+    "model_requested": "gpt-5.6-sol",
+    "model_returned": "gpt-5.6-sol",
+    "repetition": 1,
+    "started_at_utc": "2026-08-17T11:05:41.010Z",
+    "ended_at_utc": "2026-08-17T11:05:46.326Z",
+    "latency_ms": 5310,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 257,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 250,
+    "reasoning_tokens": 138,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema y cantidad"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "inicios"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "finales"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "duración, alineación, orden y unicidad"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "fuera de reuniones y márgenes"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.008785
+  },
+  {
+    "run_id": "T03__gpt-5.6-terra__r1",
+    "sequence": 20,
+    "task_id": "T03",
+    "model_requested": "gpt-5.6-terra",
+    "model_returned": "gpt-5.6-terra",
+    "repetition": 1,
+    "started_at_utc": "2026-08-17T11:05:46.346Z",
+    "ended_at_utc": "2026-08-17T11:05:50.992Z",
+    "latency_ms": 4638,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 257,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 394,
+    "reasoning_tokens": 294,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema y cantidad"
+      },
+      {
+        "id": "R2",
+        "pass": false,
+        "detail": "inicios"
+      },
+      {
+        "id": "R3",
+        "pass": false,
+        "detail": "finales"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "duración, alineación, orden y unicidad"
+      },
+      {
+        "id": "R5",
+        "pass": false,
+        "detail": "fuera de reuniones y márgenes"
+      }
+    ],
+    "score": 2,
+    "score_percent": 40,
+    "pass": false,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.005242
+  },
+  {
+    "run_id": "T03__gpt-5.6-luna__r1",
+    "sequence": 21,
+    "task_id": "T03",
+    "model_requested": "gpt-5.6-luna",
+    "model_returned": "gpt-5.6-luna",
+    "repetition": 1,
+    "started_at_utc": "2026-08-17T11:05:51.009Z",
+    "ended_at_utc": "2026-08-17T11:05:58.406Z",
+    "latency_ms": 7389,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 257,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 727,
+    "reasoning_tokens": 615,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema y cantidad"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "inicios"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "finales"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "duración, alineación, orden y unicidad"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "fuera de reuniones y márgenes"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.0009237999999999999
+  },
+  {
+    "run_id": "T03__gpt-5.6-terra__r2",
+    "sequence": 22,
+    "task_id": "T03",
+    "model_requested": "gpt-5.6-terra",
+    "model_returned": "gpt-5.6-terra",
+    "repetition": 2,
+    "started_at_utc": "2026-08-17T11:05:58.425Z",
+    "ended_at_utc": "2026-08-17T11:06:02.041Z",
+    "latency_ms": 3607,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 257,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 331,
+    "reasoning_tokens": 219,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema y cantidad"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "inicios"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "finales"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "duración, alineación, orden y unicidad"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "fuera de reuniones y márgenes"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.004486
+  },
+  {
+    "run_id": "T03__gpt-5.6-luna__r2",
+    "sequence": 23,
+    "task_id": "T03",
+    "model_requested": "gpt-5.6-luna",
+    "model_returned": "gpt-5.6-luna",
+    "repetition": 2,
+    "started_at_utc": "2026-08-17T11:06:02.064Z",
+    "ended_at_utc": "2026-08-17T11:06:06.255Z",
+    "latency_ms": 4183,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 257,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 419,
+    "reasoning_tokens": 307,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema y cantidad"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "inicios"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "finales"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "duración, alineación, orden y unicidad"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "fuera de reuniones y márgenes"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.0005541999999999999
+  },
+  {
+    "run_id": "T03__gpt-5.6-sol__r2",
+    "sequence": 24,
+    "task_id": "T03",
+    "model_requested": "gpt-5.6-sol",
+    "model_returned": "gpt-5.6-sol",
+    "repetition": 2,
+    "started_at_utc": "2026-08-17T11:06:06.271Z",
+    "ended_at_utc": "2026-08-17T11:06:11.214Z",
+    "latency_ms": 4935,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 257,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 249,
+    "reasoning_tokens": 137,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema y cantidad"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "inicios"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "finales"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "duración, alineación, orden y unicidad"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "fuera de reuniones y márgenes"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.008755
+  },
+  {
+    "run_id": "T03__gpt-5.6-luna__r3",
+    "sequence": 25,
+    "task_id": "T03",
+    "model_requested": "gpt-5.6-luna",
+    "model_returned": "gpt-5.6-luna",
+    "repetition": 3,
+    "started_at_utc": "2026-08-17T11:06:11.240Z",
+    "ended_at_utc": "2026-08-17T11:06:17.280Z",
+    "latency_ms": 6031,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 257,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 576,
+    "reasoning_tokens": 464,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema y cantidad"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "inicios"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "finales"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "duración, alineación, orden y unicidad"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "fuera de reuniones y márgenes"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.0007425999999999999
+  },
+  {
+    "run_id": "T03__gpt-5.6-sol__r3",
+    "sequence": 26,
+    "task_id": "T03",
+    "model_requested": "gpt-5.6-sol",
+    "model_returned": "gpt-5.6-sol",
+    "repetition": 3,
+    "started_at_utc": "2026-08-17T11:06:17.299Z",
+    "ended_at_utc": "2026-08-17T11:06:25.291Z",
+    "latency_ms": 7984,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 257,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 334,
+    "reasoning_tokens": 222,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema y cantidad"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "inicios"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "finales"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "duración, alineación, orden y unicidad"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "fuera de reuniones y márgenes"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.011305
+  },
+  {
+    "run_id": "T03__gpt-5.6-terra__r3",
+    "sequence": 27,
+    "task_id": "T03",
+    "model_requested": "gpt-5.6-terra",
+    "model_returned": "gpt-5.6-terra",
+    "repetition": 3,
+    "started_at_utc": "2026-08-17T11:06:25.313Z",
+    "ended_at_utc": "2026-08-17T11:06:28.454Z",
+    "latency_ms": 3134,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 257,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 299,
+    "reasoning_tokens": 187,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema y cantidad"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "inicios"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "finales"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "duración, alineación, orden y unicidad"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "fuera de reuniones y márgenes"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.004102
+  },
+  {
+    "run_id": "T04__gpt-5.6-sol__r1",
+    "sequence": 28,
+    "task_id": "T04",
+    "model_requested": "gpt-5.6-sol",
+    "model_returned": "gpt-5.6-sol",
+    "repetition": 1,
+    "started_at_utc": "2026-08-17T11:06:34.519Z",
+    "ended_at_utc": "2026-08-17T11:06:37.267Z",
+    "latency_ms": 2741,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 291,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 185,
+    "reasoning_tokens": 0,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema, IDs y orden"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "M1–M2"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "M3–M4"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "M5–M6"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "M7–M8"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.007005
+  },
+  {
+    "run_id": "T04__gpt-5.6-terra__r1",
+    "sequence": 29,
+    "task_id": "T04",
+    "model_requested": "gpt-5.6-terra",
+    "model_returned": "gpt-5.6-terra",
+    "repetition": 1,
+    "started_at_utc": "2026-08-17T11:06:37.310Z",
+    "ended_at_utc": "2026-08-17T11:06:39.068Z",
+    "latency_ms": 1726,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 291,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 185,
+    "reasoning_tokens": 0,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema, IDs y orden"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "M1–M2"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "M3–M4"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "M5–M6"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "M7–M8"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.002802
+  },
+  {
+    "run_id": "T04__gpt-5.6-luna__r1",
+    "sequence": 30,
+    "task_id": "T04",
+    "model_requested": "gpt-5.6-luna",
+    "model_returned": "gpt-5.6-luna",
+    "repetition": 1,
+    "started_at_utc": "2026-08-17T11:06:39.089Z",
+    "ended_at_utc": "2026-08-17T11:06:41.142Z",
+    "latency_ms": 2043,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 291,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 187,
+    "reasoning_tokens": 0,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema, IDs y orden"
+      },
+      {
+        "id": "R2",
+        "pass": false,
+        "detail": "M1–M2"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "M3–M4"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "M5–M6"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "M7–M8"
+      }
+    ],
+    "score": 4,
+    "score_percent": 80,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.00028260000000000004
+  },
+  {
+    "run_id": "T04__gpt-5.6-terra__r2",
+    "sequence": 31,
+    "task_id": "T04",
+    "model_requested": "gpt-5.6-terra",
+    "model_returned": "gpt-5.6-terra",
+    "repetition": 2,
+    "started_at_utc": "2026-08-17T11:06:41.166Z",
+    "ended_at_utc": "2026-08-17T11:06:45.350Z",
+    "latency_ms": 4175,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 291,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 187,
+    "reasoning_tokens": 0,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema, IDs y orden"
+      },
+      {
+        "id": "R2",
+        "pass": false,
+        "detail": "M1–M2"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "M3–M4"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "M5–M6"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "M7–M8"
+      }
+    ],
+    "score": 4,
+    "score_percent": 80,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.002826
+  },
+  {
+    "run_id": "T04__gpt-5.6-luna__r2",
+    "sequence": 32,
+    "task_id": "T04",
+    "model_requested": "gpt-5.6-luna",
+    "model_returned": "gpt-5.6-luna",
+    "repetition": 2,
+    "started_at_utc": "2026-08-17T11:06:45.366Z",
+    "ended_at_utc": "2026-08-17T11:06:47.918Z",
+    "latency_ms": 2542,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 291,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 261,
+    "reasoning_tokens": 74,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema, IDs y orden"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "M1–M2"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "M3–M4"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "M5–M6"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "M7–M8"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.0003714
+  },
+  {
+    "run_id": "T04__gpt-5.6-sol__r2",
+    "sequence": 33,
+    "task_id": "T04",
+    "model_requested": "gpt-5.6-sol",
+    "model_returned": "gpt-5.6-sol",
+    "repetition": 2,
+    "started_at_utc": "2026-08-17T11:06:47.945Z",
+    "ended_at_utc": "2026-08-17T11:06:50.174Z",
+    "latency_ms": 2221,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 291,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 185,
+    "reasoning_tokens": 0,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema, IDs y orden"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "M1–M2"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "M3–M4"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "M5–M6"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "M7–M8"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.007005
+  },
+  {
+    "run_id": "T04__gpt-5.6-luna__r3",
+    "sequence": 34,
+    "task_id": "T04",
+    "model_requested": "gpt-5.6-luna",
+    "model_returned": "gpt-5.6-luna",
+    "repetition": 3,
+    "started_at_utc": "2026-08-17T11:06:50.204Z",
+    "ended_at_utc": "2026-08-17T11:06:51.960Z",
+    "latency_ms": 1747,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 291,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 187,
+    "reasoning_tokens": 0,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema, IDs y orden"
+      },
+      {
+        "id": "R2",
+        "pass": false,
+        "detail": "M1–M2"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "M3–M4"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "M5–M6"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "M7–M8"
+      }
+    ],
+    "score": 4,
+    "score_percent": 80,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.00028260000000000004
+  },
+  {
+    "run_id": "T04__gpt-5.6-sol__r3",
+    "sequence": 35,
+    "task_id": "T04",
+    "model_requested": "gpt-5.6-sol",
+    "model_returned": "gpt-5.6-sol",
+    "repetition": 3,
+    "started_at_utc": "2026-08-17T11:06:51.991Z",
+    "ended_at_utc": "2026-08-17T11:06:55.856Z",
+    "latency_ms": 3855,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 291,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 185,
+    "reasoning_tokens": 0,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema, IDs y orden"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "M1–M2"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "M3–M4"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "M5–M6"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "M7–M8"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.007005
+  },
+  {
+    "run_id": "T04__gpt-5.6-terra__r3",
+    "sequence": 36,
+    "task_id": "T04",
+    "model_requested": "gpt-5.6-terra",
+    "model_returned": "gpt-5.6-terra",
+    "repetition": 3,
+    "started_at_utc": "2026-08-17T11:06:55.882Z",
+    "ended_at_utc": "2026-08-17T11:06:59.169Z",
+    "latency_ms": 3272,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 291,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 261,
+    "reasoning_tokens": 72,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema, IDs y orden"
+      },
+      {
+        "id": "R2",
+        "pass": false,
+        "detail": "M1–M2"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "M3–M4"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "M5–M6"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "M7–M8"
+      }
+    ],
+    "score": 4,
+    "score_percent": 80,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.003714
+  },
+  {
+    "run_id": "T05__gpt-5.6-sol__r1",
+    "sequence": 37,
+    "task_id": "T05",
+    "model_requested": "gpt-5.6-sol",
+    "model_returned": "gpt-5.6-sol",
+    "repetition": 1,
+    "started_at_utc": "2026-08-17T11:06:59.206Z",
+    "ended_at_utc": "2026-08-17T11:07:01.549Z",
+    "latency_ms": 2316,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 375,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 118,
+    "reasoning_tokens": 0,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "programa, fechas y edad"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "formatos y tamaño"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "retención y revisión"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "soporte y exclusiones"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.005415
+  },
+  {
+    "run_id": "T05__gpt-5.6-terra__r1",
+    "sequence": 38,
+    "task_id": "T05",
+    "model_requested": "gpt-5.6-terra",
+    "model_returned": "gpt-5.6-terra",
+    "repetition": 1,
+    "started_at_utc": "2026-08-17T11:07:01.574Z",
+    "ended_at_utc": "2026-08-17T11:07:03.063Z",
+    "latency_ms": 1476,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 375,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 118,
+    "reasoning_tokens": 0,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "programa, fechas y edad"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "formatos y tamaño"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "retención y revisión"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "soporte y exclusiones"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.002166
+  },
+  {
+    "run_id": "T05__gpt-5.6-luna__r1",
+    "sequence": 39,
+    "task_id": "T05",
+    "model_requested": "gpt-5.6-luna",
+    "model_returned": "gpt-5.6-luna",
+    "repetition": 1,
+    "started_at_utc": "2026-08-17T11:07:03.078Z",
+    "ended_at_utc": "2026-08-17T11:07:05.799Z",
+    "latency_ms": 2708,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 375,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 191,
+    "reasoning_tokens": 71,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "programa, fechas y edad"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "formatos y tamaño"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "retención y revisión"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "soporte y exclusiones"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.00030419999999999997
+  },
+  {
+    "run_id": "T05__gpt-5.6-terra__r2",
+    "sequence": 40,
+    "task_id": "T05",
+    "model_requested": "gpt-5.6-terra",
+    "model_returned": "gpt-5.6-terra",
+    "repetition": 2,
+    "started_at_utc": "2026-08-17T11:07:14.422Z",
+    "ended_at_utc": "2026-08-17T11:07:16.510Z",
+    "latency_ms": 2078,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 375,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 163,
+    "reasoning_tokens": 43,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "programa, fechas y edad"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "formatos y tamaño"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "retención y revisión"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "soporte y exclusiones"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.002706
+  },
+  {
+    "run_id": "T05__gpt-5.6-luna__r2",
+    "sequence": 41,
+    "task_id": "T05",
+    "model_requested": "gpt-5.6-luna",
+    "model_returned": "gpt-5.6-luna",
+    "repetition": 2,
+    "started_at_utc": "2026-08-17T11:07:16.545Z",
+    "ended_at_utc": "2026-08-17T11:07:19.455Z",
+    "latency_ms": 2900,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 375,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 198,
+    "reasoning_tokens": 78,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "programa, fechas y edad"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "formatos y tamaño"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "retención y revisión"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "soporte y exclusiones"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.0003126
+  },
+  {
+    "run_id": "T05__gpt-5.6-sol__r2",
+    "sequence": 42,
+    "task_id": "T05",
+    "model_requested": "gpt-5.6-sol",
+    "model_returned": "gpt-5.6-sol",
+    "repetition": 2,
+    "started_at_utc": "2026-08-17T11:07:19.474Z",
+    "ended_at_utc": "2026-08-17T11:07:21.488Z",
+    "latency_ms": 2004,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 375,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 118,
+    "reasoning_tokens": 0,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "programa, fechas y edad"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "formatos y tamaño"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "retención y revisión"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "soporte y exclusiones"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.005415
+  },
+  {
+    "run_id": "T05__gpt-5.6-luna__r3",
+    "sequence": 43,
+    "task_id": "T05",
+    "model_requested": "gpt-5.6-luna",
+    "model_returned": "gpt-5.6-luna",
+    "repetition": 3,
+    "started_at_utc": "2026-08-17T11:07:21.515Z",
+    "ended_at_utc": "2026-08-17T11:07:23.868Z",
+    "latency_ms": 2344,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 375,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 200,
+    "reasoning_tokens": 80,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "programa, fechas y edad"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "formatos y tamaño"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "retención y revisión"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "soporte y exclusiones"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.000315
+  },
+  {
+    "run_id": "T05__gpt-5.6-sol__r3",
+    "sequence": 44,
+    "task_id": "T05",
+    "model_requested": "gpt-5.6-sol",
+    "model_returned": "gpt-5.6-sol",
+    "repetition": 3,
+    "started_at_utc": "2026-08-17T11:07:23.888Z",
+    "ended_at_utc": "2026-08-17T11:07:26.629Z",
+    "latency_ms": 2728,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 375,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 118,
+    "reasoning_tokens": 0,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "programa, fechas y edad"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "formatos y tamaño"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "retención y revisión"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "soporte y exclusiones"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.005415
+  },
+  {
+    "run_id": "T05__gpt-5.6-terra__r3",
+    "sequence": 45,
+    "task_id": "T05",
+    "model_requested": "gpt-5.6-terra",
+    "model_returned": "gpt-5.6-terra",
+    "repetition": 3,
+    "started_at_utc": "2026-08-17T11:07:26.651Z",
+    "ended_at_utc": "2026-08-17T11:07:28.175Z",
+    "latency_ms": 1513,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 375,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 118,
+    "reasoning_tokens": 0,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "programa, fechas y edad"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "formatos y tamaño"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "retención y revisión"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "soporte y exclusiones"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.002166
+  },
+  {
+    "run_id": "T06__gpt-5.6-sol__r1",
+    "sequence": 46,
+    "task_id": "T06",
+    "model_requested": "gpt-5.6-sol",
+    "model_returned": "gpt-5.6-sol",
+    "repetition": 1,
+    "started_at_utc": "2026-08-17T11:07:28.201Z",
+    "ended_at_utc": "2026-08-17T11:07:32.473Z",
+    "latency_ms": 4263,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 357,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 212,
+    "reasoning_tokens": 143,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema y variantes distintas"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "conteo de palabras"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "términos obligatorios"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "restricciones de afirmaciones y símbolos"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "una oración y español neutro operacionalizado"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.008145
+  },
+  {
+    "run_id": "T06__gpt-5.6-terra__r1",
+    "sequence": 47,
+    "task_id": "T06",
+    "model_requested": "gpt-5.6-terra",
+    "model_returned": "gpt-5.6-terra",
+    "repetition": 1,
+    "started_at_utc": "2026-08-17T11:07:32.489Z",
+    "ended_at_utc": "2026-08-17T11:07:37.017Z",
+    "latency_ms": 4514,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 357,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 329,
+    "reasoning_tokens": 263,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema y variantes distintas"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "conteo de palabras"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "términos obligatorios"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "restricciones de afirmaciones y símbolos"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "una oración y español neutro operacionalizado"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.004662
+  },
+  {
+    "run_id": "T06__gpt-5.6-luna__r1",
+    "sequence": 48,
+    "task_id": "T06",
+    "model_requested": "gpt-5.6-luna",
+    "model_returned": "gpt-5.6-luna",
+    "repetition": 1,
+    "started_at_utc": "2026-08-17T11:07:37.042Z",
+    "ended_at_utc": "2026-08-17T11:07:40.944Z",
+    "latency_ms": 3891,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 357,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 324,
+    "reasoning_tokens": 256,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema y variantes distintas"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "conteo de palabras"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "términos obligatorios"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "restricciones de afirmaciones y símbolos"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "una oración y español neutro operacionalizado"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.0004602
+  },
+  {
+    "run_id": "T06__gpt-5.6-terra__r2",
+    "sequence": 49,
+    "task_id": "T06",
+    "model_requested": "gpt-5.6-terra",
+    "model_returned": "gpt-5.6-terra",
+    "repetition": 2,
+    "started_at_utc": "2026-08-17T11:07:40.985Z",
+    "ended_at_utc": "2026-08-17T11:07:45.377Z",
+    "latency_ms": 4366,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 357,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 319,
+    "reasoning_tokens": 249,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema y variantes distintas"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "conteo de palabras"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "términos obligatorios"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "restricciones de afirmaciones y símbolos"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "una oración y español neutro operacionalizado"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.004542
+  },
+  {
+    "run_id": "T06__gpt-5.6-luna__r2",
+    "sequence": 50,
+    "task_id": "T06",
+    "model_requested": "gpt-5.6-luna",
+    "model_returned": "gpt-5.6-luna",
+    "repetition": 2,
+    "started_at_utc": "2026-08-17T11:07:45.395Z",
+    "ended_at_utc": "2026-08-17T11:07:49.088Z",
+    "latency_ms": 3671,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 357,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 307,
+    "reasoning_tokens": 241,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema y variantes distintas"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "conteo de palabras"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "términos obligatorios"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "restricciones de afirmaciones y símbolos"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "una oración y español neutro operacionalizado"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.00043979999999999996
+  },
+  {
+    "run_id": "T06__gpt-5.6-sol__r2",
+    "sequence": 51,
+    "task_id": "T06",
+    "model_requested": "gpt-5.6-sol",
+    "model_returned": "gpt-5.6-sol",
+    "repetition": 2,
+    "started_at_utc": "2026-08-17T11:07:49.111Z",
+    "ended_at_utc": "2026-08-17T11:07:54.691Z",
+    "latency_ms": 5570,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 357,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 280,
+    "reasoning_tokens": 216,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema y variantes distintas"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "conteo de palabras"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "términos obligatorios"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "restricciones de afirmaciones y símbolos"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "una oración y español neutro operacionalizado"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.010185
+  },
+  {
+    "run_id": "T06__gpt-5.6-luna__r3",
+    "sequence": 52,
+    "task_id": "T06",
+    "model_requested": "gpt-5.6-luna",
+    "model_returned": "gpt-5.6-luna",
+    "repetition": 3,
+    "started_at_utc": "2026-08-17T11:08:02.676Z",
+    "ended_at_utc": "2026-08-17T11:08:06.550Z",
+    "latency_ms": 3864,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 357,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 324,
+    "reasoning_tokens": 252,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema y variantes distintas"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "conteo de palabras"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "términos obligatorios"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "restricciones de afirmaciones y símbolos"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "una oración y español neutro operacionalizado"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.0004602
+  },
+  {
+    "run_id": "T06__gpt-5.6-sol__r3",
+    "sequence": 53,
+    "task_id": "T06",
+    "model_requested": "gpt-5.6-sol",
+    "model_returned": "gpt-5.6-sol",
+    "repetition": 3,
+    "started_at_utc": "2026-08-17T11:08:06.567Z",
+    "ended_at_utc": "2026-08-17T11:08:13.269Z",
+    "latency_ms": 6690,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 357,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 240,
+    "reasoning_tokens": 179,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema y variantes distintas"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "conteo de palabras"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "términos obligatorios"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "restricciones de afirmaciones y símbolos"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "una oración y español neutro operacionalizado"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.008985
+  },
+  {
+    "run_id": "T06__gpt-5.6-terra__r3",
+    "sequence": 54,
+    "task_id": "T06",
+    "model_requested": "gpt-5.6-terra",
+    "model_returned": "gpt-5.6-terra",
+    "repetition": 3,
+    "started_at_utc": "2026-08-17T11:08:13.295Z",
+    "ended_at_utc": "2026-08-17T11:08:16.855Z",
+    "latency_ms": 3549,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 357,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 255,
+    "reasoning_tokens": 189,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema y variantes distintas"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "conteo de palabras"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "términos obligatorios"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "restricciones de afirmaciones y símbolos"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "una oración y español neutro operacionalizado"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.003774
+  },
+  {
+    "run_id": "T07__gpt-5.6-sol__r1",
+    "sequence": 55,
+    "task_id": "T07",
+    "model_requested": "gpt-5.6-sol",
+    "model_returned": "gpt-5.6-sol",
+    "repetition": 1,
+    "started_at_utc": "2026-08-17T11:08:16.875Z",
+    "ended_at_utc": "2026-08-17T11:08:18.771Z",
+    "latency_ms": 1877,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 178,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 39,
+    "reasoning_tokens": 0,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema y estado"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "no puede crear el plan"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "seis campos exactos"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "orden exacto"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "sin campos adicionales"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.00206
+  },
+  {
+    "run_id": "T07__gpt-5.6-terra__r1",
+    "sequence": 56,
+    "task_id": "T07",
+    "model_requested": "gpt-5.6-terra",
+    "model_returned": "gpt-5.6-terra",
+    "repetition": 1,
+    "started_at_utc": "2026-08-17T11:08:18.794Z",
+    "ended_at_utc": "2026-08-17T11:08:20.639Z",
+    "latency_ms": 1833,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 178,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 39,
+    "reasoning_tokens": 0,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema y estado"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "no puede crear el plan"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "seis campos exactos"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "orden exacto"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "sin campos adicionales"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.000824
+  },
+  {
+    "run_id": "T07__gpt-5.6-luna__r1",
+    "sequence": 57,
+    "task_id": "T07",
+    "model_requested": "gpt-5.6-luna",
+    "model_returned": "gpt-5.6-luna",
+    "repetition": 1,
+    "started_at_utc": "2026-08-17T11:08:20.660Z",
+    "ended_at_utc": "2026-08-17T11:08:21.908Z",
+    "latency_ms": 1235,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 178,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 39,
+    "reasoning_tokens": 0,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema y estado"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "no puede crear el plan"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "seis campos exactos"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "orden exacto"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "sin campos adicionales"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.00008240000000000001
+  },
+  {
+    "run_id": "T07__gpt-5.6-terra__r2",
+    "sequence": 58,
+    "task_id": "T07",
+    "model_requested": "gpt-5.6-terra",
+    "model_returned": "gpt-5.6-terra",
+    "repetition": 2,
+    "started_at_utc": "2026-08-17T11:08:21.945Z",
+    "ended_at_utc": "2026-08-17T11:08:23.154Z",
+    "latency_ms": 1189,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 178,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 39,
+    "reasoning_tokens": 0,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema y estado"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "no puede crear el plan"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "seis campos exactos"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "orden exacto"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "sin campos adicionales"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.000824
+  },
+  {
+    "run_id": "T07__gpt-5.6-luna__r2",
+    "sequence": 59,
+    "task_id": "T07",
+    "model_requested": "gpt-5.6-luna",
+    "model_returned": "gpt-5.6-luna",
+    "repetition": 2,
+    "started_at_utc": "2026-08-17T11:08:23.181Z",
+    "ended_at_utc": "2026-08-17T11:08:24.069Z",
+    "latency_ms": 876,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 178,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 39,
+    "reasoning_tokens": 0,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema y estado"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "no puede crear el plan"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "seis campos exactos"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "orden exacto"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "sin campos adicionales"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.00008240000000000001
+  },
+  {
+    "run_id": "T07__gpt-5.6-sol__r2",
+    "sequence": 60,
+    "task_id": "T07",
+    "model_requested": "gpt-5.6-sol",
+    "model_returned": "gpt-5.6-sol",
+    "repetition": 2,
+    "started_at_utc": "2026-08-17T11:08:24.089Z",
+    "ended_at_utc": "2026-08-17T11:08:25.704Z",
+    "latency_ms": 1602,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 178,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 39,
+    "reasoning_tokens": 0,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema y estado"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "no puede crear el plan"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "seis campos exactos"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "orden exacto"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "sin campos adicionales"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.00206
+  },
+  {
+    "run_id": "T07__gpt-5.6-luna__r3",
+    "sequence": 61,
+    "task_id": "T07",
+    "model_requested": "gpt-5.6-luna",
+    "model_returned": "gpt-5.6-luna",
+    "repetition": 3,
+    "started_at_utc": "2026-08-17T11:08:25.723Z",
+    "ended_at_utc": "2026-08-17T11:08:26.682Z",
+    "latency_ms": 946,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 178,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 39,
+    "reasoning_tokens": 0,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema y estado"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "no puede crear el plan"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "seis campos exactos"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "orden exacto"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "sin campos adicionales"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.00008240000000000001
+  },
+  {
+    "run_id": "T07__gpt-5.6-sol__r3",
+    "sequence": 62,
+    "task_id": "T07",
+    "model_requested": "gpt-5.6-sol",
+    "model_returned": "gpt-5.6-sol",
+    "repetition": 3,
+    "started_at_utc": "2026-08-17T11:08:26.707Z",
+    "ended_at_utc": "2026-08-17T11:08:28.066Z",
+    "latency_ms": 1345,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 178,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 39,
+    "reasoning_tokens": 0,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema y estado"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "no puede crear el plan"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "seis campos exactos"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "orden exacto"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "sin campos adicionales"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.00206
+  },
+  {
+    "run_id": "T07__gpt-5.6-terra__r3",
+    "sequence": 63,
+    "task_id": "T07",
+    "model_requested": "gpt-5.6-terra",
+    "model_returned": "gpt-5.6-terra",
+    "repetition": 3,
+    "started_at_utc": "2026-08-17T11:08:28.102Z",
+    "ended_at_utc": "2026-08-17T11:08:29.211Z",
+    "latency_ms": 1090,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 178,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 39,
+    "reasoning_tokens": 0,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema y estado"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "no puede crear el plan"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "seis campos exactos"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "orden exacto"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "sin campos adicionales"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.000824
+  },
+  {
+    "run_id": "T08__gpt-5.6-sol__r1",
+    "sequence": 64,
+    "task_id": "T08",
+    "model_requested": "gpt-5.6-sol",
+    "model_returned": "gpt-5.6-sol",
+    "repetition": 1,
+    "started_at_utc": "2026-08-17T11:08:34.101Z",
+    "ended_at_utc": "2026-08-17T11:08:35.992Z",
+    "latency_ms": 1878,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 416,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 36,
+    "reasoning_tokens": 0,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema y dos filas"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "total de MX"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "total de CO"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "solo países elegibles"
+      },
+      {
+        "id": "R5",
+        "pass": false,
+        "detail": "claves y orden"
+      }
+    ],
+    "score": 4,
+    "score_percent": 80,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.00316
+  },
+  {
+    "run_id": "T08__gpt-5.6-terra__r1",
+    "sequence": 65,
+    "task_id": "T08",
+    "model_requested": "gpt-5.6-terra",
+    "model_returned": "gpt-5.6-terra",
+    "repetition": 1,
+    "started_at_utc": "2026-08-17T11:08:36.016Z",
+    "ended_at_utc": "2026-08-17T11:08:38.089Z",
+    "latency_ms": 2057,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 416,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 103,
+    "reasoning_tokens": 65,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema y dos filas"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "total de MX"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "total de CO"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "solo países elegibles"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "claves y orden"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.002068
+  },
+  {
+    "run_id": "T08__gpt-5.6-luna__r1",
+    "sequence": 66,
+    "task_id": "T08",
+    "model_requested": "gpt-5.6-luna",
+    "model_returned": "gpt-5.6-luna",
+    "repetition": 1,
+    "started_at_utc": "2026-08-17T11:08:38.110Z",
+    "ended_at_utc": "2026-08-17T11:08:40.747Z",
+    "latency_ms": 2621,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 416,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 143,
+    "reasoning_tokens": 105,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema y dos filas"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "total de MX"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "total de CO"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "solo países elegibles"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "claves y orden"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.0002548
+  },
+  {
+    "run_id": "T08__gpt-5.6-terra__r2",
+    "sequence": 67,
+    "task_id": "T08",
+    "model_requested": "gpt-5.6-terra",
+    "model_returned": "gpt-5.6-terra",
+    "repetition": 2,
+    "started_at_utc": "2026-08-17T11:08:40.798Z",
+    "ended_at_utc": "2026-08-17T11:08:42.813Z",
+    "latency_ms": 2000,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 416,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 124,
+    "reasoning_tokens": 86,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema y dos filas"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "total de MX"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "total de CO"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "solo países elegibles"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "claves y orden"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.00232
+  },
+  {
+    "run_id": "T08__gpt-5.6-luna__r2",
+    "sequence": 68,
+    "task_id": "T08",
+    "model_requested": "gpt-5.6-luna",
+    "model_returned": "gpt-5.6-luna",
+    "repetition": 2,
+    "started_at_utc": "2026-08-17T11:08:42.845Z",
+    "ended_at_utc": "2026-08-17T11:08:44.969Z",
+    "latency_ms": 2105,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 416,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 139,
+    "reasoning_tokens": 101,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema y dos filas"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "total de MX"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "total de CO"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "solo países elegibles"
+      },
+      {
+        "id": "R5",
+        "pass": false,
+        "detail": "claves y orden"
+      }
+    ],
+    "score": 4,
+    "score_percent": 80,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.00025
+  },
+  {
+    "run_id": "T08__gpt-5.6-sol__r2",
+    "sequence": 69,
+    "task_id": "T08",
+    "model_requested": "gpt-5.6-sol",
+    "model_returned": "gpt-5.6-sol",
+    "repetition": 2,
+    "started_at_utc": "2026-08-17T11:08:44.990Z",
+    "ended_at_utc": "2026-08-17T11:08:48.040Z",
+    "latency_ms": 3036,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 416,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 36,
+    "reasoning_tokens": 0,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema y dos filas"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "total de MX"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "total de CO"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "solo países elegibles"
+      },
+      {
+        "id": "R5",
+        "pass": false,
+        "detail": "claves y orden"
+      }
+    ],
+    "score": 4,
+    "score_percent": 80,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.00316
+  },
+  {
+    "run_id": "T08__gpt-5.6-luna__r3",
+    "sequence": 70,
+    "task_id": "T08",
+    "model_requested": "gpt-5.6-luna",
+    "model_returned": "gpt-5.6-luna",
+    "repetition": 3,
+    "started_at_utc": "2026-08-17T11:08:48.059Z",
+    "ended_at_utc": "2026-08-17T11:08:50.381Z",
+    "latency_ms": 2308,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 416,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 149,
+    "reasoning_tokens": 111,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema y dos filas"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "total de MX"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "total de CO"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "solo países elegibles"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "claves y orden"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.000262
+  },
+  {
+    "run_id": "T08__gpt-5.6-sol__r3",
+    "sequence": 71,
+    "task_id": "T08",
+    "model_requested": "gpt-5.6-sol",
+    "model_returned": "gpt-5.6-sol",
+    "repetition": 3,
+    "started_at_utc": "2026-08-17T11:08:50.397Z",
+    "ended_at_utc": "2026-08-17T11:08:54.243Z",
+    "latency_ms": 3830,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 416,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 36,
+    "reasoning_tokens": 0,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema y dos filas"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "total de MX"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "total de CO"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "solo países elegibles"
+      },
+      {
+        "id": "R5",
+        "pass": false,
+        "detail": "claves y orden"
+      }
+    ],
+    "score": 4,
+    "score_percent": 80,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.00316
+  },
+  {
+    "run_id": "T08__gpt-5.6-terra__r3",
+    "sequence": 72,
+    "task_id": "T08",
+    "model_requested": "gpt-5.6-terra",
+    "model_returned": "gpt-5.6-terra",
+    "repetition": 3,
+    "started_at_utc": "2026-08-17T11:08:54.273Z",
+    "ended_at_utc": "2026-08-17T11:08:56.184Z",
+    "latency_ms": 1896,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 416,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 123,
+    "reasoning_tokens": 85,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema y dos filas"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "total de MX"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "total de CO"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "solo países elegibles"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "claves y orden"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.002308
+  },
+  {
+    "run_id": "T09__gpt-5.6-sol__r1",
+    "sequence": 73,
+    "task_id": "T09",
+    "model_requested": "gpt-5.6-sol",
+    "model_returned": "gpt-5.6-sol",
+    "repetition": 1,
+    "started_at_utc": "2026-08-17T11:08:56.202Z",
+    "ended_at_utc": "2026-08-17T11:08:58.073Z",
+    "latency_ms": 1853,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 273,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 96,
+    "reasoning_tokens": 0,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema, IDs y orden"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "caso A"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "casos B y C"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "caso D"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "caso E"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.004245
+  },
+  {
+    "run_id": "T09__gpt-5.6-terra__r1",
+    "sequence": 74,
+    "task_id": "T09",
+    "model_requested": "gpt-5.6-terra",
+    "model_returned": "gpt-5.6-terra",
+    "repetition": 1,
+    "started_at_utc": "2026-08-17T11:08:58.101Z",
+    "ended_at_utc": "2026-08-17T11:09:00.533Z",
+    "latency_ms": 2418,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 273,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 189,
+    "reasoning_tokens": 91,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema, IDs y orden"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "caso A"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "casos B y C"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "caso D"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "caso E"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.002814
+  },
+  {
+    "run_id": "T09__gpt-5.6-luna__r1",
+    "sequence": 75,
+    "task_id": "T09",
+    "model_requested": "gpt-5.6-luna",
+    "model_returned": "gpt-5.6-luna",
+    "repetition": 1,
+    "started_at_utc": "2026-08-17T11:09:00.550Z",
+    "ended_at_utc": "2026-08-17T11:09:03.492Z",
+    "latency_ms": 2926,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 273,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 209,
+    "reasoning_tokens": 111,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema, IDs y orden"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "caso A"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "casos B y C"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "caso D"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "caso E"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.0003054
+  },
+  {
+    "run_id": "T09__gpt-5.6-terra__r2",
+    "sequence": 76,
+    "task_id": "T09",
+    "model_requested": "gpt-5.6-terra",
+    "model_returned": "gpt-5.6-terra",
+    "repetition": 2,
+    "started_at_utc": "2026-08-17T11:09:11.043Z",
+    "ended_at_utc": "2026-08-17T11:09:13.892Z",
+    "latency_ms": 2825,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 273,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 214,
+    "reasoning_tokens": 116,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema, IDs y orden"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "caso A"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "casos B y C"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "caso D"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "caso E"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.003114
+  },
+  {
+    "run_id": "T09__gpt-5.6-luna__r2",
+    "sequence": 77,
+    "task_id": "T09",
+    "model_requested": "gpt-5.6-luna",
+    "model_returned": "gpt-5.6-luna",
+    "repetition": 2,
+    "started_at_utc": "2026-08-17T11:09:13.906Z",
+    "ended_at_utc": "2026-08-17T11:09:16.129Z",
+    "latency_ms": 2209,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 273,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 208,
+    "reasoning_tokens": 110,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema, IDs y orden"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "caso A"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "casos B y C"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "caso D"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "caso E"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.00030419999999999997
+  },
+  {
+    "run_id": "T09__gpt-5.6-sol__r2",
+    "sequence": 78,
+    "task_id": "T09",
+    "model_requested": "gpt-5.6-sol",
+    "model_returned": "gpt-5.6-sol",
+    "repetition": 2,
+    "started_at_utc": "2026-08-17T11:09:16.144Z",
+    "ended_at_utc": "2026-08-17T11:09:17.944Z",
+    "latency_ms": 1785,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 273,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 96,
+    "reasoning_tokens": 0,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema, IDs y orden"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "caso A"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "casos B y C"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "caso D"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "caso E"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.004245
+  },
+  {
+    "run_id": "T09__gpt-5.6-luna__r3",
+    "sequence": 79,
+    "task_id": "T09",
+    "model_requested": "gpt-5.6-luna",
+    "model_returned": "gpt-5.6-luna",
+    "repetition": 3,
+    "started_at_utc": "2026-08-17T11:09:17.960Z",
+    "ended_at_utc": "2026-08-17T11:09:20.593Z",
+    "latency_ms": 2618,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 273,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 214,
+    "reasoning_tokens": 116,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema, IDs y orden"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "caso A"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "casos B y C"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "caso D"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "caso E"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.00031140000000000003
+  },
+  {
+    "run_id": "T09__gpt-5.6-sol__r3",
+    "sequence": 80,
+    "task_id": "T09",
+    "model_requested": "gpt-5.6-sol",
+    "model_returned": "gpt-5.6-sol",
+    "repetition": 3,
+    "started_at_utc": "2026-08-17T11:09:20.617Z",
+    "ended_at_utc": "2026-08-17T11:09:22.992Z",
+    "latency_ms": 2360,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 273,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 96,
+    "reasoning_tokens": 0,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema, IDs y orden"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "caso A"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "casos B y C"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "caso D"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "caso E"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.004245
+  },
+  {
+    "run_id": "T09__gpt-5.6-terra__r3",
+    "sequence": 81,
+    "task_id": "T09",
+    "model_requested": "gpt-5.6-terra",
+    "model_returned": "gpt-5.6-terra",
+    "repetition": 3,
+    "started_at_utc": "2026-08-17T11:09:23.019Z",
+    "ended_at_utc": "2026-08-17T11:09:25.581Z",
+    "latency_ms": 2544,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 273,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 168,
+    "reasoning_tokens": 70,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema, IDs y orden"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "caso A"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "casos B y C"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "caso D"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "caso E"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.002562
+  },
+  {
+    "run_id": "T10__gpt-5.6-sol__r1",
+    "sequence": 82,
+    "task_id": "T10",
+    "model_requested": "gpt-5.6-sol",
+    "model_returned": "gpt-5.6-sol",
+    "repetition": 1,
+    "started_at_utc": "2026-08-17T11:09:25.604Z",
+    "ended_at_utc": "2026-08-17T11:09:27.694Z",
+    "latency_ms": 2075,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 345,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 120,
+    "reasoning_tokens": 0,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema y cantidad"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "SKU y orden"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "stock y activo"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "etiquetas"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "estados"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.005325
+  },
+  {
+    "run_id": "T10__gpt-5.6-terra__r1",
+    "sequence": 83,
+    "task_id": "T10",
+    "model_requested": "gpt-5.6-terra",
+    "model_returned": "gpt-5.6-terra",
+    "repetition": 1,
+    "started_at_utc": "2026-08-17T11:09:27.714Z",
+    "ended_at_utc": "2026-08-17T11:09:29.178Z",
+    "latency_ms": 1446,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 345,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 120,
+    "reasoning_tokens": 0,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema y cantidad"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "SKU y orden"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "stock y activo"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "etiquetas"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "estados"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.00213
+  },
+  {
+    "run_id": "T10__gpt-5.6-luna__r1",
+    "sequence": 84,
+    "task_id": "T10",
+    "model_requested": "gpt-5.6-luna",
+    "model_returned": "gpt-5.6-luna",
+    "repetition": 1,
+    "started_at_utc": "2026-08-17T11:09:29.198Z",
+    "ended_at_utc": "2026-08-17T11:09:31.703Z",
+    "latency_ms": 2488,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 345,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 179,
+    "reasoning_tokens": 57,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema y cantidad"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "SKU y orden"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "stock y activo"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "etiquetas"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "estados"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.00028379999999999996
+  },
+  {
+    "run_id": "T10__gpt-5.6-terra__r2",
+    "sequence": 85,
+    "task_id": "T10",
+    "model_requested": "gpt-5.6-terra",
+    "model_returned": "gpt-5.6-terra",
+    "repetition": 2,
+    "started_at_utc": "2026-08-17T11:09:31.741Z",
+    "ended_at_utc": "2026-08-17T11:09:33.406Z",
+    "latency_ms": 1622,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 345,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 120,
+    "reasoning_tokens": 0,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema y cantidad"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "SKU y orden"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "stock y activo"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "etiquetas"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "estados"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.00213
+  },
+  {
+    "run_id": "T10__gpt-5.6-luna__r2",
+    "sequence": 86,
+    "task_id": "T10",
+    "model_requested": "gpt-5.6-luna",
+    "model_returned": "gpt-5.6-luna",
+    "repetition": 2,
+    "started_at_utc": "2026-08-17T11:09:33.431Z",
+    "ended_at_utc": "2026-08-17T11:09:35.440Z",
+    "latency_ms": 1992,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 345,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 189,
+    "reasoning_tokens": 67,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema y cantidad"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "SKU y orden"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "stock y activo"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "etiquetas"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "estados"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.0002958
+  },
+  {
+    "run_id": "T10__gpt-5.6-sol__r2",
+    "sequence": 87,
+    "task_id": "T10",
+    "model_requested": "gpt-5.6-sol",
+    "model_returned": "gpt-5.6-sol",
+    "repetition": 2,
+    "started_at_utc": "2026-08-17T11:09:35.461Z",
+    "ended_at_utc": "2026-08-17T11:09:37.866Z",
+    "latency_ms": 2388,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 345,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 120,
+    "reasoning_tokens": 0,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema y cantidad"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "SKU y orden"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "stock y activo"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "etiquetas"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "estados"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.005325
+  },
+  {
+    "run_id": "T10__gpt-5.6-luna__r3",
+    "sequence": 88,
+    "task_id": "T10",
+    "model_requested": "gpt-5.6-luna",
+    "model_returned": "gpt-5.6-luna",
+    "repetition": 3,
+    "started_at_utc": "2026-08-17T11:09:42.131Z",
+    "ended_at_utc": "2026-08-17T11:09:44.306Z",
+    "latency_ms": 2155,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 345,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 186,
+    "reasoning_tokens": 64,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema y cantidad"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "SKU y orden"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "stock y activo"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "etiquetas"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "estados"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.0002922
+  },
+  {
+    "run_id": "T10__gpt-5.6-sol__r3",
+    "sequence": 89,
+    "task_id": "T10",
+    "model_requested": "gpt-5.6-sol",
+    "model_returned": "gpt-5.6-sol",
+    "repetition": 3,
+    "started_at_utc": "2026-08-17T11:09:44.321Z",
+    "ended_at_utc": "2026-08-17T11:09:47.480Z",
+    "latency_ms": 3136,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 345,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 120,
+    "reasoning_tokens": 0,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema y cantidad"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "SKU y orden"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "stock y activo"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "etiquetas"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "estados"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.005325
+  },
+  {
+    "run_id": "T10__gpt-5.6-terra__r3",
+    "sequence": 90,
+    "task_id": "T10",
+    "model_requested": "gpt-5.6-terra",
+    "model_returned": "gpt-5.6-terra",
+    "repetition": 3,
+    "started_at_utc": "2026-08-17T11:09:47.508Z",
+    "ended_at_utc": "2026-08-17T11:09:49.004Z",
+    "latency_ms": 1472,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 345,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 120,
+    "reasoning_tokens": 0,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema y cantidad"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "SKU y orden"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "stock y activo"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "etiquetas"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "estados"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.00213
+  },
+  {
+    "run_id": "T11__gpt-5.6-sol__r1",
+    "sequence": 91,
+    "task_id": "T11",
+    "model_requested": "gpt-5.6-sol",
+    "model_returned": "gpt-5.6-sol",
+    "repetition": 1,
+    "started_at_utc": "2026-08-17T11:09:49.031Z",
+    "ended_at_utc": "2026-08-17T11:09:51.069Z",
+    "latency_ms": 2019,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 243,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 47,
+    "reasoning_tokens": 0,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "estado de privacidad"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "pedido y estado"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "sin valores sensibles"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "campos omitidos"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.002625
+  },
+  {
+    "run_id": "T11__gpt-5.6-terra__r1",
+    "sequence": 92,
+    "task_id": "T11",
+    "model_requested": "gpt-5.6-terra",
+    "model_returned": "gpt-5.6-terra",
+    "repetition": 1,
+    "started_at_utc": "2026-08-17T11:09:51.089Z",
+    "ended_at_utc": "2026-08-17T11:09:52.286Z",
+    "latency_ms": 1181,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 243,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 47,
+    "reasoning_tokens": 0,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "estado de privacidad"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "pedido y estado"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "sin valores sensibles"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "campos omitidos"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.00105
+  },
+  {
+    "run_id": "T11__gpt-5.6-luna__r1",
+    "sequence": 93,
+    "task_id": "T11",
+    "model_requested": "gpt-5.6-luna",
+    "model_returned": "gpt-5.6-luna",
+    "repetition": 1,
+    "started_at_utc": "2026-08-17T11:09:52.307Z",
+    "ended_at_utc": "2026-08-17T11:09:53.874Z",
+    "latency_ms": 1550,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 243,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 77,
+    "reasoning_tokens": 28,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "estado de privacidad"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "pedido y estado"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "sin valores sensibles"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "campos omitidos"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.000141
+  },
+  {
+    "run_id": "T11__gpt-5.6-terra__r2",
+    "sequence": 94,
+    "task_id": "T11",
+    "model_requested": "gpt-5.6-terra",
+    "model_returned": "gpt-5.6-terra",
+    "repetition": 2,
+    "started_at_utc": "2026-08-17T11:09:53.888Z",
+    "ended_at_utc": "2026-08-17T11:09:55.133Z",
+    "latency_ms": 1229,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 243,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 47,
+    "reasoning_tokens": 0,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "estado de privacidad"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "pedido y estado"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "sin valores sensibles"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "campos omitidos"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.00105
+  },
+  {
+    "run_id": "T11__gpt-5.6-luna__r2",
+    "sequence": 95,
+    "task_id": "T11",
+    "model_requested": "gpt-5.6-luna",
+    "model_returned": "gpt-5.6-luna",
+    "repetition": 2,
+    "started_at_utc": "2026-08-17T11:09:55.146Z",
+    "ended_at_utc": "2026-08-17T11:09:56.239Z",
+    "latency_ms": 1076,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 243,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 47,
+    "reasoning_tokens": 0,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "estado de privacidad"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "pedido y estado"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "sin valores sensibles"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "campos omitidos"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.000105
+  },
+  {
+    "run_id": "T11__gpt-5.6-sol__r2",
+    "sequence": 96,
+    "task_id": "T11",
+    "model_requested": "gpt-5.6-sol",
+    "model_returned": "gpt-5.6-sol",
+    "repetition": 2,
+    "started_at_utc": "2026-08-17T11:09:56.264Z",
+    "ended_at_utc": "2026-08-17T11:09:59.122Z",
+    "latency_ms": 2839,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 243,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 47,
+    "reasoning_tokens": 0,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "estado de privacidad"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "pedido y estado"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "sin valores sensibles"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "campos omitidos"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.002625
+  },
+  {
+    "run_id": "T11__gpt-5.6-luna__r3",
+    "sequence": 97,
+    "task_id": "T11",
+    "model_requested": "gpt-5.6-luna",
+    "model_returned": "gpt-5.6-luna",
+    "repetition": 3,
+    "started_at_utc": "2026-08-17T11:09:59.139Z",
+    "ended_at_utc": "2026-08-17T11:10:00.385Z",
+    "latency_ms": 1221,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 243,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 47,
+    "reasoning_tokens": 0,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "estado de privacidad"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "pedido y estado"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "sin valores sensibles"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "campos omitidos"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.000105
+  },
+  {
+    "run_id": "T11__gpt-5.6-sol__r3",
+    "sequence": 98,
+    "task_id": "T11",
+    "model_requested": "gpt-5.6-sol",
+    "model_returned": "gpt-5.6-sol",
+    "repetition": 3,
+    "started_at_utc": "2026-08-17T11:10:00.412Z",
+    "ended_at_utc": "2026-08-17T11:10:02.174Z",
+    "latency_ms": 1744,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 243,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 47,
+    "reasoning_tokens": 0,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "estado de privacidad"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "pedido y estado"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "sin valores sensibles"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "campos omitidos"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.002625
+  },
+  {
+    "run_id": "T11__gpt-5.6-terra__r3",
+    "sequence": 99,
+    "task_id": "T11",
+    "model_requested": "gpt-5.6-terra",
+    "model_returned": "gpt-5.6-terra",
+    "repetition": 3,
+    "started_at_utc": "2026-08-17T11:10:02.197Z",
+    "ended_at_utc": "2026-08-17T11:10:03.479Z",
+    "latency_ms": 1261,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 243,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 47,
+    "reasoning_tokens": 0,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "estado de privacidad"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "pedido y estado"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "sin valores sensibles"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "campos omitidos"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.00105
+  },
+  {
+    "run_id": "T12__gpt-5.6-sol__r1",
+    "sequence": 100,
+    "task_id": "T12",
+    "model_requested": "gpt-5.6-sol",
+    "model_returned": "gpt-5.6-sol",
+    "repetition": 1,
+    "started_at_utc": "2026-08-17T11:10:10.714Z",
+    "ended_at_utc": "2026-08-17T11:10:13.997Z",
+    "latency_ms": 3266,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 271,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 216,
+    "reasoning_tokens": 101,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema, IDs y orden"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "A–C"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "D–F"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "duración"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "caminos críticos"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.007835
+  },
+  {
+    "run_id": "T12__gpt-5.6-terra__r1",
+    "sequence": 101,
+    "task_id": "T12",
+    "model_requested": "gpt-5.6-terra",
+    "model_returned": "gpt-5.6-terra",
+    "repetition": 1,
+    "started_at_utc": "2026-08-17T11:10:14.028Z",
+    "ended_at_utc": "2026-08-17T11:10:16.319Z",
+    "latency_ms": 2270,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 271,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 200,
+    "reasoning_tokens": 85,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema, IDs y orden"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "A–C"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "D–F"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "duración"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "caminos críticos"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.002942
+  },
+  {
+    "run_id": "T12__gpt-5.6-luna__r1",
+    "sequence": 102,
+    "task_id": "T12",
+    "model_requested": "gpt-5.6-luna",
+    "model_returned": "gpt-5.6-luna",
+    "repetition": 1,
+    "started_at_utc": "2026-08-17T11:10:16.349Z",
+    "ended_at_utc": "2026-08-17T11:10:19.076Z",
+    "latency_ms": 2687,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 271,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 206,
+    "reasoning_tokens": 91,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema, IDs y orden"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "A–C"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "D–F"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "duración"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "caminos críticos"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.00030139999999999995
+  },
+  {
+    "run_id": "T12__gpt-5.6-terra__r2",
+    "sequence": 103,
+    "task_id": "T12",
+    "model_requested": "gpt-5.6-terra",
+    "model_returned": "gpt-5.6-terra",
+    "repetition": 2,
+    "started_at_utc": "2026-08-17T11:10:19.091Z",
+    "ended_at_utc": "2026-08-17T11:10:21.695Z",
+    "latency_ms": 2582,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 271,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 229,
+    "reasoning_tokens": 114,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema, IDs y orden"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "A–C"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "D–F"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "duración"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "caminos críticos"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.00329
+  },
+  {
+    "run_id": "T12__gpt-5.6-luna__r2",
+    "sequence": 104,
+    "task_id": "T12",
+    "model_requested": "gpt-5.6-luna",
+    "model_returned": "gpt-5.6-luna",
+    "repetition": 2,
+    "started_at_utc": "2026-08-17T11:10:21.723Z",
+    "ended_at_utc": "2026-08-17T11:10:24.511Z",
+    "latency_ms": 2769,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 271,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 256,
+    "reasoning_tokens": 141,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema, IDs y orden"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "A–C"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "D–F"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "duración"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "caminos críticos"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.0003614
+  },
+  {
+    "run_id": "T12__gpt-5.6-sol__r2",
+    "sequence": 105,
+    "task_id": "T12",
+    "model_requested": "gpt-5.6-sol",
+    "model_returned": "gpt-5.6-sol",
+    "repetition": 2,
+    "started_at_utc": "2026-08-17T11:10:24.532Z",
+    "ended_at_utc": "2026-08-17T11:10:27.113Z",
+    "latency_ms": 2560,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 271,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 210,
+    "reasoning_tokens": 95,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema, IDs y orden"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "A–C"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "D–F"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "duración"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "caminos críticos"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.007655
+  },
+  {
+    "run_id": "T12__gpt-5.6-luna__r3",
+    "sequence": 106,
+    "task_id": "T12",
+    "model_requested": "gpt-5.6-luna",
+    "model_returned": "gpt-5.6-luna",
+    "repetition": 3,
+    "started_at_utc": "2026-08-17T11:10:27.130Z",
+    "ended_at_utc": "2026-08-17T11:10:29.317Z",
+    "latency_ms": 2170,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 271,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 221,
+    "reasoning_tokens": 106,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema, IDs y orden"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "A–C"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "D–F"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "duración"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "caminos críticos"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.00031939999999999996
+  },
+  {
+    "run_id": "T12__gpt-5.6-sol__r3",
+    "sequence": 107,
+    "task_id": "T12",
+    "model_requested": "gpt-5.6-sol",
+    "model_returned": "gpt-5.6-sol",
+    "repetition": 3,
+    "started_at_utc": "2026-08-17T11:10:29.338Z",
+    "ended_at_utc": "2026-08-17T11:10:33.436Z",
+    "latency_ms": 4082,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 271,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 222,
+    "reasoning_tokens": 107,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema, IDs y orden"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "A–C"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "D–F"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "duración"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "caminos críticos"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.008015
+  },
+  {
+    "run_id": "T12__gpt-5.6-terra__r3",
+    "sequence": 108,
+    "task_id": "T12",
+    "model_requested": "gpt-5.6-terra",
+    "model_returned": "gpt-5.6-terra",
+    "repetition": 3,
+    "started_at_utc": "2026-08-17T11:10:33.455Z",
+    "ended_at_utc": "2026-08-17T11:10:36.439Z",
+    "latency_ms": 2964,
+    "http_status": 200,
+    "attempts": 1,
+    "input_tokens": 271,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 225,
+    "reasoning_tokens": 110,
+    "response_status": "completed",
+    "rules": [
+      {
+        "id": "R1",
+        "pass": true,
+        "detail": "esquema, IDs y orden"
+      },
+      {
+        "id": "R2",
+        "pass": true,
+        "detail": "A–C"
+      },
+      {
+        "id": "R3",
+        "pass": true,
+        "detail": "D–F"
+      },
+      {
+        "id": "R4",
+        "pass": true,
+        "detail": "duración"
+      },
+      {
+        "id": "R5",
+        "pass": true,
+        "detail": "caminos críticos"
+      }
+    ],
+    "score": 5,
+    "score_percent": 100,
+    "pass": true,
+    "critical_failure": false,
+    "parse_error": null,
+    "schema_errors": [],
+    "diagnostics": null,
+    "evaluator_version": "gpt56-evaluator-v1.0.0",
+    "estimated_cost_usd": 0.003242
+  }
+]

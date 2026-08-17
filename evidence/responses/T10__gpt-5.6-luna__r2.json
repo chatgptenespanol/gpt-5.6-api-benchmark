@@ -1,0 +1,114 @@
+{
+  "id": "resp_0bebb04089a358e2016a82ebedb85c87d29e7dcb90e55a9209",
+  "object": "response",
+  "created_at": 1786964973,
+  "status": "completed",
+  "incomplete_details": null,
+  "max_output_tokens": 800,
+  "model": "gpt-5.6-luna",
+  "output": [
+    {
+      "id": "rs_0bebb04089a358e2016a82ebee191487d2bd27851001bc944f",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqguvvXMU7yt8FPB4X98JLxt9p2N1Vl14PdQKoEg_tUAHbOvvSu8KsUZBFt1UQM8Iji0RLgqKc2fSBuRvPSBKLM54KrUiluHe5ZoKhzjOtTylGdbbS0D3TQ-yKOHjwHnscDlmb9zhyyea9guDPuq3ORTaM-s0La7RNQ35dq3pLzo1YquRChwfF-AvTjNl4dxIFp80_n_VQRuE98DC2vmw55HPV0J5nrTzDZPPLNuwNCygoXJ5dNuCLbzNLnuLA_KAq5rY0_BLMxISaRS3gYxy1cRusDORD03qc24-DBUPASiUIV_Mqqy689JwRvfwiDQOFtjlQ_G5sT-fNtnH893aFz6GsvtFrHszJbB1GHvY6-w1tUkRnOT6QEZqTKORahPI7Hd8mOjX5kQT1wK_JaNE5xtEl0pdh1XY8l0ECZSb-NDDiZcqHyj13HcrN3giYnks6XOnM8NqluriN7Mo5DwVBQbivsTZeEBocnH-aMT0mGD88m5-31vtsov_sCPeXyW6Q2SEoEGAslFyzwaCoWGB3Ph62UvD11ThvR4POqJJ3sOqArBokQ8WTzJDu0iXsevZoFrj1jdGfSYJz_560U-CHpox6wbwO6YSBty18RW5YS4_xwBjuMLk66Re-pO9amdD6mf8dfiMGTz-G-5mjPMGMUAN5Sw532PunJLR9ZemFUwn_F4oqBJhi02oE5KH2rlzz-jI_w2Fiw_MTE13MqLox8qBWl11yYLkL1iZNGzjvAbEdalsNNa-XP-E9WOYKUAQ9Ep2u3lEDd3TK5PAPgI4VdQv4VGLwObvZd5Skh-C5SunJz-P0cOhxdZ4fUPbltYapTGJQ_s7iEv5KvRIdQQPIZjc7NbGHe-OtlpJl3LnPhBT0cIvWIVyuSYc6pyv5Zsi1cagjIJQjLz4l48Xz6TMOLF2mGNLuswamOTRCT2nCMvaysXz9XPgcxAzMD6qIDxRY4crfLdhXIxjLHULdomK4-SjVQMN2dssxKDv-zeZbtgbl29SouC7rSdi2ZPQzQPzNNJD593tEAAmRF60dU62vOq14CEwiwhmk78VU0F4-fjYAAo4dDAWu3_HtsPRCZKk6MBdZDR_ZmT57-cTFK7yd6Y_cmh9SlO6IAp6A-vfG3euwDu8q7oP1f7QitYJgb7S9qnonQk9nPhAtsrAJNZXxg3I-YU2GxdcJi1VbzMADF-jkUHG4_9B5RT9XPeQaALHT7cdiGbnHZJPRpsYzj1Q87tj59pQinWkkXymQb0ApX-BHnHfdRAt2DaWE-rmcX3YMa9VC7zkfn-whdxZIsZOByA3FuZuE1QPoruMY_eqCKJ0n97LWswqbRXPLH6kydySaqwYKF2IZJYaTSI1EVcFMGGtv0OhHu8qoeTrwbHro5vbrpjfE3TKpKsikTixVMUDEHNVhAQf_rYCNcoTK5_L_tfIgK8K5_2pvOzA1ajo2cbXPf0k5CYLBVWXnCwhI7D-OOeMVyw0L85BFENBUyScor9O8brp9TXHSY9aJfT3ZWIXJ1Wq7pjEL5r7nCsvcQtghPyF6",
+      "summary": []
+    },
+    {
+      "id": "msg_0bebb04089a358e2016a82ebeee0d087d298ddd3121ca4c013",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"products\":[{\"sku\":\"A-01\",\"stock\":7,\"active\":true,\"tags\":[\"azul\",\"oficina\"],\"inventory_status\":\"available\"},{\"sku\":\"B-02\",\"stock\":0,\"active\":false,\"tags\":[],\"inventory_status\":\"inactive\"},{\"sku\":\"C-03\",\"stock\":12,\"active\":true,\"tags\":[\"hogar\",\"oferta\"],\"inventory_status\":\"available\"},{\"sku\":\"D-04\",\"stock\":0,\"active\":true,\"tags\":[\"liquidación\"],\"inventory_status\":\"out_of_stock\"}]}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "service_tier": "default",
+  "store": false,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "t10_response",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "products": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "sku": {
+                  "type": "string"
+                },
+                "stock": {
+                  "type": "integer"
+                },
+                "active": {
+                  "type": "boolean"
+                },
+                "tags": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "inventory_status": {
+                  "type": "string",
+                  "enum": [
+                    "inactive",
+                    "out_of_stock",
+                    "low",
+                    "available"
+                  ]
+                }
+              },
+              "required": [
+                "sku",
+                "stock",
+                "active",
+                "tags",
+                "inventory_status"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 4,
+            "maxItems": 4
+          }
+        },
+        "required": [
+          "products"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tools": [],
+  "usage": {
+    "input_tokens": 345,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 189,
+    "output_tokens_details": {
+      "reasoning_tokens": 67
+    },
+    "total_tokens": 534
+  }
+}

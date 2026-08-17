@@ -1,0 +1,23 @@
+{
+  "name": "gpt-5-6-api-benchmark",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "Reproducible neutral-Spanish API benchmark for GPT-5.6 Sol, Terra and Luna.",
+  "scripts": {
+    "build:spec": "node src/build-spec.mjs",
+    "freeze": "node src/freeze.mjs",
+    "test": "node tests/evaluator.test.mjs",
+    "test:runner": "node tests/runner.test.mjs",
+    "test:repository": "node tests/repository-integrity.test.mjs",
+    "run": "node src/run-cli.mjs",
+    "evaluate": "node src/evaluate.mjs .",
+    "report": "node src/build-report.mjs",
+    "checksums": "node src/build-checksums.mjs",
+    "verify": "node src/verify-package.mjs"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "license": "MIT"
+}

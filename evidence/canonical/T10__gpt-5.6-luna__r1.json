@@ -1,0 +1,143 @@
+{
+  "schema_version": "1.0.0",
+  "request_sha256": "cd0d98091414b32741dc301625b148443ad320bcb39d9cd17c05edf5d12465ff",
+  "frozen_manifest_sha256": "130d86eb9b563b8df3dd718b6ce8e1327f5a900e81742e58b3d35cf564c23c76",
+  "metadata": {
+    "run_id": "T10__gpt-5.6-luna__r1",
+    "sequence": 84,
+    "task_id": "T10",
+    "model_requested": "gpt-5.6-luna",
+    "repetition": 1,
+    "started_at_utc": "2026-08-17T11:09:29.198Z",
+    "ended_at_utc": "2026-08-17T11:09:31.703Z",
+    "latency_ms": 2488,
+    "http_status": 200,
+    "attempts": 1,
+    "response_headers": {
+      "x-request-id": "req_36cfb9095b5c4de1ac88f79814e44895",
+      "openai-processing-ms": "2229",
+      "openai-version": "2020-10-01",
+      "content-type": "application/json"
+    },
+    "response_status": "completed",
+    "output_text_chars": 383,
+    "estimated_cost_usd": 0.00028379999999999996,
+    "reserved_max_cost_usd": 0.00140425,
+    "request_sha256": "cd0d98091414b32741dc301625b148443ad320bcb39d9cd17c05edf5d12465ff",
+    "frozen_manifest_sha256": "130d86eb9b563b8df3dd718b6ce8e1327f5a900e81742e58b3d35cf564c23c76"
+  },
+  "response": {
+    "id": "resp_0d2b79b89291171c016a82ebe98c24819eaef160c337c01a27",
+    "object": "response",
+    "created_at": 1786964969,
+    "status": "completed",
+    "incomplete_details": null,
+    "max_output_tokens": 800,
+    "model": "gpt-5.6-luna",
+    "output": [
+      {
+        "id": "rs_0d2b79b89291171c016a82ebe9edb0819e83c7baffd2413e7b",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqguvrc-PAVkyo_AxblYwG4aEN5g8VJ9pWBbycVIX2mq7l8e89dVdr5g2sOUclCyNap7af7fJ4kwt3NyJkf4Gy4PSfcHGYkvA_wmOescc0fgA4nzjgzRHbmHRDLyUyT06p4BagwtPHRqqukl2DgYeicE4i6j_yL3kLmF_yUBNCaZ4mLBMuLFk2WUxUbIAbciikPH1oVTfwNDTC-w0RuanH3qDPYSRqtb_urnjcyqL2bB_DiZrnX1XuATPYsQEhofNTZylVeHOKxpWnOvLpCKHrimWnHv4e8MebuFC_rDiOCvjtDT_1O4SpkFy8UQQ4mKVjGOFuUAGofoS5UXZJcUF5F5D1er4RblVrfdipK94jDBB8IFI34_2_BNXVX0_2NFMjQMw-Fj4cKA6dHL-71XYmmdVLEBn3mDnbeOaiDItFKDx4GtZtrCW9QOp3jNevKgi8Uq-vHF1-i6m70ZTElsioFQ7ztgTcIhgQxbzq9SCujB9UqWYWzXaWITBAnBUKSAkygNOZEa7-WYkrILu3sFsEQgRMsMaY6JW_5OtLpi6lea4ZYYUUr6NJ0fejyFLPbQvWHRfFzxvtOMUXz9qHxgZEVHZ41F-DGNATpMujkmfI25BPvQ0gui6l3-wbLZqNG4LvWxpNQP5wx_mrCZSnJ9z_slZgwlCm9xEoxuMRPKrTWz3TuE-DsOCvx2QpO3EDjPQ9nQ7zH9ln3RLrd5ltVeSrR_ATmWh3n7KViUp8YBP4FYEI3cPjnMUQU7hK4_AmE079_VRvkrW5sWuTvByJN5hIp0ywmN4PFKxbBEdCH7uNOsKyaQJwXcayGQadSGoPoZ0qgZIQaqoPTPpJw5KrAP7RpGx1lmejBZ9GnylV8xZSDijZYtFtAbXMzoFTxj90i0o2GPtWSYrDouTIsmDHNuB5U7O_0tXL3FB1VypNy2-lYe7V_RUZrki_fwIQsYLwRhAVVDAE0oGOwJ2GtjLW6rucs15B0DVy0CcG0Hi38M87vLZx2bcp2QCIUtUVbgJlvtgQ62hCyV6tApvHzK3RqSf3LMoDhowJry-ma8o28XbxtYq3v6P1Dn7FPpx37fwHh7rGibEpb0m24BhBxLve-SlFFkhTOAGRCSFTpU6dJltSiIgy6-AvsPdxrGr5Ya1LF7CRlfWDAIoPDuQlWH-uLUY4ry0nsSfhtZ76iRhTypgiraHFbxiVP-GJxlpVhoCdjj1WBw6-43OyJyKrcd4lMCIZklGlV4B4m9GTpXltaC9lMQ4SXC-O9wMyigFNhJP2ByO2NCJF25rHoq0NQPmYxaX2mzpK_a1jG1tEHEs94fDk-Zf5G4UPGZczyCL35v7RxLCC1Le9IrGflvj9TBfHYCmoOtJDSndETqmVnCC7wvOoYxgxcEm-ZiU_eNLcyY7ofG3dNe4r7n4eAU0NOSmLgN41AHvi2HmKKHW4xPvlqqbs3mihJ87psoeMeV13wlGUIY6NUxc7",
+        "summary": []
+      },
+      {
+        "id": "msg_0d2b79b89291171c016a82ebeac7d0819ea149313bbce00ee4",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\"products\":[{\"sku\":\"A-01\",\"stock\":7,\"active\":true,\"tags\":[\"azul\",\"oficina\"],\"inventory_status\":\"available\"},{\"sku\":\"B-02\",\"stock\":0,\"active\":false,\"tags\":[],\"inventory_status\":\"inactive\"},{\"sku\":\"C-03\",\"stock\":12,\"active\":true,\"tags\":[\"hogar\",\"oferta\"],\"inventory_status\":\"available\"},{\"sku\":\"D-04\",\"stock\":0,\"active\":true,\"tags\":[\"liquidación\"],\"inventory_status\":\"out_of_stock\"}]}"
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "low",
+      "mode": "standard",
+      "summary": null
+    },
+    "service_tier": "default",
+    "store": false,
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "description": null,
+        "name": "t10_response",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "products": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "sku": {
+                    "type": "string"
+                  },
+                  "stock": {
+                    "type": "integer"
+                  },
+                  "active": {
+                    "type": "boolean"
+                  },
+                  "tags": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "inventory_status": {
+                    "type": "string",
+                    "enum": [
+                      "inactive",
+                      "out_of_stock",
+                      "low",
+                      "available"
+                    ]
+                  }
+                },
+                "required": [
+                  "sku",
+                  "stock",
+                  "active",
+                  "tags",
+                  "inventory_status"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 4,
+              "maxItems": 4
+            }
+          },
+          "required": [
+            "products"
+          ],
+          "additionalProperties": false
+        },
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "tools": [],
+    "usage": {
+      "input_tokens": 345,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 179,
+      "output_tokens_details": {
+        "reasoning_tokens": 57
+      },
+      "total_tokens": 524
+    }
+  }
+}

@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this benchmark, cite the archived version."
+title: "GPT-5.6 API Benchmark: Neutral-Spanish Evaluation Suite and Results"
+type: software
+version: 1.0.0
+date-released: 2026-08-17
+doi: 10.5281/zenodo.21978662
+repository-code: "https://github.com/chatgptenespanol/gpt-5.6-api-benchmark"
+url: "https://doi.org/10.5281/zenodo.21978662"
+authors:
+  - family-names: "Aly"
+    given-names: "Ahmed"
+license: MIT

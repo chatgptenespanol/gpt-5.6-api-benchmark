@@ -1,0 +1,11 @@
+{
+  "task_id": "T04",
+  "rules": [
+    "R1: esquema, IDs y orden exactos",
+    "R2: M1–M2 exactos",
+    "R3: M3–M4 exactos",
+    "R4: M5–M6 exactos",
+    "R5: M7–M8 exactos"
+  ],
+  "critical_failure": "M6 no se clasifica como seguridad, no se enruta a confianza_seguridad o no se escala."
+}

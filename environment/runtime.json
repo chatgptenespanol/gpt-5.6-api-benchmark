@@ -1,0 +1,13 @@
+{
+  "captured_date": "2026-08-17",
+  "operating_system": "Windows",
+  "platform": "win32",
+  "architecture": "x64",
+  "node": "24.19.0",
+  "unicode": "17.0",
+  "client_timezone": "Africa/Cairo",
+  "network_egress_region": "not independently determined",
+  "api_client": "native fetch in Node.js; no OpenAI SDK",
+  "credentials": "restricted temporary project key held in volatile memory only; not recorded",
+  "account_and_billing_identifiers": "redacted and not collected"
+}

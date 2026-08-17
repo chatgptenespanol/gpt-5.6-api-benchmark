@@ -1,0 +1,50 @@
+{
+  "run_id": "T06__gpt-5.6-luna__r3",
+  "sequence": 52,
+  "request": {
+    "model": "gpt-5.6-luna",
+    "input": [
+      {
+        "role": "system",
+        "content": "Responde en español neutro y trabaja únicamente con los datos de la tarea. No uses fuentes externas, herramientas ni supuestos no indicados. Devuelve solo el objeto definido por el esquema JSON proporcionado."
+      },
+      {
+        "role": "user",
+        "content": "Escribe tres llamadas a la acción distintas para el producto ficticio Lumen. Cada una debe tener entre 12 y 16 palabras, incluir literalmente «Lumen» y «prueba gratuita», y ser una sola oración terminada en punto o signo de interrogación. Para el recuento, normaliza a Unicode NFC, recorta los extremos y separa palabras por uno o más espacios. No uses signos de exclamación, emojis, dígitos, símbolos de moneda, el signo %, ni las palabras euro, euros, dólar, dólares, peso, pesos, USD, EUR, por ciento o porcentaje. Tampoco uses estas formas de afirmación: mejor, número uno, líder, primera elección, superior, garantiza, garantizado, garantizada, asegura, promete, sin límites, oficial, alianza, asociado, asociada, respaldado por, respaldada por o en colaboración con; se comparan como palabras o secuencias completas, tras normalizar a Unicode NFC y sin distinguir mayúsculas, minúsculas ni tildes. No uses estos regionalismos: vos, vosotros, probá, hacé, cogé, pillá, chévere, guay u órale; se comparan como palabras completas tras normalizar a NFC y sin distinguir mayúsculas y minúsculas, pero conservando las tildes."
+      }
+    ],
+    "reasoning": {
+      "effort": "low"
+    },
+    "max_output_tokens": 800,
+    "store": false,
+    "stream": false,
+    "tools": [],
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "name": "t06_response",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "variants": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 180
+              },
+              "minItems": 3,
+              "maxItems": 3
+            }
+          },
+          "required": [
+            "variants"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "run_id": "T10__gpt-5.6-sol__r1",
+  "attempt": 1,
+  "started_at_utc": "2026-08-17T11:09:25.604Z",
+  "ended_at_utc": "2026-08-17T11:09:27.694Z",
+  "latency_ms": 2075,
+  "http_status": 200,
+  "response_headers": {
+    "x-request-id": "req_849db4b657cd47b7a5687afc7ceab9c5",
+    "openai-processing-ms": "1859",
+    "openai-version": "2020-10-01",
+    "content-type": "application/json"
+  },
+  "network_error": null,
+  "response": {
+    "id": "resp_07aa6a5ac96164c2016a82ebe5e16c819d9e770e7ba9ecc623",
+    "object": "response",
+    "created_at": 1786964965,
+    "status": "completed",
+    "incomplete_details": null,
+    "max_output_tokens": 800,
+    "model": "gpt-5.6-sol",
+    "output": [
+      {
+        "id": "msg_07aa6a5ac96164c2016a82ebe68fac819db06253d6f13700a0",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\"products\":[{\"sku\":\"A-01\",\"stock\":7,\"active\":true,\"tags\":[\"azul\",\"oficina\"],\"inventory_status\":\"available\"},{\"sku\":\"B-02\",\"stock\":0,\"active\":false,\"tags\":[],\"inventory_status\":\"inactive\"},{\"sku\":\"C-03\",\"stock\":12,\"active\":true,\"tags\":[\"hogar\",\"oferta\"],\"inventory_status\":\"available\"},{\"sku\":\"D-04\",\"stock\":0,\"active\":true,\"tags\":[\"liquidación\"],\"inventory_status\":\"out_of_stock\"}]}"
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "low",
+      "mode": "standard",
+      "summary": null
+    },
+    "service_tier": "default",
+    "store": false,
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "description": null,
+        "name": "t10_response",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "products": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "sku": {
+                    "type": "string"
+                  },
+                  "stock": {
+                    "type": "integer"
+                  },
+                  "active": {
+                    "type": "boolean"
+                  },
+                  "tags": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "inventory_status": {
+                    "type": "string",
+                    "enum": [
+                      "inactive",
+                      "out_of_stock",
+                      "low",
+                      "available"
+                    ]
+                  }
+                },
+                "required": [
+                  "sku",
+                  "stock",
+                  "active",
+                  "tags",
+                  "inventory_status"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 4,
+              "maxItems": 4
+            }
+          },
+          "required": [
+            "products"
+          ],
+          "additionalProperties": false
+        },
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "tools": [],
+    "usage": {
+      "input_tokens": 345,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 120,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 465
+    }
+  }
+}

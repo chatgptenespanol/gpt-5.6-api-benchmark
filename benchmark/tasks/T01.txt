@@ -1,0 +1,9 @@
+Responde en español neutro y trabaja únicamente con los datos de la tarea. No uses fuentes externas, herramientas ni supuestos no indicados. Devuelve solo el objeto definido por el esquema JSON proporcionado.
+
+Convierte las seis incidencias en registros normalizados, conserva el orden y no añadas información. Usa fechas ISO AAAA-MM-DD, códigos de país tal como aparecen y las categorías permitidas por el esquema.
+S-104 | 17/08/2026 | MX | No puedo abrir la sesión después de cambiar mi contraseña. | alta
+S-105 | 18/08/2026 | AR | El recibo muestra dos cargos iguales. | urgente
+S-106 | 18/08/2026 | CO | Quiero cambiar el correo de mi cuenta. | media
+S-107 | 19/08/2026 | ES | La exportación CSV termina con error 504. | alta
+S-108 | 19/08/2026 | PE | Gracias, la nueva vista funciona bien. | baja
+S-109 | 20/08/2026 | CL | Un usuario publicó amenazas en el chat. | urgente

@@ -1,0 +1,119 @@
+{
+  "id": "resp_05fa93fc1aa9fabe016a82eb5029e48192bfb2402aed3e649d",
+  "object": "response",
+  "created_at": 1786964816,
+  "status": "completed",
+  "incomplete_details": null,
+  "max_output_tokens": 800,
+  "model": "gpt-5.6-terra",
+  "output": [
+    {
+      "id": "rs_05fa93fc1aa9fabe016a82eb509eb88192a2f59328748dae3f",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqgutTzyhzLpG4xqWuYtUKD-KckxU2DNFu5Oex8a_1okY4UfPbG2Pgu7MFE_Rf4OL_AKkB6mmYb7E_xb2A8bAA0sFst80NSXlmcLdkrO7ZqX2jAtWFWxDWuGdEaCQjVGnrLGw3RShvAxqu0nEXzJU-Aew-eLdwYxS1fj6xgziQVpse1-K2UfHhzIdegkVeftlc4F4HWCKMVptoE4Xx_Oe5DdqArRM4B-NtoIMmj_XSCS8X6X19WATrgjGWeprlhv50_LE8V9Dor2lkqJY8Rf0GL-dHW_g_0ykX4iHB9KqLewGrWlzCskQSFFdi_5Yq6HIbaef4ayNMtFWC01hfNYiWzp0aVERmRe8bLfdNS4ohILLJNIbieisd-Xk7V71iUioS3n-BOdSZ_s2vMVvAYhnnwnwqNmQ2agQW8bLZst6yqlY7SNXS5Dp7U0znrshBfiHXX6zPvkS8k3z_OmK9Bz1gf1O55wWKmVnDj3bDl_RBL62M-83zfJpbVwgRFwa_Y8fKOYjgS4R_w10Kn29vB6XfaYI_jrYWLuRdx-G53T2IjwWzgSqg5dYDBqjoMJx6LF1dLbm2JG0XgMS1RwEHOnYZM2G-bTKuALSNFC_6VQHTxr4t_fBJ0pDo49nrbcvlqH32g0RCYeumWBZgtvwJTQuPpRZQgoXvOBnvaooIkTk9gHHul7r_33sd9fFaYLSqSX6eVUlpDU5uvBqfbxxvUvL0olZEbQh_IsenNDBxYTe0Lyag2G1VUbgUFjeZ5A4ToWcw8svL7DRBFz5Ee5heiNLvHlJYTb1oRVOd8os-UDSBxN4XIs_eVsVU6zlIXe2SD8aiOHCnizo0tpPz87OkH8Y9_0zT6avc7DrU0bc-2qXGGLy1NFzdcgEXB2cr_nLEbNl3AX3z6V1lWXC-B5OhBvh_urYs2ISibczgZgAaAyC60Ghw6LbU76CPUFY0LbMz32Umyh5uRJ1FNzUCFy4seLHJTB_9-QupYgZhZVkojiVf92vnSLSw8x2vFnEc6zcZVEQ_hBopTMpxrUC13EhIVu1VKj8l5tCVQBKRkX0BZ7yg10D15vWnLiAu__riAUs9ASsL8cCOIk2iEnBubLHJnPLQUdQlP77w_mJFsaAAl_fI0eB4rPWvFjg6GFlXA1Npuw8MYYKpeJ7PtBnho6kREk2pMJ23WDLvUTYaQQXJE2lbQEtPsHzG0u5jxS4QaAA4bzLi9GAttXaVCjQ02oPPtuOZq05vD5Xwdu6FVmaR-_Fp3JI_fkOQeS7XjP1s8fbDEPsV-PEtWx8KvmskpdHMBpvqPWFNNeU-1d2EBz2PWnITanUvt06UyRdcTGe-2SmQspV4Qk41ya1UNcIvdNwBNH7EISNX1AyFYY0Qm_glMYf7ZSPIHRp-jKSPOs4Gh0LQovA8NDvNnfS4Bz3PVc51P9Rp3LxeqX9heq0G2p7kj5iNyV2yECYd3PMTvUpalkg9LXppbG_D1WBIcV_rb_v_63rLGvVdaajR_fHl29DUrJyaX0uf7WMEdUWRqQZVtuu7Bz2DVbUlcSmFQe5Vnsb5llB7SV9GiXk8eeQT8OBSimkEcBFCNU52BCnyBCdNjeEKFpi0cbTlZz9u4DR_WfM7Xa-QppQ3lqmrzrOkvuhH-329NPIB6DspUh05B9Cyr-_YUtu2X7nZ",
+      "summary": []
+    },
+    {
+      "id": "msg_05fa93fc1aa9fabe016a82eb5194d8819295070c732dbb8e6e",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"items\":[{\"id\":\"M1\",\"category\":\"seguridad\",\"route\":\"confianza_seguridad\",\"escalate\":true},{\"id\":\"M2\",\"category\":\"acceso\",\"route\":\"acceso\",\"escalate\":false},{\"id\":\"M3\",\"category\":\"tecnico\",\"route\":\"soporte_tecnico\",\"escalate\":false},{\"id\":\"M4\",\"category\":\"privacidad\",\"route\":\"privacidad\",\"escalate\":true},{\"id\":\"M5\",\"category\":\"comentarios\",\"route\":\"producto\",\"escalate\":false},{\"id\":\"M6\",\"category\":\"seguridad\",\"route\":\"confianza_seguridad\",\"escalate\":true},{\"id\":\"M7\",\"category\":\"cuenta\",\"route\":\"cuentas\",\"escalate\":false},{\"id\":\"M8\",\"category\":\"facturacion\",\"route\":\"pagos\",\"escalate\":false}]}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "service_tier": "default",
+  "store": false,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "t04_response",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "category": {
+                  "type": "string",
+                  "enum": [
+                    "facturacion",
+                    "acceso",
+                    "tecnico",
+                    "privacidad",
+                    "comentarios",
+                    "seguridad",
+                    "cuenta"
+                  ]
+                },
+                "route": {
+                  "type": "string",
+                  "enum": [
+                    "pagos",
+                    "acceso",
+                    "soporte_tecnico",
+                    "privacidad",
+                    "producto",
+                    "confianza_seguridad",
+                    "cuentas"
+                  ]
+                },
+                "escalate": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "id",
+                "category",
+                "route",
+                "escalate"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 8,
+            "maxItems": 8
+          }
+        },
+        "required": [
+          "items"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tools": [],
+  "usage": {
+    "input_tokens": 291,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 261,
+    "output_tokens_details": {
+      "reasoning_tokens": 72
+    },
+    "total_tokens": 552
+  }
+}

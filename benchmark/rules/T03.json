@@ -1,0 +1,11 @@
+{
+  "task_id": "T03",
+  "rules": [
+    "R1: esquema y cantidad exactos",
+    "R2: inicios exactos",
+    "R3: finales exactos",
+    "R4: duración, alineación, orden y unicidad",
+    "R5: sin solapamiento con reuniones o márgenes"
+  ],
+  "critical_failure": "Cualquier solapamiento con una reunión o su margen."
+}
