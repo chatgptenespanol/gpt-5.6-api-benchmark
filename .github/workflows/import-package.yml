@@ -1,0 +1,38 @@
+name: Import verified benchmark package
+
+on:
+  push:
+    paths:
+      - ".github/workflows/import-package.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  import-package:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Verify and import release package
+        shell: bash
+        env:
+          PACKAGE: gpt-5.6-api-benchmark-v1.0.0.zip
+          PACKAGE_SHA256: 4944b4a6c78dc527ef9bde9887904f84c4c9b2190f23c6d18744ddd90f82b42b
+        run: |
+          set -euo pipefail
+          echo "${PACKAGE_SHA256}  ${PACKAGE}" | sha256sum -c -
+          mkdir imported
+          unzip -q "${PACKAGE}" -d imported
+          (
+            cd imported
+            sha256sum -c checksums.sha256
+          )
+          cp -a imported/. .
+          rm -rf imported "${PACKAGE}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Import reproducible GPT-5.6 benchmark v1.0.0"
+          git push
